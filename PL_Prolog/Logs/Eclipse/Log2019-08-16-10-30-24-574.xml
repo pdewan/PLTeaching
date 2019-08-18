@@ -1,0 +1,848 @@
+<Events startTimestamp="1565965824574" logVersion="1.0.0.1">
+  <Command __id="14355" _type="EHExceptionCommand" date="Sun Aug 18 12:35:56 EDT 2019" timestamp="180332215" type="Exception">
+    <outputString><![CDATA[:-pass(60).
+]]></outputString>
+  </Command>
+  <Command __id="14356" _type="EHExceptionCommand" date="Sun Aug 18 12:35:56 EDT 2019" timestamp="180332246" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14357" _type="EHExceptionCommand" date="Sun Aug 18 12:35:57 EDT 2019" timestamp="180332456" type="Exception">
+    <outputString><![CDATA[true.
+
+]]></outputString>
+  </Command>
+  <Command __id="14359" _type="MoveCaretCommand" caretOffset="689" date="Sun Aug 18 12:36:27 EDT 2019" docOffset="689" timestamp="180362736" />
+  <Command __id="14360" _type="MoveCaretCommand" caretOffset="366" date="Sun Aug 18 12:36:28 EDT 2019" docOffset="366" timestamp="180364152" />
+  <Command __id="14361" _type="EHExceptionCommand" date="Sun Aug 18 12:36:35 EDT 2019" timestamp="180370716" type="Exception">
+    <outputString><![CDATA[true.
+
+
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+  </Command>
+  <Command __id="14362" _type="EHExceptionCommand" date="Sun Aug 18 12:36:55 EDT 2019" timestamp="180391111" type="Exception">
+    <outputString><![CDATA[:-pass(consult('D:/dewan_backup/Java/PLTeaching/PL_Prolog/src/pass.pl').
+:-|:-pass59).
+]]></outputString>
+  </Command>
+  <Command __id="14363" _type="EHExceptionCommand" date="Sun Aug 18 12:36:55 EDT 2019" timestamp="180391114" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14364" _type="EHExceptionCommand" date="Sun Aug 18 12:36:55 EDT 2019" timestamp="180391325" type="Exception">
+    <outputString><![CDATA[false.
+
+]]></outputString>
+  </Command>
+  <Command __id="14365" _type="EHExceptionCommand" date="Sun Aug 18 12:37:00 EDT 2019" timestamp="180396068" type="Exception">
+    <outputString><![CDATA[:-pass(60).
+]]></outputString>
+  </Command>
+  <Command __id="14366" _type="EHExceptionCommand" date="Sun Aug 18 12:37:00 EDT 2019" timestamp="180396071" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14367" _type="EHExceptionCommand" date="Sun Aug 18 12:37:00 EDT 2019" timestamp="180396282" type="Exception">
+    <outputString><![CDATA[true.
+
+]]></outputString>
+  </Command>
+  <Command __id="14368" _type="SelectTextCommand" caretOffset="921" date="Sun Aug 18 12:37:26 EDT 2019" end="921" start="659" timestamp="180422323" />
+  <Command __id="14370" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Sun Aug 18 12:37:28 EDT 2019" timestamp="180424290" />
+  <Command __id="14371" _type="SelectTextCommand" caretOffset="0" date="Sun Aug 18 12:37:33 EDT 2019" end="579" start="0" timestamp="180428578" />
+  <Command __id="14373" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Sun Aug 18 12:37:33 EDT 2019" repeat="2" timestamp="180429039" timestamp2="180429113" />
+  <Command __id="14376" _type="MoveCaretCommand" caretOffset="17" date="Sun Aug 18 12:38:24 EDT 2019" docOffset="17" timestamp="180479590" />
+  <Command __id="14378" _type="InsertStringCommand" date="Sun Aug 18 12:38:25 EDT 2019" repeat="7" timestamp="180480464" timestamp2="180482575">
+    <data><![CDATA[regular]]></data>
+  </Command>
+  <Command __id="14391" _type="MoveCaretCommand" caretOffset="25" date="Sun Aug 18 12:38:28 EDT 2019" docOffset="25" timestamp="180484355" />
+  <Command __id="14393" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:38:29 EDT 2019" timestamp="180484852" />
+  <Command __id="14395" _type="InsertStringCommand" date="Sun Aug 18 12:38:30 EDT 2019" timestamp="180485593" timestamp2="180485593">
+    <data><![CDATA[P]]></data>
+  </Command>
+  <Command __id="14396" _type="MoveCaretCommand" caretOffset="172" date="Sun Aug 18 12:38:34 EDT 2019" docOffset="172" timestamp="180489737" />
+  <Command __id="14398" _type="InsertStringCommand" date="Sun Aug 18 12:38:34 EDT 2019" repeat="9" timestamp="180490406" timestamp2="180493462">
+    <data><![CDATA[highFinal]]></data>
+  </Command>
+  <Command __id="14415" _type="MoveCaretCommand" caretOffset="182" date="Sun Aug 18 12:38:39 EDT 2019" docOffset="182" timestamp="180495308" />
+  <Command __id="14203" _type="FileOpenCommand" date="Sun Aug 18 11:27:57 EDT 2019" docASTNodeCount="133" docActiveCodeLength="871" docExpressionCount="80" docLength="918" projectName="PL_Java" timestamp="176252767">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\APassServer.java]]></filePath>
+    <snapshot><![CDATA[package pass.sockets;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class APassServer {
+	public static final int PORT_NUMBER = 10000;
+	public static void main (String[] args) {
+//		int portNumber = Integer.parseInt(args[0]);
+
+		try { 
+		    ServerSocket aServerSocketFactory = new ServerSocket(PORT_NUMBER);
+		    Socket aServerEnd = aServerSocketFactory.accept();
+		    PrintWriter aServerOut =
+		        new PrintWriter(aServerEnd.getOutputStream(), true);
+		    BufferedReader aServerIn = new BufferedReader(
+		        new InputStreamReader(aServerEnd.getInputStream()));
+		    String aTotalScoreString = aServerIn.readLine();
+		    String aFinalScoreString = aServerIn.readLine();
+		    aServerOut.println("true");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="14276" _type="FileOpenCommand" date="Sun Aug 18 12:09:48 EDT 2019" docASTNodeCount="1" docActiveCodeLength="403" docExpressionCount="0" docLength="403" projectName="PL_ML" timestamp="178764376">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_ML\pass.sml]]></filePath>
+    <snapshot><![CDATA[(* an sml file *)
+fun fact 0 = 1 | fact n =  n* fact (n -1);
+val passCutoff = 60;
+fun regularPass aTotal = aTotal >= passCutoff;
+ 
+val passCutoff = 40;
+val highFinalThreshold = 80;
+
+fun highFinalPass (aTotal, aFinal) = 
+	(aFinal >= highFinalThreshold) andalso
+	 (aTotal >= passCutoff);
+	 
+fun pass (aTotal, aFinal) = 
+	regularPass(aTotal) orelse 
+	highFinalPass(aTotal, aFinal); 
+    
+
+]]></snapshot>
+  </Command>
+  <Command __id="14288" _type="FileOpenCommand" date="Sun Aug 18 12:13:20 EDT 2019" docASTNodeCount="1" docActiveCodeLength="403" docExpressionCount="0" docLength="403" projectName="sml-test" timestamp="178976352">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\sml-test\test.sml]]></filePath>
+  </Command>
+  <Command __id="14323" _type="FileOpenCommand" date="Sun Aug 18 12:31:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="403" docExpressionCount="0" docLength="403" projectName="sml-test" timestamp="180063302">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\sml-test\test.sml]]></filePath>
+  </Command>
+  <Command __id="14326" _type="FileOpenCommand" date="Sun Aug 18 12:31:42 EDT 2019" docASTNodeCount="1" docActiveCodeLength="403" docExpressionCount="0" docLength="403" projectName="sml-test" timestamp="180077741">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\sml-test\test.sml]]></filePath>
+  </Command>
+  <Command __id="14329" _type="FileOpenCommand" date="Sun Aug 18 12:32:47 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1194" docExpressionCount="0" docLength="1194" projectName="PL_Prolog" timestamp="180143083">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Prolog\src\pass.pl]]></filePath>
+    <snapshot><![CDATA[aCutOff(90).
+bCutOff(80).
+cCutOff(70).
+dCutOff(60).
+upGradeMultiplier(1.1).
+aGrade(Total) :- aCutOff(ACutOff), Total >= ACutOff.
+bGrade(Total) :- aCutOff(ACutOff), bCutOff(BCutOff), Total >= BCutOff, Total < ACutOff.
+cGrade(Total) :- bCutOff(BCutOff), cCutOff(CCutOff), Total >= CCutOff, Total < BCutOff.
+dGrade(Total) :- cCutOff(CCutOff), dCutOff(DCutOff), Total >= DCutOff, Total < CCutOff.
+upGrade(Total, Final) :- upGradeMultiplier(UpGradeMultiplier), Final > (Total*UpGradeMultiplier).
+aGrade(Total, Final) :- aGrade(Total); (bGrade(Total), upGrade(Total, Final)).
+passCutoff(60).
+pass(Total) :- passCutoff(PassCutoff), Total >= PassCutoff.
+%positiveDerivativeCutoff(50).
+%positiveDerivativeThreshold(10)
+%pass(Total, Final) :- positiveDerivativeThreshold(PositiveDerivativeThreshold), 
+%			 (Final - Total) >= PositiveDerivativeThreshold,
+%			 positiveDerivativeCutoff(PositiveDerivativeCutoff),
+%			 Total >= PositiveDerivativeCutoff.
+highFinalCutoff(40).
+highFinalThreshold(80).
+pass(Total, Final) :- highFinalThreshold(HighFinalThreshold), 
+		      Final >= HighFinalThreshold,
+		      highFinalCutoff(HighFinalCutoff),		      
+		      Total >= HighFinalCutoff.]]></snapshot>
+  </Command>
+  <Command __id="14344" _type="FileOpenCommand" date="Sun Aug 18 12:34:13 EDT 2019" docASTNodeCount="1" docActiveCodeLength="403" docExpressionCount="0" docLength="403" projectName="sml-test" timestamp="180228963">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\sml-test\test.sml]]></filePath>
+  </Command>
+  <Command __id="14345" _type="FileOpenCommand" date="Sun Aug 18 12:34:25 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1194" docExpressionCount="0" docLength="1194" projectName="test-prolog" timestamp="180241064">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-prolog\src\test.pl]]></filePath>
+    <snapshot><![CDATA[aCutOff(90).
+bCutOff(80).
+cCutOff(70).
+dCutOff(60).
+upGradeMultiplier(1.1).
+aGrade(Total) :- aCutOff(ACutOff), Total >= ACutOff.
+bGrade(Total) :- aCutOff(ACutOff), bCutOff(BCutOff), Total >= BCutOff, Total < ACutOff.
+cGrade(Total) :- bCutOff(BCutOff), cCutOff(CCutOff), Total >= CCutOff, Total < BCutOff.
+dGrade(Total) :- cCutOff(CCutOff), dCutOff(DCutOff), Total >= DCutOff, Total < CCutOff.
+upGrade(Total, Final) :- upGradeMultiplier(UpGradeMultiplier), Final > (Total*UpGradeMultiplier).
+aGrade(Total, Final) :- aGrade(Total); (bGrade(Total), upGrade(Total, Final)).
+passCutoff(60).
+pass(Total) :- passCutoff(PassCutoff), Total >= PassCutoff.
+%positiveDerivativeCutoff(50).
+%positiveDerivativeThreshold(10)
+%pass(Total, Final) :- positiveDerivativeThreshold(PositiveDerivativeThreshold), 
+%			 (Final - Total) >= PositiveDerivativeThreshold,
+%			 positiveDerivativeCutoff(PositiveDerivativeCutoff),
+%			 Total >= PositiveDerivativeCutoff.
+highFinalCutoff(40).
+highFinalThreshold(80).
+pass(Total, Final) :- highFinalThreshold(HighFinalThreshold), 
+		      Final >= HighFinalThreshold,
+		      highFinalCutoff(HighFinalCutoff),		      
+		      Total >= HighFinalCutoff.]]></snapshot>
+  </Command>
+  <Command __id="14358" _type="FileOpenCommand" date="Sun Aug 18 12:36:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1194" docExpressionCount="0" docLength="1194" projectName="PL_Prolog" timestamp="180362617">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Prolog\src\pass.pl]]></filePath>
+  </Command>
+  <DocumentChange __id="14369" _type="Delete" date="Sun Aug 18 12:37:28 EDT 2019" docASTNodeCount="1" docActiveCodeLength="932" docExpressionCount="0" docLength="932" endLine="18" length="262" offset="659" startLine="13" timestamp="180424260">
+    <text><![CDATA[%positiveDerivativeCutoff(50).
+%positiveDerivativeThreshold(10)
+%pass(Total, Final) :- positiveDerivativeThreshold(PositiveDerivativeThreshold), 
+%			 (Final - Total) >= PositiveDerivativeThreshold,
+%			 positiveDerivativeCutoff(PositiveDerivativeCutoff),
+%]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14372" _type="Delete" date="Sun Aug 18 12:37:33 EDT 2019" docASTNodeCount="1" docActiveCodeLength="351" docExpressionCount="0" docLength="351" endLine="11" length="581" offset="0" repeat="2" startLine="0" timestamp="180429027" timestamp2="180429094">
+    <text><![CDATA[aCutOff(90).
+bCutOff(80).
+cCutOff(70).
+dCutOff(60).
+upGradeMultiplier(1.1).
+aGrade(Total) :- aCutOff(ACutOff), Total >= ACutOff.
+bGrade(Total) :- aCutOff(ACutOff), bCutOff(BCutOff), Total >= BCutOff, Total < ACutOff.
+cGrade(Total) :- bCutOff(BCutOff), cCutOff(CCutOff), Total >= CCutOff, Total < BCutOff.
+dGrade(Total) :- cCutOff(CCutOff), dCutOff(DCutOff), Total >= DCutOff, Total < CCutOff.
+upGrade(Total, Final) :- upGradeMultiplier(UpGradeMultiplier), Final > (Total*UpGradeMultiplier).
+aGrade(Total, Final) :- aGrade(Total); (bGrade(Total), upGrade(Total, Final)).
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14377" _type="Insert" date="Sun Aug 18 12:38:25 EDT 2019" docASTNodeCount="1" docActiveCodeLength="358" docExpressionCount="0" docLength="358" length="7" offset="17" repeat="7" timestamp="180480461" timestamp2="180482574">
+    <text><![CDATA[regular]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14392" _type="Delete" date="Sun Aug 18 12:38:29 EDT 2019" docASTNodeCount="1" docActiveCodeLength="357" docExpressionCount="0" docLength="357" endLine="1" length="1" offset="24" startLine="1" timestamp="180484842">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14394" _type="Insert" date="Sun Aug 18 12:38:30 EDT 2019" docASTNodeCount="1" docActiveCodeLength="358" docExpressionCount="0" docLength="358" length="1" offset="24" timestamp="180485592">
+    <text><![CDATA[P]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14397" _type="Insert" date="Sun Aug 18 12:38:34 EDT 2019" docASTNodeCount="1" docActiveCodeLength="367" docExpressionCount="0" docLength="367" length="9" offset="172" repeat="9" timestamp="180490406" timestamp2="180493460">
+    <text><![CDATA[highFinal]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14416" _type="Delete" date="Sun Aug 18 12:38:40 EDT 2019" docASTNodeCount="1" docActiveCodeLength="366" docExpressionCount="0" docLength="366" endLine="5" length="1" offset="181" startLine="5" timestamp="180495753">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14418" _type="Insert" date="Sun Aug 18 12:38:40 EDT 2019" docASTNodeCount="1" docActiveCodeLength="367" docExpressionCount="0" docLength="367" length="1" offset="181" timestamp="180496172">
+    <text><![CDATA[P]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14422" _type="Delete" date="Sun Aug 18 12:38:57 EDT 2019" docASTNodeCount="1" docActiveCodeLength="365" docExpressionCount="0" docLength="365" endLine="3" length="2" offset="123" startLine="2" timestamp="180512653">
+    <text><![CDATA[
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14424" _type="Insert" date="Sun Aug 18 12:38:58 EDT 2019" docASTNodeCount="1" docActiveCodeLength="371" docExpressionCount="0" docLength="371" length="6" offset="123" timestamp="180513674">
+    <text><![CDATA[
+			 ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14427" _type="Delete" date="Sun Aug 18 12:39:09 EDT 2019" docASTNodeCount="1" docActiveCodeLength="367" docExpressionCount="0" docLength="367" endLine="3" length="4" offset="125" repeat="4" startLine="3" timestamp="180525225" timestamp2="180526471">
+    <text><![CDATA[			 ]]></text>
+  </DocumentChange>
+  <Command __id="14437" _type="FileOpenCommand" date="Sun Aug 18 12:39:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1194" docExpressionCount="0" docLength="1194" projectName="test-prolog" timestamp="180542465">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-prolog\src\test.pl]]></filePath>
+  </Command>
+  <Command __id="14439" _type="FileOpenCommand" date="Sun Aug 18 12:39:42 EDT 2019" docASTNodeCount="1" docActiveCodeLength="367" docExpressionCount="0" docLength="367" projectName="PL_Prolog" timestamp="180558293">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Prolog\src\pass.pl]]></filePath>
+    <snapshot><![CDATA[passCutoff(60).
+regularPass(Total) :- passCutoff(PassCutoff), Total >= PassCutoff.
+			 Total >= PositiveDerivativeCutoff.
+highFinalCutoff(40).
+highFinalThreshold(80).
+highFinalPass(Total, Final) :- highFinalThreshold(HighFinalThreshold), 
+		      Final >= HighFinalThreshold,
+		      highFinalCutoff(HighFinalCutoff),		      
+		      Total >= HighFinalCutoff.]]></snapshot>
+  </Command>
+  <DocumentChange __id="14444" _type="Delete" date="Sun Aug 18 12:39:48 EDT 2019" docASTNodeCount="1" docActiveCodeLength="327" docExpressionCount="0" docLength="327" endLine="3" length="40" offset="85" startLine="2" timestamp="180563901">
+    <text><![CDATA[			 Total >= PositiveDerivativeCutoff.
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14448" _type="Insert" date="Sun Aug 18 12:39:58 EDT 2019" docASTNodeCount="1" docActiveCodeLength="337" docExpressionCount="0" docLength="337" length="10" offset="327" timestamp="180574114">
+    <text><![CDATA[
+		      ]]></text>
+  </DocumentChange>
+  <Command __id="14417" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:38:40 EDT 2019" timestamp="180495754" />
+  <Command __id="14419" _type="InsertStringCommand" date="Sun Aug 18 12:38:40 EDT 2019" timestamp="180496173" timestamp2="180496173">
+    <data><![CDATA[P]]></data>
+  </Command>
+  <Command __id="14420" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:38:48 EDT 2019" timestamp="180503677" />
+  <Command __id="14421" _type="MoveCaretCommand" caretOffset="123" date="Sun Aug 18 12:38:56 EDT 2019" docOffset="123" timestamp="180511562" />
+  <Command __id="14423" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Sun Aug 18 12:38:57 EDT 2019" timestamp="180512676" />
+  <Command __id="14425" _type="InsertStringCommand" date="Sun Aug 18 12:38:58 EDT 2019" timestamp="180513676" timestamp2="180513676">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="14426" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:38:59 EDT 2019" timestamp="180515076" />
+  <Command __id="14428" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:39:09 EDT 2019" repeat="4" timestamp="180525239" timestamp2="180526472" />
+  <Command __id="14435" _type="MoveCaretCommand" caretOffset="281" date="Sun Aug 18 12:39:13 EDT 2019" docOffset="281" timestamp="180528939" />
+  <Command __id="14436" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:39:19 EDT 2019" timestamp="180535415" />
+  <Command __id="14438" _type="SelectTextCommand" caretOffset="804" date="Sun Aug 18 12:39:27 EDT 2019" end="805" start="804" timestamp="180542538" />
+  <Command __id="14440" _type="MoveCaretCommand" caretOffset="281" date="Sun Aug 18 12:39:42 EDT 2019" docOffset="281" timestamp="180558369" />
+  <Command __id="14441" _type="MoveCaretCommand" caretOffset="115" date="Sun Aug 18 12:39:46 EDT 2019" docOffset="115" timestamp="180562355" />
+  <Command __id="14442" _type="SelectTextCommand" caretOffset="122" date="Sun Aug 18 12:39:47 EDT 2019" end="122" start="98" timestamp="180562568" />
+  <Command __id="14443" _type="SelectTextCommand" caretOffset="125" date="Sun Aug 18 12:39:47 EDT 2019" end="125" start="85" timestamp="180562839" />
+  <Command __id="14445" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Sun Aug 18 12:39:48 EDT 2019" timestamp="180563920" />
+  <Command __id="14446" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:39:50 EDT 2019" timestamp="180565894" />
+  <Command __id="14447" _type="MoveCaretCommand" caretOffset="327" date="Sun Aug 18 12:39:56 EDT 2019" docOffset="327" timestamp="180572187" />
+  <Command __id="14449" _type="InsertStringCommand" date="Sun Aug 18 12:39:58 EDT 2019" timestamp="180574116" timestamp2="180574116">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="14451" _type="PredictionCommand" date="Sun Aug 18 12:39:59 EDT 2019" prediction_type="MakingProgress" timestamp="180575304" />
+  <Command __id="14452" _type="InsertStringCommand" date="Sun Aug 18 12:39:59 EDT 2019" repeat="4" timestamp="180575313" timestamp2="180577117">
+    <data><![CDATA[				]]></data>
+  </Command>
+  <Command __id="14458" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:40:03 EDT 2019" repeat="5" timestamp="180579210" timestamp2="180581061" />
+  <Command __id="14468" _type="InsertStringCommand" date="Sun Aug 18 12:40:12 EDT 2019" repeat="5" timestamp="180588007" timestamp2="180589329">
+    <data><![CDATA[pass(]]></data>
+  </Command>
+  <Command __id="14478" _type="InsertStringCommand" date="Sun Aug 18 12:40:16 EDT 2019" repeat="26" timestamp="180592012" timestamp2="180604028">
+    <data><![CDATA[Total, Final) :- pass(Ttal]]></data>
+  </Command>
+  <Command __id="14530" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:40:29 EDT 2019" repeat="3" timestamp="180604443" timestamp2="180604762" />
+  <Command __id="14536" _type="InsertStringCommand" date="Sun Aug 18 12:40:29 EDT 2019" repeat="7" timestamp="180605262" timestamp2="180607386">
+    <data><![CDATA[otal), ]]></data>
+  </Command>
+  <Command __id="14550" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:40:33 EDT 2019" repeat="2" timestamp="180608616" timestamp2="180608749" />
+  <Command __id="14554" _type="InsertStringCommand" date="Sun Aug 18 12:40:33 EDT 2019" repeat="12" timestamp="180609301" timestamp2="180615544">
+    <data><![CDATA[;pass(Total,]]></data>
+  </Command>
+  <Command __id="14578" _type="InsertStringCommand" date="Sun Aug 18 12:40:42 EDT 2019" repeat="7" timestamp="180618036" timestamp2="180619870">
+    <data><![CDATA[Final).]]></data>
+  </Command>
+  <Command __id="14591" _type="MoveCaretCommand" caretOffset="366" date="Sun Aug 18 12:40:59 EDT 2019" docOffset="366" timestamp="180634694" />
+  <Command __id="14592" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:41:00 EDT 2019" timestamp="180635703" />
+  <Command __id="14593" _type="ShellCommand" date="Sun Aug 18 12:41:05 EDT 2019" timestamp="180640583" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14594" _type="ShellCommand" date="Sun Aug 18 12:41:16 EDT 2019" timestamp="180651706" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14595" _type="MoveCaretCommand" caretOffset="382" date="Sun Aug 18 12:41:17 EDT 2019" docOffset="382" timestamp="180653104" />
+  <Command __id="14596" _type="EHExceptionCommand" date="Sun Aug 18 12:41:22 EDT 2019" timestamp="180657554" type="Exception">
+    <outputString><![CDATA[consult('D:/dewan_backup/Java/PLTeaching/PL_Prolog/src/pass.pl').
+]]></outputString>
+  </Command>
+  <Command __id="14597" _type="EHExceptionCommand" date="Sun Aug 18 12:41:22 EDT 2019" timestamp="180657755" type="Exception">
+    <outputString><![CDATA[true.
+
+
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+  </Command>
+  <Command __id="14598" _type="EHExceptionCommand" date="Sun Aug 18 12:42:12 EDT 2019" timestamp="180707885" type="Exception">
+    <outputString><![CDATA[:-:-|:-regularPass(59).
+]]></outputString>
+  </Command>
+  <Command __id="14599" _type="EHExceptionCommand" date="Sun Aug 18 12:42:12 EDT 2019" timestamp="180707890" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14600" _type="EHExceptionCommand" date="Sun Aug 18 12:42:12 EDT 2019" timestamp="180708109" type="Exception">
+    <outputString><![CDATA[false.
+
+]]></outputString>
+  </Command>
+  <Command __id="14601" _type="EHExceptionCommand" date="Sun Aug 18 12:42:18 EDT 2019" timestamp="180714318" type="Exception">
+    <outputString><![CDATA[:-regularPass(60).
+]]></outputString>
+  </Command>
+  <Command __id="14602" _type="EHExceptionCommand" date="Sun Aug 18 12:42:18 EDT 2019" timestamp="180714320" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14603" _type="EHExceptionCommand" date="Sun Aug 18 12:42:19 EDT 2019" timestamp="180714534" type="Exception">
+    <outputString><![CDATA[true.
+
+]]></outputString>
+  </Command>
+  <Command __id="14604" _type="EHExceptionCommand" date="Sun Aug 18 12:42:35 EDT 2019" timestamp="180730453" type="Exception">
+    <outputString><![CDATA[:-highFinalPass(40,79).
+]]></outputString>
+  </Command>
+  <Command __id="14605" _type="EHExceptionCommand" date="Sun Aug 18 12:42:35 EDT 2019" timestamp="180730456" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14606" _type="EHExceptionCommand" date="Sun Aug 18 12:42:35 EDT 2019" timestamp="180730667" type="Exception">
+    <outputString><![CDATA[false.
+
+]]></outputString>
+  </Command>
+  <Command __id="14607" _type="EHExceptionCommand" date="Sun Aug 18 12:42:46 EDT 2019" timestamp="180741676" type="Exception">
+    <outputString><![CDATA[:-highFinalPass40, 80).
+]]></outputString>
+  </Command>
+  <Command __id="14608" _type="EHExceptionCommand" date="Sun Aug 18 12:42:46 EDT 2019" timestamp="180741679" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14609" _type="EHExceptionCommand" date="Sun Aug 18 12:42:46 EDT 2019" timestamp="180741892" type="Exception">
+    <outputString><![CDATA[true.
+
+]]></outputString>
+  </Command>
+  <Command __id="14610" _type="EHExceptionCommand" date="Sun Aug 18 12:43:01 EDT 2019" timestamp="180756569" type="Exception">
+    <outputString><![CDATA[:-pa59, 79).
+]]></outputString>
+  </Command>
+  <Command __id="14611" _type="EHExceptionCommand" date="Sun Aug 18 12:43:01 EDT 2019" timestamp="180756587" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14612" _type="ExceptionCommand" date="Sun Aug 18 12:43:01 EDT 2019" timestamp="180757002" type="Exception">
+    <exceptionString><![CDATA[ERROR: Undefined procedure: pass/1
+ERROR:   However, there are definitions for:
+ERROR:         pass/2
+ERROR: 
+ERROR: In:
+ERROR:    [9] pass(59)
+ERROR:    [8] pass(59,79) at d:/dewan_backup/java/plteaching/pl_prolog/src/pass.pl:8
+ERROR:    [7] <user>
+   Exception: (9) pass(59) ?
+]]></exceptionString>
+  </Command>
+  <Command __id="14613" _type="MoveCaretCommand" caretOffset="364" date="Sun Aug 18 12:43:17 EDT 2019" docOffset="364" timestamp="180772545" />
+  <Command __id="14615" _type="InsertStringCommand" date="Sun Aug 18 12:43:17 EDT 2019" timestamp="180772808" timestamp2="180772808">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="14616" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:43:18 EDT 2019" timestamp="180774296" />
+  <Command __id="14617" _type="MoveCaretCommand" caretOffset="380" date="Sun Aug 18 12:43:27 EDT 2019" docOffset="380" timestamp="180782843" />
+  <Command __id="14618" _type="MoveCaretCommand" caretOffset="364" date="Sun Aug 18 12:43:31 EDT 2019" docOffset="364" timestamp="180787047" />
+  <Command __id="14619" _type="SelectTextCommand" caretOffset="375" date="Sun Aug 18 12:43:39 EDT 2019" end="376" start="375" timestamp="180794555" />
+  <Command __id="14620" _type="MoveCaretCommand" caretOffset="372" date="Sun Aug 18 12:43:42 EDT 2019" docOffset="372" timestamp="180797714" />
+  <Command __id="14621" _type="MoveCaretCommand" caretOffset="355" date="Sun Aug 18 12:43:51 EDT 2019" docOffset="355" timestamp="180807152" />
+  <Command __id="14622" _type="MoveCaretCommand" caretOffset="365" date="Sun Aug 18 12:43:52 EDT 2019" docOffset="365" timestamp="180808334" />
+  <Command __id="14624" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:43:53 EDT 2019" repeat="2" timestamp="180808998" timestamp2="180809178" />
+  <Command __id="14628" _type="InsertStringCommand" date="Sun Aug 18 12:43:54 EDT 2019" timestamp="180809968" timestamp2="180809968">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="14629" _type="MoveCaretCommand" caretOffset="384" date="Sun Aug 18 12:43:56 EDT 2019" docOffset="384" timestamp="180812342" />
+  <Command __id="14631" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:43:57 EDT 2019" timestamp="180812756" />
+  <Command __id="14633" _type="InsertStringCommand" date="Sun Aug 18 12:43:57 EDT 2019" repeat="8" timestamp="180813137" timestamp2="180815696">
+    <data><![CDATA[ :- pass]]></data>
+  </Command>
+  <Command __id="14649" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:44:01 EDT 2019" repeat="4" timestamp="180816528" timestamp2="180817093" />
+  <Command __id="14657" _type="UndoCommand" date="Sun Aug 18 12:44:03 EDT 2019" repeat="4" timestamp="180818876" timestamp2="180820190" />
+  <Command __id="14665" _type="InsertStringCommand" date="Sun Aug 18 12:44:06 EDT 2019" repeat="2" timestamp="180822353" timestamp2="180822688">
+    <data><![CDATA[; ]]></data>
+  </Command>
+  <Command __id="14668" _type="MoveCaretCommand" caretOffset="353" date="Sun Aug 18 12:44:10 EDT 2019" docOffset="353" timestamp="180826210" />
+  <Command __id="14669" _type="SelectTextCommand" caretOffset="356" date="Sun Aug 18 12:44:11 EDT 2019" end="356" start="352" timestamp="180826472" />
+  <Command __id="14671" _type="InsertStringCommand" date="Sun Aug 18 12:44:11 EDT 2019" repeat="11" timestamp="180827129" timestamp2="180831263">
+    <data><![CDATA[regularPass]]></data>
+  </Command>
+  <Command __id="14692" _type="MoveCaretCommand" caretOffset="142" date="Sun Aug 18 12:44:18 EDT 2019" docOffset="142" timestamp="180834155" />
+  <DocumentChange __id="14450" _type="Delete" date="Sun Aug 18 12:39:59 EDT 2019" docASTNodeCount="1" docActiveCodeLength="335" docExpressionCount="0" docLength="335" endLine="8" length="2" offset="329" repeat="2" startLine="8" timestamp="180575300" timestamp2="180575786">
+    <text><![CDATA[		]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14457" _type="Delete" date="Sun Aug 18 12:40:03 EDT 2019" docASTNodeCount="1" docActiveCodeLength="330" docExpressionCount="0" docLength="330" endLine="8" length="5" offset="330" repeat="5" startLine="8" timestamp="180579208" timestamp2="180581060">
+    <text><![CDATA[     ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14467" _type="Insert" date="Sun Aug 18 12:40:12 EDT 2019" docASTNodeCount="1" docActiveCodeLength="335" docExpressionCount="0" docLength="335" length="5" offset="330" repeat="5" timestamp="180588006" timestamp2="180589326">
+    <text><![CDATA[pass(]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14477" _type="Insert" date="Sun Aug 18 12:40:16 EDT 2019" docASTNodeCount="1" docActiveCodeLength="361" docExpressionCount="0" docLength="361" length="26" offset="335" repeat="26" timestamp="180592011" timestamp2="180604012">
+    <text><![CDATA[Total, Final) :- pass(Ttal]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14529" _type="Delete" date="Sun Aug 18 12:40:29 EDT 2019" docASTNodeCount="1" docActiveCodeLength="358" docExpressionCount="0" docLength="358" endLine="8" length="3" offset="358" repeat="3" startLine="8" timestamp="180604442" timestamp2="180604761">
+    <text><![CDATA[tal]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14535" _type="Insert" date="Sun Aug 18 12:40:29 EDT 2019" docASTNodeCount="1" docActiveCodeLength="365" docExpressionCount="0" docLength="365" length="7" offset="358" repeat="7" timestamp="180605260" timestamp2="180607383">
+    <text><![CDATA[otal), ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14549" _type="Delete" date="Sun Aug 18 12:40:33 EDT 2019" docASTNodeCount="1" docActiveCodeLength="363" docExpressionCount="0" docLength="363" endLine="8" length="2" offset="363" repeat="2" startLine="8" timestamp="180608610" timestamp2="180608745">
+    <text><![CDATA[, ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14553" _type="Insert" date="Sun Aug 18 12:40:33 EDT 2019" docASTNodeCount="1" docActiveCodeLength="375" docExpressionCount="0" docLength="375" length="12" offset="363" repeat="12" timestamp="180609299" timestamp2="180615542">
+    <text><![CDATA[;pass(Total,]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14577" _type="Insert" date="Sun Aug 18 12:40:42 EDT 2019" docASTNodeCount="1" docActiveCodeLength="382" docExpressionCount="0" docLength="382" length="7" offset="375" repeat="7" timestamp="180618034" timestamp2="180619867">
+    <text><![CDATA[Final).]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14614" _type="Insert" date="Sun Aug 18 12:43:17 EDT 2019" docASTNodeCount="1" docActiveCodeLength="383" docExpressionCount="0" docLength="383" length="1" offset="364" timestamp="180772801">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14623" _type="Delete" date="Sun Aug 18 12:43:53 EDT 2019" docASTNodeCount="1" docActiveCodeLength="381" docExpressionCount="0" docLength="381" endLine="8" length="2" offset="363" repeat="2" startLine="8" timestamp="180808990" timestamp2="180809174">
+    <text><![CDATA[; ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14627" _type="Insert" date="Sun Aug 18 12:43:54 EDT 2019" docASTNodeCount="1" docActiveCodeLength="384" docExpressionCount="0" docLength="384" length="3" offset="363" timestamp="180809963">
+    <text><![CDATA[
+ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14630" _type="Delete" date="Sun Aug 18 12:43:57 EDT 2019" docASTNodeCount="1" docActiveCodeLength="383" docExpressionCount="0" docLength="383" endLine="9" length="1" offset="383" startLine="9" timestamp="180812753">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14632" _type="Insert" date="Sun Aug 18 12:43:57 EDT 2019" docASTNodeCount="1" docActiveCodeLength="391" docExpressionCount="0" docLength="391" length="8" offset="383" repeat="8" timestamp="180813131" timestamp2="180815693">
+    <text><![CDATA[ :- pass]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14648" _type="Delete" date="Sun Aug 18 12:44:01 EDT 2019" docASTNodeCount="1" docActiveCodeLength="387" docExpressionCount="0" docLength="387" endLine="9" length="4" offset="387" repeat="4" startLine="9" timestamp="180816519" timestamp2="180817089">
+    <text><![CDATA[pass]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14656" _type="Insert" date="Sun Aug 18 12:44:03 EDT 2019" docASTNodeCount="1" docActiveCodeLength="391" docExpressionCount="0" docLength="391" length="4" offset="387" timestamp="180818864">
+    <text><![CDATA[pass]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14658" _type="Delete" date="Sun Aug 18 12:44:03 EDT 2019" docASTNodeCount="1" docActiveCodeLength="383" docExpressionCount="0" docLength="383" endLine="9" length="8" offset="383" startLine="9" timestamp="180819305">
+    <text><![CDATA[ :- pass]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14660" _type="Insert" date="Sun Aug 18 12:44:04 EDT 2019" docASTNodeCount="1" docActiveCodeLength="384" docExpressionCount="0" docLength="384" length="1" offset="383" timestamp="180819758">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14662" _type="Delete" date="Sun Aug 18 12:44:04 EDT 2019" docASTNodeCount="1" docActiveCodeLength="381" docExpressionCount="0" docLength="381" endLine="9" length="3" offset="363" startLine="8" timestamp="180820162">
+    <text><![CDATA[
+ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14664" _type="Insert" date="Sun Aug 18 12:44:06 EDT 2019" docASTNodeCount="1" docActiveCodeLength="383" docExpressionCount="0" docLength="383" length="2" offset="363" repeat="2" timestamp="180822339" timestamp2="180822688">
+    <text><![CDATA[; ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14670" _type="Replace" date="Sun Aug 18 12:44:11 EDT 2019" docASTNodeCount="1" docActiveCodeLength="380" docExpressionCount="0" docLength="380" endLine="8" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="379" int_docExpressionCount="0" int_docLength="379" length="4" offset="352" startLine="8" timestamp="180827119">
+    <deletedText><![CDATA[pass]]></deletedText>
+    <insertedText><![CDATA[r]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="14672" _type="Insert" date="Sun Aug 18 12:44:11 EDT 2019" docASTNodeCount="1" docActiveCodeLength="390" docExpressionCount="0" docLength="390" length="10" offset="353" repeat="10" timestamp="180827240" timestamp2="180831259">
+    <text><![CDATA[egularPass]]></text>
+  </DocumentChange>
+  <DocumentChange __id="14698" _type="Replace" date="Sun Aug 18 12:44:28 EDT 2019" docASTNodeCount="1" docActiveCodeLength="399" docExpressionCount="0" docLength="399" endLine="8" insertionLength="13" int_docASTNodeCount="1" int_docActiveCodeLength="386" int_docExpressionCount="0" int_docLength="386" length="4" offset="372" startLine="8" timestamp="180844172">
+    <deletedText><![CDATA[pass]]></deletedText>
+    <insertedText><![CDATA[highFinalPass]]></insertedText>
+  </DocumentChange>
+  <Command __id="14701" _type="FileOpenCommand" date="Sun Aug 18 12:44:38 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1194" docExpressionCount="0" docLength="1194" projectName="test-prolog" timestamp="180853508">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-prolog\src\test.pl]]></filePath>
+  </Command>
+  <Command __id="14693" _type="SelectTextCommand" caretOffset="145" date="Sun Aug 18 12:44:18 EDT 2019" end="145" start="132" timestamp="180834411" />
+  <Command __id="14694" _type="CopyCommand" date="Sun Aug 18 12:44:19 EDT 2019" timestamp="180835163" />
+  <Command __id="14695" _type="MoveCaretCommand" caretOffset="372" date="Sun Aug 18 12:44:22 EDT 2019" docOffset="372" timestamp="180838301" />
+  <Command __id="14696" _type="MoveCaretCommand" caretOffset="374" date="Sun Aug 18 12:44:27 EDT 2019" docOffset="374" timestamp="180843306" />
+  <Command __id="14697" _type="SelectTextCommand" caretOffset="376" date="Sun Aug 18 12:44:28 EDT 2019" end="376" start="372" timestamp="180843562" />
+  <Command __id="14699" _type="PasteCommand" date="Sun Aug 18 12:44:28 EDT 2019" timestamp="180844199" />
+  <Command __id="14700" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:44:30 EDT 2019" timestamp="180845838" />
+  <Command __id="14702" _type="SelectTextCommand" caretOffset="804" date="Sun Aug 18 12:44:38 EDT 2019" end="805" start="804" timestamp="180853630" />
+  <Command __id="14704" _type="MoveCaretCommand" caretOffset="385" date="Sun Aug 18 12:44:44 EDT 2019" docOffset="385" timestamp="180860406" />
+  <Command __id="14705" _type="MoveCaretCommand" caretOffset="330" date="Sun Aug 18 12:44:52 EDT 2019" docOffset="330" timestamp="180867601" />
+  <Command __id="14707" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:44:52 EDT 2019" timestamp="180868100" />
+  <Command __id="14708" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:44:53 EDT 2019" timestamp="180869399" />
+  <Command __id="14709" _type="MoveCaretCommand" caretOffset="355" date="Sun Aug 18 12:44:56 EDT 2019" docOffset="355" timestamp="180871637" />
+  <Command __id="14710" _type="EHExceptionCommand" date="Sun Aug 18 12:45:02 EDT 2019" timestamp="180878254" type="Exception">
+    <outputString><![CDATA[consult('D:/dewan_backup/Java/PLTeaching/PL_Prolog/src/pass.pl').
+]]></outputString>
+  </Command>
+  <Command __id="14711" _type="EHExceptionCommand" date="Sun Aug 18 12:45:03 EDT 2019" timestamp="180878673" type="Exception">
+    <outputString><![CDATA[true.
+
+
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+  </Command>
+  <Command __id="14712" _type="EHExceptionCommand" date="Sun Aug 18 12:45:13 EDT 2019" timestamp="180888841" type="Exception">
+    <outputString><![CDATA[:-:-|:-pass(59, 79).
+]]></outputString>
+  </Command>
+  <Command __id="14713" _type="EHExceptionCommand" date="Sun Aug 18 12:45:13 EDT 2019" timestamp="180888844" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14714" _type="EHExceptionCommand" date="Sun Aug 18 12:45:13 EDT 2019" timestamp="180889064" type="Exception">
+    <outputString><![CDATA[false.
+
+]]></outputString>
+  </Command>
+  <Command __id="14715" _type="EHExceptionCommand" date="Sun Aug 18 12:45:21 EDT 2019" timestamp="180897107" type="Exception">
+    <outputString><![CDATA[:-pass(60, 79).
+]]></outputString>
+  </Command>
+  <Command __id="14716" _type="EHExceptionCommand" date="Sun Aug 18 12:45:21 EDT 2019" timestamp="180897113" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14717" _type="EHExceptionCommand" date="Sun Aug 18 12:45:38 EDT 2019" timestamp="180913845" type="Exception">
+    <outputString><![CDATA[true :-pass(0, 0).
+]]></outputString>
+  </Command>
+  <Command __id="14718" _type="EHExceptionCommand" date="Sun Aug 18 12:45:38 EDT 2019" timestamp="180913847" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14719" _type="MoveCaretCommand" caretOffset="371" date="Sun Aug 18 12:45:46 EDT 2019" docOffset="371" timestamp="180921503" />
+  <Command __id="14721" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:45:46 EDT 2019" repeat="2" timestamp="180922165" timestamp2="180922321" />
+  <Command __id="14725" _type="InsertStringCommand" date="Sun Aug 18 12:45:47 EDT 2019" timestamp="180922826" timestamp2="180922826">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="14726" _type="PredictionCommand" date="Sun Aug 18 12:45:47 EDT 2019" prediction_type="HavingDifficulty" timestamp="180922830" />
+  <Command __id="14728" _type="InsertStringCommand" date="Sun Aug 18 12:45:48 EDT 2019" repeat="4" timestamp="180923843" timestamp2="180924748">
+    <data><![CDATA[pass]]></data>
+  </Command>
+  <Command __id="14735" _type="MoveCaretCommand" caretOffset="369" date="Sun Aug 18 12:45:51 EDT 2019" docOffset="369" timestamp="180927185" />
+  <Command __id="14737" _type="InsertStringCommand" date="Sun Aug 18 12:45:52 EDT 2019" timestamp="180927869" timestamp2="180927869">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="14738" _type="MoveCaretCommand" caretOffset="376" date="Sun Aug 18 12:45:57 EDT 2019" docOffset="376" timestamp="180932633" />
+  <Command __id="14740" _type="InsertStringCommand" date="Sun Aug 18 12:45:59 EDT 2019" repeat="16" timestamp="180934561" timestamp2="180941633">
+    <data><![CDATA[(Total, Fnal) : ]]></data>
+  </Command>
+  <Command __id="14772" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:46:07 EDT 2019" timestamp="180942781" />
+  <Command __id="14774" _type="InsertStringCommand" date="Sun Aug 18 12:46:07 EDT 2019" repeat="2" timestamp="180943167" timestamp2="180943618">
+    <data><![CDATA[- ]]></data>
+  </Command>
+  <Command __id="14777" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:46:10 EDT 2019" timestamp="180945711" />
+  <Command __id="14778" _type="MoveCaretCommand" caretOffset="385" date="Sun Aug 18 12:46:12 EDT 2019" docOffset="385" timestamp="180948214" />
+  <Command __id="14780" _type="InsertStringCommand" date="Sun Aug 18 12:46:13 EDT 2019" timestamp="180948979" timestamp2="180948979">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="14781" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:46:14 EDT 2019" timestamp="180949834" />
+  <Command __id="14782" _type="MoveCaretCommand" caretOffset="421" date="Sun Aug 18 12:46:18 EDT 2019" docOffset="421" timestamp="180953614" />
+  <Command __id="14783" _type="EHExceptionCommand" date="Sun Aug 18 12:46:22 EDT 2019" timestamp="180957439" type="Exception">
+    <outputString><![CDATA[consult('D:/dewan_backup/Java/PLTeaching/PL_Prolog/src/pass.pl').
+]]></outputString>
+  </Command>
+  <Command __id="14784" _type="EHExceptionCommand" date="Sun Aug 18 12:46:22 EDT 2019" timestamp="180957644" type="Exception">
+    <outputString><![CDATA[true.
+
+
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+Warning: d:/dewan_backup/java/plteaching/pl_prolog/src/pass.pl:9:
+	Singleton variables: [Final]
+]]></outputString>
+  </Command>
+  <Command __id="14786" _type="InsertStringCommand" date="Sun Aug 18 12:46:24 EDT 2019" repeat="2" timestamp="180959585" timestamp2="180959832">
+    <data><![CDATA[pa]]></data>
+  </Command>
+  <Command __id="14790" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:46:25 EDT 2019" repeat="2" timestamp="180960707" timestamp2="180960877" />
+  <Command __id="14793" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:46:26 EDT 2019" timestamp="180961682" />
+  <Command __id="14794" _type="EHExceptionCommand" date="Sun Aug 18 12:46:35 EDT 2019" timestamp="180971323" type="Exception">
+    <outputString><![CDATA[true :-:-:-|pass(59, 69).
+]]></outputString>
+  </Command>
+  <Command __id="14795" _type="EHExceptionCommand" date="Sun Aug 18 12:46:35 EDT 2019" timestamp="180971325" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14796" _type="EHExceptionCommand" date="Sun Aug 18 12:46:36 EDT 2019" timestamp="180971540" type="Exception">
+    <outputString><![CDATA[false.
+
+]]></outputString>
+  </Command>
+  <Command __id="14797" _type="EHExceptionCommand" date="Sun Aug 18 12:46:47 EDT 2019" timestamp="180982488" type="Exception">
+    <outputString><![CDATA[:-pass(59, 81).
+]]></outputString>
+  </Command>
+  <Command __id="14798" _type="EHExceptionCommand" date="Sun Aug 18 12:46:47 EDT 2019" timestamp="180982489" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14799" _type="EHExceptionCommand" date="Sun Aug 18 12:46:47 EDT 2019" timestamp="180982708" type="Exception">
+    <outputString><![CDATA[true.
+
+]]></outputString>
+  </Command>
+  <Command __id="14800" _type="EHExceptionCommand" date="Sun Aug 18 12:47:05 EDT 2019" timestamp="181001130" type="Exception">
+    <outputString><![CDATA[:-pass(60, 2).
+]]></outputString>
+  </Command>
+  <Command __id="14801" _type="EHExceptionCommand" date="Sun Aug 18 12:47:05 EDT 2019" timestamp="181001131" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14802" _type="EHExceptionCommand" date="Sun Aug 18 12:47:11 EDT 2019" timestamp="181007117" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14803" _type="EHExceptionCommand" date="Sun Aug 18 12:47:11 EDT 2019" timestamp="181007122" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14804" _type="EHExceptionCommand" date="Sun Aug 18 12:47:11 EDT 2019" timestamp="181007332" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14805" _type="MoveCaretCommand" caretOffset="370" date="Sun Aug 18 12:48:50 EDT 2019" docOffset="370" timestamp="181105761" />
+  <Command __id="14807" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:48:50 EDT 2019" timestamp="181106244" />
+  <Command __id="14809" _type="InsertStringCommand" date="Sun Aug 18 12:48:51 EDT 2019" timestamp="181106875" timestamp2="181106875">
+    <data><![CDATA[;]]></data>
+  </Command>
+  <Command __id="14810" _type="SelectTextCommand" caretOffset="394" date="Sun Aug 18 12:48:54 EDT 2019" end="394" start="370" timestamp="181110204" />
+  <Command __id="14812" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Sun Aug 18 12:48:55 EDT 2019" timestamp="181110894" />
+  <Command __id="14813" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:48:57 EDT 2019" timestamp="181113159" />
+  <Command __id="14815" _type="UndoCommand" date="Sun Aug 18 12:49:10 EDT 2019" timestamp="181126160" />
+  <Command __id="14816" _type="MoveCaretCommand" caretOffset="367" date="Sun Aug 18 12:49:16 EDT 2019" docOffset="367" timestamp="181132337" />
+  <Command __id="14817" _type="MoveCaretCommand" caretOffset="370" date="Sun Aug 18 12:49:17 EDT 2019" docOffset="370" timestamp="181133138" />
+  <Command __id="14819" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:49:18 EDT 2019" timestamp="181134375" />
+  <Command __id="14821" _type="InsertStringCommand" date="Sun Aug 18 12:49:19 EDT 2019" timestamp="181134841" timestamp2="181134841">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="14822" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:49:23 EDT 2019" timestamp="181138692" />
+  <Command __id="14824" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:49:39 EDT 2019" timestamp="181154625" />
+  <Command __id="14826" _type="InsertStringCommand" date="Sun Aug 18 12:49:39 EDT 2019" timestamp="181155204" timestamp2="181155204">
+    <data><![CDATA[;]]></data>
+  </Command>
+  <Command __id="14827" _type="SelectTextCommand" caretOffset="393" date="Sun Aug 18 12:49:43 EDT 2019" end="393" start="370" timestamp="181158646" />
+  <Command __id="14829" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Sun Aug 18 12:49:43 EDT 2019" timestamp="181159294" />
+  <Command __id="14830" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:49:45 EDT 2019" timestamp="181160722" />
+  <Command __id="14831" _type="MoveCaretCommand" caretOffset="351" date="Sun Aug 18 12:49:46 EDT 2019" docOffset="351" timestamp="181162077" />
+  <Command __id="14832" _type="MoveCaretCommand" caretOffset="375" date="Sun Aug 18 12:49:55 EDT 2019" docOffset="375" timestamp="181170495" />
+  <Command __id="14833" _type="EHExceptionCommand" date="Sun Aug 18 12:49:59 EDT 2019" timestamp="181174809" type="Exception">
+    <outputString><![CDATA[true.
+
+
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+  </Command>
+  <Command __id="14835" _type="InsertStringCommand" date="Sun Aug 18 12:50:02 EDT 2019" repeat="2" timestamp="181177670" timestamp2="181177840">
+    <data><![CDATA[pa]]></data>
+  </Command>
+  <Command __id="14839" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:50:03 EDT 2019" repeat="2" timestamp="181179021" timestamp2="181180188" />
+  <Command __id="14842" _type="MoveCaretCommand" caretOffset="365" date="Sun Aug 18 12:50:07 EDT 2019" docOffset="365" timestamp="181183168" />
+  <Command __id="14843" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:50:08 EDT 2019" timestamp="181183655" />
+  <Command __id="14844" _type="EHExceptionCommand" date="Sun Aug 18 12:50:19 EDT 2019" timestamp="181194803" type="Exception">
+    <outputString><![CDATA[true :-|consult('D:/dewan_backup/Java/PLTeaching/PL_Prolog/src/pass.pl').
+:-||pass(70, 2).
+]]></outputString>
+  </Command>
+  <Command __id="14845" _type="EHExceptionCommand" date="Sun Aug 18 12:50:19 EDT 2019" timestamp="181194809" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14846" _type="MoveCaretCommand" caretOffset="373" date="Sun Aug 18 12:50:42 EDT 2019" docOffset="373" timestamp="181217726" />
+  <Command __id="14847" _type="EHExceptionCommand" date="Sun Aug 18 12:50:50 EDT 2019" timestamp="181225969" type="Exception">
+    <outputString><![CDATA[consult('D:/dewan_backup/Java/PLTeaching/PL_Prolog/src/pass.pl').
+]]></outputString>
+  </Command>
+  <Command __id="14848" _type="EHExceptionCommand" date="Sun Aug 18 12:50:50 EDT 2019" timestamp="181226376" type="Exception">
+    <outputString><![CDATA[true.
+
+
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+  </Command>
+  <Command __id="14850" _type="InsertStringCommand" date="Sun Aug 18 12:50:52 EDT 2019" repeat="2" timestamp="181228048" timestamp2="181228354">
+    <data><![CDATA[pa]]></data>
+  </Command>
+  <Command __id="14854" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Aug 18 12:50:53 EDT 2019" repeat="2" timestamp="181229412" timestamp2="181230675" />
+  <Command __id="14857" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 12:50:57 EDT 2019" timestamp="181232527" />
+  <Command __id="14858" _type="EHExceptionCommand" date="Sun Aug 18 12:51:15 EDT 2019" timestamp="181250498" type="Exception">
+    <outputString><![CDATA[true :-:-||12, 12).
+]]></outputString>
+  </Command>
+  <Command __id="14859" _type="EHExceptionCommand" date="Sun Aug 18 12:51:15 EDT 2019" timestamp="181250499" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14860" _type="EHExceptionCommand" date="Sun Aug 18 12:51:15 EDT 2019" timestamp="181250712" type="Exception">
+    <outputString><![CDATA[false.
+
+]]></outputString>
+  </Command>
+  <Command __id="14861" _type="EHExceptionCommand" date="Sun Aug 18 12:51:31 EDT 2019" timestamp="181266582" type="Exception">
+    <outputString><![CDATA[:-p61, 32).
+]]></outputString>
+  </Command>
+  <Command __id="14862" _type="EHExceptionCommand" date="Sun Aug 18 12:51:31 EDT 2019" timestamp="181266584" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14863" _type="EHExceptionCommand" date="Sun Aug 18 12:51:41 EDT 2019" timestamp="181276879" type="Exception">
+    <outputString><![CDATA[true :-true.
+]]></outputString>
+  </Command>
+  <Command __id="14864" _type="EHExceptionCommand" date="Sun Aug 18 12:51:41 EDT 2019" timestamp="181276880" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14865" _type="EHExceptionCommand" date="Sun Aug 18 12:51:41 EDT 2019" timestamp="181277311" type="Exception">
+    <outputString><![CDATA[Redo: (8) pass(61, 32) ?
+]]></outputString>
+  </Command>
+  <Command __id="14866" _type="EHExceptionCommand" date="Sun Aug 18 12:51:55 EDT 2019" timestamp="181291243" type="Exception">
+    <outputString><![CDATA[:-pas59, 23).
+]]></outputString>
+  </Command>
+  <Command __id="14867" _type="EHExceptionCommand" date="Sun Aug 18 12:51:55 EDT 2019" timestamp="181291245" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14868" _type="EHExceptionCommand" date="Sun Aug 18 12:51:56 EDT 2019" timestamp="181291664" type="Exception">
+    <outputString><![CDATA[Redo: (8) pass(61, 32) ?    Call: (9) highFinalPass(61, 32) ?
+]]></outputString>
+  </Command>
+  <Command __id="14869" _type="EHExceptionCommand" date="Sun Aug 18 12:52:17 EDT 2019" timestamp="181313387" type="Exception">
+    <outputString><![CDATA[:-regularPass(61).
+]]></outputString>
+  </Command>
+  <Command __id="14870" _type="EHExceptionCommand" date="Sun Aug 18 12:52:17 EDT 2019" timestamp="181313390" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14871" _type="EHExceptionCommand" date="Sun Aug 18 12:52:18 EDT 2019" timestamp="181313804" type="Exception">
+    <outputString><![CDATA[ERROR: Can't retry at this port
+   Call: (10) highFinalThreshold(_3240) ?    Exit: (10) highFinalThreshold(80) ?
+]]></outputString>
+  </Command>
+  <Command __id="14872" _type="EHExceptionCommand" date="Sun Aug 18 12:53:02 EDT 2019" timestamp="181358010" type="Exception">
+    <outputString><![CDATA[consult('D:/dewan_backup/Java/PLTeaching/PL_Prolog/src/pass.pl').
+]]></outputString>
+  </Command>
+  <Command __id="14873" _type="EHExceptionCommand" date="Sun Aug 18 12:53:02 EDT 2019" timestamp="181358413" type="Exception">
+    <outputString><![CDATA[true.
+
+
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+]]></outputString>
+  </Command>
+  <Command __id="14874" _type="EHExceptionCommand" date="Sun Aug 18 12:53:14 EDT 2019" timestamp="181369797" type="Exception">
+    <outputString><![CDATA[:-:-:-:-pass(61, 32).
+]]></outputString>
+  </Command>
+  <Command __id="14875" _type="EHExceptionCommand" date="Sun Aug 18 12:53:14 EDT 2019" timestamp="181369800" type="Exception">
+    <outputString><![CDATA[
+]]></outputString>
+  </Command>
+  <Command __id="14876" _type="ShellCommand" date="Sun Aug 18 12:58:09 EDT 2019" timestamp="181664879" type="ECLIPSE_MINIMIZED" />
+  <Command __id="14877" _type="ShellCommand" date="Sun Aug 18 12:58:09 EDT 2019" timestamp="181664886" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14878" _type="ShellCommand" date="Sun Aug 18 12:58:37 EDT 2019" timestamp="181693180" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="14879" _type="ShellCommand" date="Sun Aug 18 12:58:37 EDT 2019" timestamp="181693289" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14880" _type="ShellCommand" date="Sun Aug 18 12:58:50 EDT 2019" timestamp="181705670" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14881" _type="ShellCommand" date="Sun Aug 18 12:58:53 EDT 2019" timestamp="181708613" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14882" _type="ShellCommand" date="Sun Aug 18 12:58:58 EDT 2019" timestamp="181714311" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14883" _type="ShellCommand" date="Sun Aug 18 12:59:03 EDT 2019" timestamp="181719064" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14884" _type="EclipseCommand" commandID="org.eclipse.ui.perspectives.showPerspective" date="Sun Aug 18 12:59:04 EDT 2019" timestamp="181719453" />
+  <Command __id="14885" _type="ShellCommand" date="Sun Aug 18 12:59:11 EDT 2019" timestamp="181727158" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14886" _type="ShellCommand" date="Sun Aug 18 13:00:21 EDT 2019" timestamp="181797318" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14887" _type="ShellCommand" date="Sun Aug 18 13:00:29 EDT 2019" timestamp="181804835" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14888" _type="ShellCommand" date="Sun Aug 18 13:01:46 EDT 2019" timestamp="181881866" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14889" _type="ShellCommand" date="Sun Aug 18 13:01:56 EDT 2019" timestamp="181891813" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14890" _type="ShellCommand" date="Sun Aug 18 13:02:00 EDT 2019" timestamp="181895499" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14891" _type="EclipseCommand" commandID="org.eclipse.ui.perspectives.showPerspective" date="Sun Aug 18 13:02:00 EDT 2019" timestamp="181895514" />
+</Events>
