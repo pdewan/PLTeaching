@@ -1,0 +1,26 @@
+<Events startTimestamp="1565965824574" logVersion="1.0.0.1">
+  <Command __id="14252" _type="ShellCommand" date="Sun Aug 18 12:01:25 EDT 2019" timestamp="178260666" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14253" _type="ShellCommand" date="Sun Aug 18 12:01:41 EDT 2019" timestamp="178277318" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14254" _type="EclipseCommand" commandID="org.eclipse.ui.project.properties" date="Sun Aug 18 12:01:41 EDT 2019" timestamp="178277337" />
+  <Command __id="14255" _type="ShellCommand" date="Sun Aug 18 12:01:43 EDT 2019" timestamp="178279000" type="ECLIPSE_MINIMIZED" />
+  <Command __id="14256" _type="ShellCommand" date="Sun Aug 18 12:01:43 EDT 2019" timestamp="178279004" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14257" _type="ShellCommand" date="Sun Aug 18 12:03:33 EDT 2019" timestamp="178388602" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="14258" _type="ShellCommand" date="Sun Aug 18 12:03:33 EDT 2019" timestamp="178388711" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14259" _type="ShellCommand" date="Sun Aug 18 12:03:43 EDT 2019" timestamp="178399084" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14260" _type="ShellCommand" date="Sun Aug 18 12:04:30 EDT 2019" timestamp="178446422" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14261" _type="ShellCommand" date="Sun Aug 18 12:04:55 EDT 2019" timestamp="178470970" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14262" _type="ShellCommand" date="Sun Aug 18 12:05:35 EDT 2019" timestamp="178511247" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14263" _type="ShellCommand" date="Sun Aug 18 12:05:55 EDT 2019" timestamp="178531116" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14264" _type="ShellCommand" date="Sun Aug 18 12:06:53 EDT 2019" timestamp="178588781" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14265" _type="EclipseCommand" commandID="org.eclipse.ui.help.helpContents" date="Sun Aug 18 12:07:02 EDT 2019" timestamp="178598116" />
+  <Command __id="14266" _type="ShellCommand" date="Sun Aug 18 12:07:02 EDT 2019" timestamp="178598153" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14267" _type="ShellCommand" date="Sun Aug 18 12:07:44 EDT 2019" timestamp="178640201" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14268" _type="ShellCommand" date="Sun Aug 18 12:07:52 EDT 2019" timestamp="178647778" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14269" _type="ShellCommand" date="Sun Aug 18 12:09:05 EDT 2019" timestamp="178720679" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14270" _type="ShellCommand" date="Sun Aug 18 12:09:09 EDT 2019" timestamp="178725072" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14271" _type="ShellCommand" date="Sun Aug 18 12:09:26 EDT 2019" timestamp="178741445" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14272" _type="EclipseCommand" commandID="org.eclipse.jdt.ui.edit.text.java.rename.element" date="Sun Aug 18 12:09:26 EDT 2019" timestamp="178741458" />
+  <Command __id="14273" _type="ShellCommand" date="Sun Aug 18 12:09:42 EDT 2019" timestamp="178758143" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14274" _type="ShellCommand" date="Sun Aug 18 12:09:46 EDT 2019" timestamp="178762327" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="14275" _type="EclipseCommand" commandID="org.eclipse.jdt.ui.edit.text.java.rename.element" date="Sun Aug 18 12:09:46 EDT 2019" timestamp="178762343" />
+</Events>
