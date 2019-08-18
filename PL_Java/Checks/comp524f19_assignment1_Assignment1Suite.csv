@@ -1,0 +1,8 @@
+#,Time,%Passes,Change,Test,Pass,Partial,Fail,Untested
+0,Sat Jun 22 11:36:25 EDT 2019,20,20,IncrementalInputPromptTestCase,IncrementalInputPromptTestCase+ , , ,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase PledgeTestCase PromptTestCase ,
+1,Sat Jun 22 11:36:34 EDT 2019,40,20,PromptTestCase,IncrementalInputPromptTestCase PromptTestCase+ , , ,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase PledgeTestCase ,
+2,Wed Jun 26 01:46:45 EDT 2019,40,0,IncrementalInputPromptTestCase,IncrementalInputPromptTestCase PromptTestCase , , ,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase PledgeTestCase ,
+3,Wed Jun 26 01:47:42 EDT 2019,40,0,PromptTestCase,IncrementalInputPromptTestCase PromptTestCase , , ,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase PledgeTestCase ,
+4,Sat Jun 29 01:58:14 EDT 2019,80,40,Assignment1Suite,CustomCommandIncrementalPromptTestCase+ CustomCommandPromptTestCase+ PledgeTestCase+ PromptTestCase , ,IncrementalInputPromptTestCase- , ,
+5,Sat Jun 29 01:58:32 EDT 2019,100,20,IncrementalInputPromptTestCase,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase IncrementalInputPromptTestCase+ PledgeTestCase PromptTestCase , , , ,
+6,Sat Jun 29 02:00:46 EDT 2019,100,0,Assignment1Suite,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase IncrementalInputPromptTestCase PledgeTestCase PromptTestCase , , , ,

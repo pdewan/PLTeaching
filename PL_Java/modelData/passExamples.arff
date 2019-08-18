@@ -1,0 +1,22 @@
+@relation programmer-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+
+@attribute totalScore numeric
+@attribute finalScore numeric
+@attribute pass {true,false}
+@data
+30,0,false
+30,30,false
+30,60,false
+59,59,false
+10,59,false
+60,0,true
+60,60,true
+30,70,false
+30,80,false
+39,80,false
+39,90,false
+39,100,false
+40,80,true
+40,90,true
+40,100,true
+10,100,false
