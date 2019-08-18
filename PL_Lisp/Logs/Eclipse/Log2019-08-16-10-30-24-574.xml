@@ -1,0 +1,1044 @@
+<Events startTimestamp="1565965824574" logVersion="1.0.0.1">
+  <Command __id="1" _type="FileOpenCommand" date="Fri Aug 16 10:30:26 EDT 2019" docASTNodeCount="1" docActiveCodeLength="92751" docExpressionCount="0" docLength="92751" projectName="test-lisp" timestamp="1828">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-lisp\Logs\Eclipse\Log2019-08-15-20-48-51-046.xml]]></filePath>
+    <snapshot><![CDATA[<Events startTimestamp="1565916531046" logVersion="1.0.0.1">
+  <DocumentChange __id="44" _type="Delete" date="Thu Aug 15 20:50:42 EDT 2019" docASTNodeCount="1" docActiveCodeLength="656" docExpressionCount="0" docLength="656" endLine="15" length="5" offset="656" startLine="15" timestamp="111884">
+    <text><![CDATA[aGrad]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="60" _type="Delete" date="Thu Aug 15 20:51:13 EDT 2019" docASTNodeCount="1" docActiveCodeLength="640" docExpressionCount="0" docLength="640" endLine="9" length="16" offset="192" startLine="9" timestamp="142646">
+    <text><![CDATA[aCutOff(ACutOff)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="63" _type="Insert" date="Thu Aug 15 20:51:16 EDT 2019" docASTNodeCount="1" docActiveCodeLength="658" docExpressionCount="0" docLength="658" length="18" offset="173" repeat="3" timestamp="145109" timestamp2="146613">
+    <text><![CDATA[ aCutOff(ACutOff),]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="71" _type="Delete" date="Thu Aug 15 20:51:20 EDT 2019" docASTNodeCount="1" docActiveCodeLength="656" docExpressionCount="0" docLength="656" endLine="9" length="2" offset="208" repeat="2" startLine="9" timestamp="149548" timestamp2="149700">
+    <text><![CDATA[, ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="96" _type="FileOpenCommand" date="Thu Aug 15 20:52:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="14" docExpressionCount="0" docLength="14" projectName="test-lisp" timestamp="216207">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-lisp\test.lisp]]]]><![CDATA[></filePath>
+    <snapshot><![CDATA[(setq foo 5)
+]]]]><![CDATA[></snapshot>
+  </Command>
+  <Command __id="98" _type="FileOpenCommand" date="Thu Aug 15 20:52:32 EDT 2019" docASTNodeCount="1" docActiveCodeLength="656" docExpressionCount="0" docLength="656" projectName="test-prolog" timestamp="220998">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-prolog\src\test.pl]]]]><![CDATA[></filePath>
+  </Command>
+  <DocumentChange __id="101" _type="Delete" date="Thu Aug 15 20:52:40 EDT 2019" docASTNodeCount="1" docActiveCodeLength="583" docExpressionCount="0" docLength="583" endLine="3" length="73" offset="0" startLine="0" timestamp="229150">
+    <text><![CDATA[likes(mary,food).
+likes(mary,wine).
+likes(john,wine).
+likes(john,mary)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="104" _type="Delete" date="Thu Aug 15 20:52:43 EDT 2019" docASTNodeCount="1" docActiveCodeLength="580" docExpressionCount="0" docLength="580" endLine="1" length="3" offset="0" repeat="2" startLine="0" timestamp="232506" timestamp2="233902">
+    <text><![CDATA[.
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="112" _type="FileOpenCommand" date="Thu Aug 15 20:53:32 EDT 2019" docASTNodeCount="1" docActiveCodeLength="14" docExpressionCount="0" docLength="14" projectName="test-lisp" timestamp="281019">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-lisp\test.lisp]]]]><![CDATA[></filePath>
+  </Command>
+  <Command __id="107" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 20:52:44 EDT 2019" timestamp="233907" />
+  <Command __id="108" _type="PredictionCommand" date="Thu Aug 15 20:52:44 EDT 2019" prediction_type="MakingProgress" timestamp="233920" />
+  <Command __id="109" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 20:52:46 EDT 2019" timestamp="235642" />
+  <Command __id="110" _type="SelectTextCommand" caretOffset="0" date="Thu Aug 15 20:53:19 EDT 2019" end="54" start="0" timestamp="268392" />
+  <Command __id="111" _type="CopyCommand" date="Thu Aug 15 20:53:20 EDT 2019" timestamp="269377" />
+  <Command __id="113" _type="MoveCaretCommand" caretOffset="0" date="Thu Aug 15 20:53:32 EDT 2019" docOffset="0" timestamp="281103" />
+  <Command __id="114" _type="MoveCaretCommand" caretOffset="12" date="Thu Aug 15 20:53:34 EDT 2019" docOffset="12" timestamp="283945" />
+  <Command __id="115" _type="MoveCaretCommand" caretOffset="7" date="Thu Aug 15 20:53:36 EDT 2019" docOffset="7" timestamp="285213" />
+  <Command __id="116" _type="SelectTextCommand" caretOffset="9" date="Thu Aug 15 20:53:36 EDT 2019" end="9" start="6" timestamp="285449" />
+  <DocumentChange __id="117" _type="Replace" date="Thu Aug 15 20:53:37 EDT 2019" docASTNodeCount="1" docActiveCodeLength="12" docExpressionCount="0" docLength="12" endLine="0" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="11" int_docExpressionCount="0" int_docLength="11" length="3" offset="6" startLine="0" timestamp="286290">
+    <deletedText><![CDATA[foo]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[a]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <Command __id="118" _type="InsertStringCommand" date="Thu Aug 15 20:53:37 EDT 2019" repeat="4" timestamp="286323" timestamp2="288359">
+    <data><![CDATA[aCtO]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="119" _type="Insert" date="Thu Aug 15 20:53:38 EDT 2019" docASTNodeCount="1" docActiveCodeLength="15" docExpressionCount="0" docLength="15" length="3" offset="7" repeat="3" timestamp="287150" timestamp2="288354">
+    <text><![CDATA[CtO]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="125" _type="Delete" date="Thu Aug 15 20:53:39 EDT 2019" docASTNodeCount="1" docActiveCodeLength="13" docExpressionCount="0" docLength="13" endLine="0" length="2" offset="8" repeat="2" startLine="0" timestamp="288765" timestamp2="288938">
+    <text><![CDATA[tO]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="126" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 20:53:39 EDT 2019" repeat="2" timestamp="288768" timestamp2="288941" />
+  <DocumentChange __id="129" _type="Insert" date="Thu Aug 15 20:53:40 EDT 2019" docASTNodeCount="1" docActiveCodeLength="18" docExpressionCount="0" docLength="18" length="5" offset="8" repeat="5" timestamp="289676" timestamp2="290832">
+    <text><![CDATA[utOff]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="130" _type="InsertStringCommand" date="Thu Aug 15 20:53:40 EDT 2019" repeat="5" timestamp="289678" timestamp2="290834">
+    <data><![CDATA[utOff]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="139" _type="MoveCaretCommand" caretOffset="15" date="Thu Aug 15 20:53:43 EDT 2019" docOffset="15" timestamp="292929" />
+  <DocumentChange __id="140" _type="Delete" date="Thu Aug 15 20:53:44 EDT 2019" docASTNodeCount="1" docActiveCodeLength="17" docExpressionCount="0" docLength="17" endLine="0" length="1" offset="14" startLine="0" timestamp="293424">
+    <text><![CDATA[5]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="141" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 20:53:44 EDT 2019" timestamp="293432" />
+  <DocumentChange __id="142" _type="Insert" date="Thu Aug 15 20:53:45 EDT 2019" docASTNodeCount="1" docActiveCodeLength="19" docExpressionCount="0" docLength="19" length="2" offset="14" repeat="2" timestamp="294797" timestamp2="295029">
+    <text><![CDATA[90]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="143" _type="InsertStringCommand" date="Thu Aug 15 20:53:45 EDT 2019" timestamp="294804" timestamp2="294804">
+    <data><![CDATA[9]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="144" _type="PredictionCommand" date="Thu Aug 15 20:53:45 EDT 2019" prediction_type="MakingProgress" timestamp="294812" />
+  <Command __id="146" _type="InsertStringCommand" date="Thu Aug 15 20:53:46 EDT 2019" timestamp="295032" timestamp2="295032">
+    <data><![CDATA[0]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="147" _type="MoveCaretCommand" caretOffset="17" date="Thu Aug 15 20:53:47 EDT 2019" docOffset="17" timestamp="296452" />
+  <DocumentChange __id="148" _type="Insert" date="Thu Aug 15 20:53:48 EDT 2019" docASTNodeCount="1" docActiveCodeLength="30" docExpressionCount="0" docLength="30" length="11" offset="17" repeat="10" timestamp="297168" timestamp2="301276">
+    <text><![CDATA[
+(aCutOff)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="149" _type="InsertStringCommand" date="Thu Aug 15 20:53:48 EDT 2019" timestamp="297172" timestamp2="297172">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="151" _type="InsertStringCommand" date="Thu Aug 15 20:53:49 EDT 2019" repeat="9" timestamp="298088" timestamp2="301282">
+    <data><![CDATA[(aCutOff)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="168" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 20:53:54 EDT 2019" timestamp="303665" />
+  <Command __id="169" _type="MoveCaretCommand" caretOffset="30" date="Thu Aug 15 20:53:55 EDT 2019" docOffset="30" timestamp="304706" />
+  <Command __id="170" _type="SelectTextCommand" caretOffset="19" date="Thu Aug 15 20:54:11 EDT 2019" end="28" start="19" timestamp="320457" />
+  <DocumentChange __id="171" _type="Delete" date="Thu Aug 15 20:54:11 EDT 2019" docASTNodeCount="1" docActiveCodeLength="21" docExpressionCount="0" docLength="21" endLine="1" length="9" offset="19" startLine="1" timestamp="320940">
+    <text><![CDATA[(aCutOff)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="172" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu Aug 15 20:54:12 EDT 2019" timestamp="320972" />
+  <Command __id="173" _type="MoveCaretCommand" caretOffset="17" date="Thu Aug 15 20:54:14 EDT 2019" docOffset="17" timestamp="323202" />
+  <Command __id="175" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu Aug 15 20:54:14 EDT 2019" timestamp="323870" />
+  <Command __id="176" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 20:54:16 EDT 2019" timestamp="324987" />
+  <Command __id="177" _type="ShellCommand" date="Thu Aug 15 20:54:23 EDT 2019" timestamp="332322" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="178" _type="ShellCommand" date="Thu Aug 15 20:54:29 EDT 2019" timestamp="338795" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="179" _type="ShellCommand" date="Thu Aug 15 20:55:05 EDT 2019" timestamp="374446" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="180" _type="ShellCommand" date="Thu Aug 15 20:55:12 EDT 2019" timestamp="381705" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="181" _type="ShellCommand" date="Thu Aug 15 20:55:37 EDT 2019" timestamp="406333" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="182" _type="ShellCommand" date="Thu Aug 15 20:55:42 EDT 2019" timestamp="411097" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="183" _type="ShellCommand" date="Thu Aug 15 20:55:48 EDT 2019" timestamp="417828" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="184" _type="ShellCommand" date="Thu Aug 15 20:56:11 EDT 2019" timestamp="440597" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="185" _type="ShellCommand" date="Thu Aug 15 20:56:31 EDT 2019" timestamp="460337" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="186" _type="ShellCommand" date="Thu Aug 15 20:56:34 EDT 2019" timestamp="463347" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="187" _type="MoveCaretCommand" caretOffset="19" date="Thu Aug 15 20:56:36 EDT 2019" docOffset="19" timestamp="465347" />
+  <Command __id="188" _type="MoveCaretCommand" caretOffset="17" date="Thu Aug 15 20:56:37 EDT 2019" docOffset="17" timestamp="466011" />
+  <Command __id="189" _type="MoveCaretCommand" caretOffset="19" date="Thu Aug 15 20:56:48 EDT 2019" docOffset="19" timestamp="477262" />
+  <Command __id="190" _type="MoveCaretCommand" caretOffset="8" date="Thu Aug 15 20:56:49 EDT 2019" docOffset="8" timestamp="478268" />
+  <Command __id="191" _type="SelectTextCommand" caretOffset="13" date="Thu Aug 15 20:56:49 EDT 2019" end="13" start="6" timestamp="478484" />
+  <Command __id="193" _type="InsertStringCommand" date="Thu Aug 15 20:56:50 EDT 2019" repeat="3" timestamp="479144" timestamp2="479499">
+    <data><![CDATA[foo]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="198" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 20:56:52 EDT 2019" timestamp="481078" />
+  <Command __id="199" _type="PredictionCommand" date="Thu Aug 15 20:56:52 EDT 2019" prediction_type="MakingProgress" timestamp="481111" />
+  <Command __id="200" _type="MoveCaretCommand" caretOffset="13" date="Thu Aug 15 20:57:27 EDT 2019" docOffset="13" timestamp="516177" />
+  <Command __id="202" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 20:57:27 EDT 2019" timestamp="516633" />
+  <Command __id="203" _type="MoveCaretCommand" caretOffset="14" date="Thu Aug 15 20:57:29 EDT 2019" docOffset="14" timestamp="518267" />
+  <Command __id="204" _type="MoveCaretCommand" caretOffset="12" date="Thu Aug 15 20:57:30 EDT 2019" docOffset="12" timestamp="519119" />
+  <Command __id="206" _type="InsertStringCommand" date="Thu Aug 15 20:57:30 EDT 2019" timestamp="519912" timestamp2="519912">
+    <data><![CDATA[)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="207" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 20:57:31 EDT 2019" timestamp="520808" />
+  <Command __id="208" _type="SelectTextCommand" caretOffset="0" date="Thu Aug 15 20:57:33 EDT 2019" end="13" start="0" timestamp="522878" />
+  <Command __id="209" _type="MoveCaretCommand" caretOffset="15" date="Thu Aug 15 20:57:49 EDT 2019" docOffset="15" timestamp="538811" />
+  <Command __id="210" _type="SelectTextCommand" caretOffset="6" date="Thu Aug 15 20:57:50 EDT 2019" end="15" start="6" timestamp="539090" />
+  <Command __id="212" _type="InsertStringCommand" date="Thu Aug 15 20:57:51 EDT 2019" repeat="7" timestamp="539955" timestamp2="542662">
+    <data><![CDATA[bar 90)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="225" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 20:57:55 EDT 2019" timestamp="544400" />
+  <Command __id="226" _type="ShellCommand" date="Thu Aug 15 20:58:04 EDT 2019" timestamp="553643" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="227" _type="ShellCommand" date="Thu Aug 15 20:58:24 EDT 2019" timestamp="573658" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="229" _type="SelectTextCommand" caretOffset="0" date="Thu Aug 15 20:58:59 EDT 2019" end="54" start="0" timestamp="608543" />
+  <Command __id="231" _type="MoveCaretCommand" caretOffset="13" date="Thu Aug 15 20:59:01 EDT 2019" docOffset="13" timestamp="610518" />
+  <Command __id="232" _type="ShellCommand" date="Thu Aug 15 20:59:11 EDT 2019" timestamp="620852" type="ECLIPSE_LOST_FOCUS" />
+  <DocumentChange __id="174" _type="Delete" date="Thu Aug 15 20:54:14 EDT 2019" docASTNodeCount="1" docActiveCodeLength="19" docExpressionCount="0" docLength="19" endLine="1" length="2" offset="17" startLine="0" timestamp="323857">
+    <text><![CDATA[
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="192" _type="Replace" date="Thu Aug 15 20:56:50 EDT 2019" docASTNodeCount="1" docActiveCodeLength="13" docExpressionCount="0" docLength="13" endLine="0" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="12" int_docExpressionCount="0" int_docLength="12" length="7" offset="6" startLine="0" timestamp="479116">
+    <deletedText><![CDATA[aCutOff]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[f]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="194" _type="Insert" date="Thu Aug 15 20:56:50 EDT 2019" docASTNodeCount="1" docActiveCodeLength="15" docExpressionCount="0" docLength="15" length="2" offset="7" repeat="2" timestamp="479362" timestamp2="479495">
+    <text><![CDATA[oo]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="201" _type="Delete" date="Thu Aug 15 20:57:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="14" docExpressionCount="0" docLength="14" endLine="0" length="1" offset="12" startLine="0" timestamp="516607">
+    <text><![CDATA[)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="205" _type="Insert" date="Thu Aug 15 20:57:30 EDT 2019" docASTNodeCount="1" docActiveCodeLength="15" docExpressionCount="0" docLength="15" length="1" offset="12" timestamp="519907">
+    <text><![CDATA[)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="211" _type="Replace" date="Thu Aug 15 20:57:50 EDT 2019" docASTNodeCount="1" docActiveCodeLength="7" docExpressionCount="0" docLength="7" endLine="1" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="6" int_docExpressionCount="0" int_docLength="6" length="9" offset="6" startLine="0" timestamp="539920">
+    <deletedText><![CDATA[foo 90)
+]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[b]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="213" _type="Insert" date="Thu Aug 15 20:57:51 EDT 2019" docASTNodeCount="1" docActiveCodeLength="13" docExpressionCount="0" docLength="13" length="6" offset="7" repeat="6" timestamp="540026" timestamp2="542656">
+    <text><![CDATA[ar 90)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="228" _type="FileOpenCommand" date="Thu Aug 15 20:58:59 EDT 2019" docASTNodeCount="1" docActiveCodeLength="580" docExpressionCount="0" docLength="580" projectName="test-prolog" timestamp="608444">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-prolog\src\test.pl]]]]><![CDATA[></filePath>
+    <snapshot><![CDATA[aCutOff(90).
+bCutOff(80).
+cCutOff(70).
+dCutOff(60).
+upGradeMultiplier(1.1).
+aGrade(Total) :- aCutOff(ACutOff), Total >= ACutOff.
+bGrade(Total) :- aCutOff(ACutOff), bCutOff(BCutOff), Total >= BCutOff, Total < ACutOff.
+cGrade(Total) :- bCutOff(BCutOff), cCutOff(CCutOff), Total >= CCutOff, Total < BCutOff.
+dGrade(Total) :- cCutOff(CCutOff), dCutOff(DCutOff), Total >= DCutOff, Total < CutOff.
+upGrade(Total, Final) :- upGradeMultiplier(UpGradeMultiplier), Final > (Total*UpGradeMultiplier).
+aGrade(Total, Final) :- aGrade(Total); (bGrade(Total), upGrade(Total, Final)).
+]]]]><![CDATA[></snapshot>
+  </Command>
+  <Command __id="230" _type="FileOpenCommand" date="Thu Aug 15 20:59:01 EDT 2019" docASTNodeCount="1" docActiveCodeLength="13" docExpressionCount="0" docLength="13" projectName="test-lisp" timestamp="610434">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-lisp\test.lisp]]]]><![CDATA[></filePath>
+    <snapshot><![CDATA[(setq bar 90)]]]]><![CDATA[></snapshot>
+  </Command>
+  <Command __id="233" _type="ShellCommand" date="Thu Aug 15 20:59:15 EDT 2019" timestamp="623977" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="234" _type="SelectTextCommand" caretOffset="0" date="Thu Aug 15 20:59:37 EDT 2019" end="13" start="0" timestamp="646691" />
+  <Command __id="235" _type="ShellCommand" date="Thu Aug 15 20:59:43 EDT 2019" timestamp="652552" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="236" _type="ShellCommand" date="Thu Aug 15 21:01:42 EDT 2019" timestamp="771195" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="237" _type="ShellCommand" date="Thu Aug 15 21:01:56 EDT 2019" timestamp="784957" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="238" _type="ShellCommand" date="Thu Aug 15 21:02:00 EDT 2019" timestamp="789279" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="239" _type="MoveCaretCommand" caretOffset="13" date="Thu Aug 15 21:02:02 EDT 2019" docOffset="13" timestamp="791517" />
+  <DocumentChange __id="240" _type="Insert" date="Thu Aug 15 21:02:03 EDT 2019" docASTNodeCount="1" docActiveCodeLength="14" docExpressionCount="0" docLength="14" length="1" offset="13" timestamp="792712">
+    <text><![CDATA[;]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="241" _type="InsertStringCommand" date="Thu Aug 15 21:02:03 EDT 2019" timestamp="792718" timestamp2="792718">
+    <data><![CDATA[;]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="242" _type="PredictionCommand" date="Thu Aug 15 21:02:03 EDT 2019" prediction_type="MakingProgress" timestamp="792750" />
+  <Command __id="243" _type="CopyCommand" date="Thu Aug 15 21:02:39 EDT 2019" timestamp="828452" />
+  <Command __id="245" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:02:49 EDT 2019" timestamp="838230" />
+  <Command __id="246" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:02:50 EDT 2019" timestamp="839184" />
+  <Command __id="247" _type="ShellCommand" date="Thu Aug 15 21:03:43 EDT 2019" timestamp="892569" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="248" _type="ShellCommand" date="Thu Aug 15 21:05:26 EDT 2019" timestamp="995296" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="249" _type="ShellCommand" date="Thu Aug 15 21:05:55 EDT 2019" timestamp="1024038" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="250" _type="ShellCommand" date="Thu Aug 15 21:06:04 EDT 2019" timestamp="1033858" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="251" _type="EclipseCommand" commandID="org.eclipse.ui.views.showView" date="Thu Aug 15 21:06:05 EDT 2019" repeat="2" timestamp="1033990" timestamp2="1033990" />
+  <Command __id="253" _type="ShellCommand" date="Thu Aug 15 21:06:40 EDT 2019" timestamp="1069606" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="254" _type="ShellCommand" date="Thu Aug 15 21:06:44 EDT 2019" timestamp="1073617" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="255" _type="ShellCommand" date="Thu Aug 15 21:07:43 EDT 2019" timestamp="1131991" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="256" _type="ShellCommand" date="Thu Aug 15 21:07:49 EDT 2019" timestamp="1138463" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="257" _type="ShellCommand" date="Thu Aug 15 21:08:11 EDT 2019" timestamp="1160095" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="258" _type="ShellCommand" date="Thu Aug 15 21:08:17 EDT 2019" timestamp="1166814" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="259" _type="ShellCommand" date="Thu Aug 15 21:08:45 EDT 2019" timestamp="1194858" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="260" _type="ShellCommand" date="Thu Aug 15 21:08:58 EDT 2019" timestamp="1207504" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="261" _type="EclipseCommand" commandID="org.eclipse.ui.project.properties" date="Thu Aug 15 21:08:58 EDT 2019" timestamp="1207522" />
+  <Command __id="262" _type="MoveCaretCommand" caretOffset="10" date="Thu Aug 15 21:09:47 EDT 2019" docOffset="10" timestamp="1256247" />
+  <Command __id="263" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:09:50 EDT 2019" timestamp="1259474" />
+  <Command __id="264" _type="MoveCaretCommand" caretOffset="8" date="Thu Aug 15 21:10:05 EDT 2019" docOffset="8" timestamp="1274825" />
+  <Command __id="265" _type="SelectTextCommand" caretOffset="9" date="Thu Aug 15 21:10:06 EDT 2019" end="9" start="6" timestamp="1275026" />
+  <Command __id="267" _type="InsertStringCommand" date="Thu Aug 15 21:10:08 EDT 2019" repeat="7" timestamp="1277313" timestamp2="1279503">
+    <data><![CDATA[aCutOff]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="280" _type="MoveCaretCommand" caretOffset="17" date="Thu Aug 15 21:10:12 EDT 2019" docOffset="17" timestamp="1281665" />
+  <Command __id="282" _type="InsertStringCommand" date="Thu Aug 15 21:10:13 EDT 2019" timestamp="1282248" timestamp2="1282248">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="284" _type="InsertStringCommand" date="Thu Aug 15 21:10:14 EDT 2019" repeat="17" timestamp="1283666" timestamp2="1292238">
+    <data><![CDATA[(setq bCutOff 80)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="318" _type="InsertStringCommand" date="Thu Aug 15 21:10:23 EDT 2019" timestamp="1292643" timestamp2="1292643">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="320" _type="InsertStringCommand" date="Thu Aug 15 21:10:25 EDT 2019" timestamp="1294689" timestamp2="1294689">
+    <data><![CDATA[*]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="322" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:10:26 EDT 2019" timestamp="1295266" />
+  <DocumentChange __id="244" _type="Delete" date="Thu Aug 15 21:02:49 EDT 2019" docASTNodeCount="1" docActiveCodeLength="13" docExpressionCount="0" docLength="13" endLine="0" length="1" offset="13" startLine="0" timestamp="838222">
+    <text><![CDATA[;]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="266" _type="Replace" date="Thu Aug 15 21:10:08 EDT 2019" docASTNodeCount="1" docActiveCodeLength="11" docExpressionCount="0" docLength="11" endLine="0" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="10" int_docExpressionCount="0" int_docLength="10" length="3" offset="6" startLine="0" timestamp="1277273">
+    <deletedText><![CDATA[bar]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[a]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="268" _type="Insert" date="Thu Aug 15 21:10:08 EDT 2019" docASTNodeCount="1" docActiveCodeLength="17" docExpressionCount="0" docLength="17" length="6" offset="7" repeat="6" timestamp="1277871" timestamp2="1279498">
+    <text><![CDATA[CutOff]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="281" _type="Insert" date="Thu Aug 15 21:10:13 EDT 2019" docASTNodeCount="1" docActiveCodeLength="38" docExpressionCount="0" docLength="38" length="21" offset="17" repeat="19" timestamp="1282246" timestamp2="1292641">
+    <text><![CDATA[
+(setq bCutOff 80)
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="319" _type="Insert" date="Thu Aug 15 21:10:25 EDT 2019" docASTNodeCount="1" docActiveCodeLength="39" docExpressionCount="0" docLength="39" length="1" offset="38" timestamp="1294685">
+    <text><![CDATA[*]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="321" _type="Delete" date="Thu Aug 15 21:10:26 EDT 2019" docASTNodeCount="1" docActiveCodeLength="38" docExpressionCount="0" docLength="38" endLine="2" length="1" offset="38" startLine="2" timestamp="1295264">
+    <text><![CDATA[*]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="323" _type="Insert" date="Thu Aug 15 21:10:26 EDT 2019" docASTNodeCount="1" docActiveCodeLength="43" docExpressionCount="0" docLength="43" length="5" offset="38" repeat="5" timestamp="1295907" timestamp2="1297890">
+    <text><![CDATA[(setq]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="334" _type="Insert" date="Thu Aug 15 21:10:31 EDT 2019" docASTNodeCount="1" docActiveCodeLength="57" docExpressionCount="0" docLength="57" length="14" offset="43" repeat="13" timestamp="1300839" timestamp2="1305978">
+    <text><![CDATA[ cCutOff 70)
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="360" _type="Insert" date="Thu Aug 15 21:10:39 EDT 2019" docASTNodeCount="1" docActiveCodeLength="74" docExpressionCount="0" docLength="74" length="17" offset="57" repeat="17" timestamp="1308006" timestamp2="1318157">
+    <text><![CDATA[(setq sCutOff 60)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="324" _type="InsertStringCommand" date="Thu Aug 15 21:10:26 EDT 2019" timestamp="1295913" timestamp2="1295913">
+    <data><![CDATA[(]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="325" _type="PredictionCommand" date="Thu Aug 15 21:10:26 EDT 2019" prediction_type="MakingProgress" timestamp="1295927" />
+  <Command __id="327" _type="InsertStringCommand" date="Thu Aug 15 21:10:27 EDT 2019" repeat="4" timestamp="1296223" timestamp2="1297898">
+    <data><![CDATA[setq]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="335" _type="InsertStringCommand" date="Thu Aug 15 21:10:31 EDT 2019" repeat="12" timestamp="1300848" timestamp2="1305444">
+    <data><![CDATA[ cCutOff 70)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="359" _type="InsertStringCommand" date="Thu Aug 15 21:10:37 EDT 2019" timestamp="1305980" timestamp2="1305980">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="361" _type="InsertStringCommand" date="Thu Aug 15 21:10:39 EDT 2019" repeat="17" timestamp="1308015" timestamp2="1318165">
+    <data><![CDATA[(setq sCutOff 60)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="395" _type="InsertStringCommand" date="Thu Aug 15 21:10:51 EDT 2019" timestamp="1320274" timestamp2="1320274">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="397" _type="InsertStringCommand" date="Thu Aug 15 21:11:10 EDT 2019" repeat="4" timestamp="1339363" timestamp2="1340262">
+    <data><![CDATA[(def]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="405" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:11:12 EDT 2019" repeat="3" timestamp="1341137" timestamp2="1341449" />
+  <Command __id="410" _type="ShellCommand" date="Thu Aug 15 21:11:16 EDT 2019" timestamp="1345297" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="411" _type="ShellCommand" date="Thu Aug 15 21:11:45 EDT 2019" timestamp="1374393" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="413" _type="SelectTextCommand" caretOffset="0" date="Thu Aug 15 21:11:47 EDT 2019" end="54" start="0" timestamp="1376214" />
+  <Command __id="415" _type="MoveCaretCommand" caretOffset="77" date="Thu Aug 15 21:11:49 EDT 2019" docOffset="77" timestamp="1378490" />
+  <Command __id="416" _type="SelectTextCommand" caretOffset="76" date="Thu Aug 15 21:11:53 EDT 2019" end="77" start="76" timestamp="1382113" />
+  <Command __id="418" _type="PasteCommand" date="Thu Aug 15 21:11:53 EDT 2019" timestamp="1382804" />
+  <Command __id="419" _type="SelectTextCommand" caretOffset="113" date="Thu Aug 15 21:11:58 EDT 2019" end="113" start="83" timestamp="1387822" />
+  <Command __id="421" _type="InsertStringCommand" date="Thu Aug 15 21:11:59 EDT 2019" repeat="6" timestamp="1388054" timestamp2="1389466">
+    <data><![CDATA[aGrade]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="432" _type="MoveCaretCommand" caretOffset="96" date="Thu Aug 15 21:12:03 EDT 2019" docOffset="96" timestamp="1392086" />
+  <DocumentChange __id="394" _type="Insert" date="Thu Aug 15 21:10:51 EDT 2019" docASTNodeCount="1" docActiveCodeLength="76" docExpressionCount="0" docLength="76" length="2" offset="74" timestamp="1320262">
+    <text><![CDATA[
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="396" _type="Insert" date="Thu Aug 15 21:11:10 EDT 2019" docASTNodeCount="1" docActiveCodeLength="80" docExpressionCount="0" docLength="80" length="4" offset="76" repeat="4" timestamp="1339359" timestamp2="1340261">
+    <text><![CDATA[(def]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="404" _type="Delete" date="Thu Aug 15 21:11:12 EDT 2019" docASTNodeCount="1" docActiveCodeLength="77" docExpressionCount="0" docLength="77" endLine="4" length="3" offset="77" repeat="3" startLine="4" timestamp="1341133" timestamp2="1341446">
+    <text><![CDATA[def]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="412" _type="FileOpenCommand" date="Thu Aug 15 21:11:47 EDT 2019" docASTNodeCount="1" docActiveCodeLength="580" docExpressionCount="0" docLength="580" projectName="test-prolog" timestamp="1376116">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-prolog\src\test.pl]]]]><![CDATA[></filePath>
+  </Command>
+  <Command __id="414" _type="FileOpenCommand" date="Thu Aug 15 21:11:49 EDT 2019" docASTNodeCount="1" docActiveCodeLength="77" docExpressionCount="0" docLength="77" projectName="test-lisp" timestamp="1378384">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-lisp\test.lisp]]]]><![CDATA[></filePath>
+    <snapshot><![CDATA[(setq aCutOff 90)
+(setq bCutOff 80)
+(setq cCutOff 70)
+(setq sCutOff 60)
+(]]]]><![CDATA[></snapshot>
+  </Command>
+  <DocumentChange __id="417" _type="Replace" date="Thu Aug 15 21:11:53 EDT 2019" docASTNodeCount="1" docActiveCodeLength="169" docExpressionCount="0" docLength="169" endLine="4" insertionLength="93" int_docASTNodeCount="1" int_docActiveCodeLength="76" int_docExpressionCount="0" int_docLength="76" length="1" offset="76" startLine="4" timestamp="1382753">
+    <deletedText><![CDATA[(]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[(defun print-arguments-and-return-sum (x1 x2)
+    (print x1)
+    (print x2)
+    (+ x1 x2))]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="420" _type="Replace" date="Thu Aug 15 21:11:59 EDT 2019" docASTNodeCount="1" docActiveCodeLength="140" docExpressionCount="0" docLength="140" endLine="4" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="139" int_docExpressionCount="0" int_docLength="139" length="30" offset="83" startLine="4" timestamp="1388040">
+    <deletedText><![CDATA[print-arguments-and-return-sum]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[a]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="422" _type="Insert" date="Thu Aug 15 21:11:59 EDT 2019" docASTNodeCount="1" docActiveCodeLength="145" docExpressionCount="0" docLength="145" length="5" offset="84" repeat="5" timestamp="1388786" timestamp2="1389460">
+    <text><![CDATA[Grade]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="433" _type="Delete" date="Thu Aug 15 21:12:03 EDT 2019" docASTNodeCount="1" docActiveCodeLength="140" docExpressionCount="0" docLength="140" endLine="4" length="5" offset="91" repeat="5" startLine="4" timestamp="1392908" timestamp2="1393610">
+    <text><![CDATA[x1 x2]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="434" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:12:03 EDT 2019" timestamp="1392909" />
+  <Command __id="435" _type="PredictionCommand" date="Thu Aug 15 21:12:03 EDT 2019" prediction_type="MakingProgress" timestamp="1392937" />
+  <Command __id="437" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:12:04 EDT 2019" repeat="4" timestamp="1393062" timestamp2="1393615" />
+  <DocumentChange __id="444" _type="Insert" date="Thu Aug 15 21:12:05 EDT 2019" docASTNodeCount="1" docActiveCodeLength="145" docExpressionCount="0" docLength="145" length="5" offset="91" repeat="5" timestamp="1394746" timestamp2="1395702">
+    <text><![CDATA[total]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="445" _type="InsertStringCommand" date="Thu Aug 15 21:12:05 EDT 2019" repeat="5" timestamp="1394766" timestamp2="1395708">
+    <data><![CDATA[total]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="454" _type="Delete" date="Thu Aug 15 21:12:10 EDT 2019" docASTNodeCount="1" docActiveCodeLength="140" docExpressionCount="0" docLength="140" endLine="4" length="5" offset="91" repeat="5" startLine="4" timestamp="1399624" timestamp2="1402126">
+    <text><![CDATA[total]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="455" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:12:10 EDT 2019" repeat="5" timestamp="1399629" timestamp2="1402133" />
+  <DocumentChange __id="464" _type="Insert" date="Thu Aug 15 21:12:13 EDT 2019" docASTNodeCount="1" docActiveCodeLength="146" docExpressionCount="0" docLength="146" length="6" offset="91" repeat="6" timestamp="1402327" timestamp2="1403976">
+    <text><![CDATA[aTotal]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="465" _type="InsertStringCommand" date="Thu Aug 15 21:12:13 EDT 2019" repeat="6" timestamp="1402336" timestamp2="1403982">
+    <data><![CDATA[aTotal]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="476" _type="Delete" date="Thu Aug 15 21:12:15 EDT 2019" docASTNodeCount="1" docActiveCodeLength="140" docExpressionCount="0" docLength="140" endLine="4" length="6" offset="91" repeat="6" startLine="4" timestamp="1404584" timestamp2="1405808">
+    <text><![CDATA[aTotal]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="477" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:12:15 EDT 2019" repeat="6" timestamp="1404590" timestamp2="1405812" />
+  <DocumentChange __id="488" _type="Insert" date="Thu Aug 15 21:12:17 EDT 2019" docASTNodeCount="1" docActiveCodeLength="145" docExpressionCount="0" docLength="145" length="5" offset="91" repeat="5" timestamp="1406357" timestamp2="1407303">
+    <text><![CDATA[total]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="489" _type="InsertStringCommand" date="Thu Aug 15 21:12:17 EDT 2019" repeat="5" timestamp="1406367" timestamp2="1407309">
+    <data><![CDATA[total]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="498" _type="MoveCaretCommand" caretOffset="144" date="Thu Aug 15 21:12:24 EDT 2019" docOffset="144" timestamp="1413572" />
+  <DocumentChange __id="499" _type="Insert" date="Thu Aug 15 21:12:25 EDT 2019" docASTNodeCount="1" docActiveCodeLength="149" docExpressionCount="0" docLength="149" length="4" offset="144" timestamp="1414128">
+    <text><![CDATA[
+  ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="500" _type="InsertStringCommand" date="Thu Aug 15 21:12:25 EDT 2019" timestamp="1414134" timestamp2="1414134">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="501" _type="SelectTextCommand" caretOffset="104" date="Thu Aug 15 21:12:28 EDT 2019" end="113" start="104" timestamp="1417548" />
+  <Command __id="502" _type="ShellCommand" date="Thu Aug 15 21:12:32 EDT 2019" timestamp="1421458" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="503" _type="ShellCommand" date="Thu Aug 15 21:13:21 EDT 2019" timestamp="1470461" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="504" _type="MoveCaretCommand" caretOffset="107" date="Thu Aug 15 21:13:24 EDT 2019" docOffset="107" timestamp="1473566" />
+  <Command __id="505" _type="SelectTextCommand" caretOffset="109" date="Thu Aug 15 21:13:24 EDT 2019" end="109" start="104" timestamp="1473854" />
+  <DocumentChange __id="506" _type="Replace" date="Thu Aug 15 21:13:26 EDT 2019" docASTNodeCount="1" docActiveCodeLength="145" docExpressionCount="0" docLength="145" endLine="5" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="144" int_docExpressionCount="0" int_docLength="144" length="5" offset="104" startLine="5" timestamp="1475105">
+    <deletedText><![CDATA[print]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[c]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="508" _type="Insert" date="Thu Aug 15 21:13:26 EDT 2019" docASTNodeCount="1" docActiveCodeLength="148" docExpressionCount="0" docLength="148" length="3" offset="105" repeat="3" timestamp="1475340" timestamp2="1475881">
+    <text><![CDATA[ond]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="510" _type="PredictionCommand" date="Thu Aug 15 21:13:26 EDT 2019" prediction_type="MakingProgress" timestamp="1475394" />
+  <Command __id="512" _type="InsertStringCommand" date="Thu Aug 15 21:13:26 EDT 2019" repeat="2" timestamp="1475620" timestamp2="1475890">
+    <data><![CDATA[nd]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="515" _type="ShellCommand" date="Thu Aug 15 21:13:37 EDT 2019" timestamp="1486027" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="516" _type="ShellCommand" date="Thu Aug 15 21:14:29 EDT 2019" timestamp="1537969" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="517" _type="SelectTextCommand" caretOffset="103" date="Thu Aug 15 21:14:34 EDT 2019" end="112" start="103" timestamp="1543131" />
+  <DocumentChange __id="518" _type="Replace" date="Thu Aug 15 21:14:34 EDT 2019" docASTNodeCount="1" docActiveCodeLength="166" docExpressionCount="0" docLength="166" endLine="5" insertionLength="27" int_docASTNodeCount="1" int_docActiveCodeLength="139" int_docExpressionCount="0" int_docLength="139" length="9" offset="103" startLine="5" timestamp="1543716">
+    <deletedText><![CDATA[(cond x1)]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[(cond (test then) (t else))]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <Command __id="519" _type="PasteCommand" date="Thu Aug 15 21:14:34 EDT 2019" timestamp="1543766" />
+  <Command __id="520" _type="MoveCaretCommand" caretOffset="121" date="Thu Aug 15 21:14:40 EDT 2019" docOffset="121" timestamp="1549494" />
+  <DocumentChange __id="521" _type="Insert" date="Thu Aug 15 21:14:41 EDT 2019" docASTNodeCount="1" docActiveCodeLength="174" docExpressionCount="0" docLength="174" length="8" offset="121" timestamp="1550187">
+    <text><![CDATA[
+      ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="522" _type="InsertStringCommand" date="Thu Aug 15 21:14:41 EDT 2019" timestamp="1550191" timestamp2="1550191">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="523" _type="MoveCaretCommand" caretOffset="112" date="Thu Aug 15 21:14:44 EDT 2019" docOffset="112" timestamp="1553784" />
+  <Command __id="524" _type="SelectTextCommand" caretOffset="114" date="Thu Aug 15 21:14:45 EDT 2019" end="114" start="110" timestamp="1554018" />
+  <DocumentChange __id="525" _type="Replace" date="Thu Aug 15 21:14:50 EDT 2019" docASTNodeCount="1" docActiveCodeLength="171" docExpressionCount="0" docLength="171" endLine="5" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="170" int_docExpressionCount="0" int_docLength="170" length="4" offset="110" startLine="5" timestamp="1559217">
+    <deletedText><![CDATA[test]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[>]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <Command __id="526" _type="InsertStringCommand" date="Thu Aug 15 21:14:50 EDT 2019" timestamp="1559259" timestamp2="1559259">
+    <data><![CDATA[>]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="527" _type="Insert" date="Thu Aug 15 21:14:52 EDT 2019" docASTNodeCount="1" docActiveCodeLength="177" docExpressionCount="0" docLength="177" length="6" offset="111" repeat="6" timestamp="1561934" timestamp2="1563517">
+    <text><![CDATA[ total]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="528" _type="InsertStringCommand" date="Thu Aug 15 21:14:52 EDT 2019" repeat="6" timestamp="1561940" timestamp2="1563525">
+    <data><![CDATA[ total]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="539" _type="Delete" date="Thu Aug 15 21:14:55 EDT 2019" docASTNodeCount="1" docActiveCodeLength="171" docExpressionCount="0" docLength="171" endLine="5" length="6" offset="111" repeat="6" startLine="5" timestamp="1564083" timestamp2="1564859">
+    <text><![CDATA[ total]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="540" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:14:55 EDT 2019" repeat="6" timestamp="1564088" timestamp2="1564863" />
+  <DocumentChange __id="551" _type="Insert" date="Thu Aug 15 21:14:56 EDT 2019" docASTNodeCount="1" docActiveCodeLength="179" docExpressionCount="0" docLength="179" length="8" offset="111" repeat="8" timestamp="1565850" timestamp2="1568271">
+    <text><![CDATA[= total ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="552" _type="InsertStringCommand" date="Thu Aug 15 21:14:56 EDT 2019" repeat="8" timestamp="1565856" timestamp2="1568276">
+    <data><![CDATA[= total ]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="567" _type="Insert" date="Thu Aug 15 21:15:07 EDT 2019" docASTNodeCount="1" docActiveCodeLength="186" docExpressionCount="0" docLength="186" length="7" offset="119" repeat="7" timestamp="1576886" timestamp2="1579089">
+    <text><![CDATA[aCutOff]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="568" _type="InsertStringCommand" date="Thu Aug 15 21:15:07 EDT 2019" repeat="7" timestamp="1576892" timestamp2="1579096">
+    <data><![CDATA[aCutOff]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="581" _type="MoveCaretCommand" caretOffset="127" date="Thu Aug 15 21:15:11 EDT 2019" docOffset="127" timestamp="1580701" />
+  <Command __id="582" _type="SelectTextCommand" caretOffset="131" date="Thu Aug 15 21:15:11 EDT 2019" end="131" start="127" timestamp="1580915" />
+  <DocumentChange __id="583" _type="Delete" date="Thu Aug 15 21:15:12 EDT 2019" docASTNodeCount="1" docActiveCodeLength="182" docExpressionCount="0" docLength="182" endLine="5" length="4" offset="127" startLine="5" timestamp="1581657">
+    <text><![CDATA[then]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="584" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:15:12 EDT 2019" timestamp="1581699" />
+  <Command __id="585" _type="MoveCaretCommand" caretOffset="129" date="Thu Aug 15 21:15:16 EDT 2019" docOffset="129" timestamp="1584996" />
+  <DocumentChange __id="586" _type="Insert" date="Thu Aug 15 21:15:17 EDT 2019" docASTNodeCount="1" docActiveCodeLength="187" docExpressionCount="0" docLength="187" length="5" offset="129" repeat="5" timestamp="1586374" timestamp2="1588155">
+    <text><![CDATA[true)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="587" _type="InsertStringCommand" date="Thu Aug 15 21:15:17 EDT 2019" repeat="5" timestamp="1586386" timestamp2="1588160">
+    <data><![CDATA[true)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="596" _type="MoveCaretCommand" caretOffset="142" date="Thu Aug 15 21:15:23 EDT 2019" docOffset="142" timestamp="1592315" />
+  <DocumentChange __id="597" _type="Delete" date="Thu Aug 15 21:15:25 EDT 2019" docASTNodeCount="1" docActiveCodeLength="186" docExpressionCount="0" docLength="186" endLine="6" length="1" offset="141" startLine="6" timestamp="1594081">
+    <text><![CDATA[ ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="598" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:15:25 EDT 2019" timestamp="1594087" />
+  <Command __id="599" _type="PredictionCommand" date="Thu Aug 15 21:15:25 EDT 2019" prediction_type="MakingProgress" timestamp="1594095" />
+  <Command __id="600" _type="MoveCaretCommand" caretOffset="145" date="Thu Aug 15 21:15:26 EDT 2019" docOffset="145" timestamp="1595557" />
+  <Command __id="601" _type="SelectTextCommand" caretOffset="148" date="Thu Aug 15 21:15:26 EDT 2019" end="148" start="144" timestamp="1595815" />
+  <DocumentChange __id="602" _type="Replace" date="Thu Aug 15 21:15:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="183" docExpressionCount="0" docLength="183" endLine="6" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="182" int_docExpressionCount="0" int_docLength="182" length="4" offset="144" startLine="6" timestamp="1596351">
+    <deletedText><![CDATA[else]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[f]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <Command __id="603" _type="InsertStringCommand" date="Thu Aug 15 21:15:27 EDT 2019" repeat="5" timestamp="1596388" timestamp2="1596950">
+    <data><![CDATA[false]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="604" _type="Insert" date="Thu Aug 15 21:15:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="187" docExpressionCount="0" docLength="187" length="4" offset="145" repeat="4" timestamp="1596469" timestamp2="1596940">
+    <text><![CDATA[alse]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="612" _type="SelectTextCommand" caretOffset="157" date="Thu Aug 15 21:15:30 EDT 2019" end="182" start="157" timestamp="1599628" />
+  <DocumentChange __id="613" _type="Delete" date="Thu Aug 15 21:15:31 EDT 2019" docASTNodeCount="1" docActiveCodeLength="162" docExpressionCount="0" docLength="162" endLine="8" length="25" offset="157" startLine="7" timestamp="1600139">
+    <text><![CDATA[(print x2)
+    (+ x1 x2)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="614" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu Aug 15 21:15:31 EDT 2019" timestamp="1600186" />
+  <Command __id="615" _type="MoveCaretCommand" caretOffset="150" date="Thu Aug 15 21:15:35 EDT 2019" docOffset="150" timestamp="1604720" />
+  <DocumentChange __id="616" _type="Insert" date="Thu Aug 15 21:15:36 EDT 2019" docASTNodeCount="1" docActiveCodeLength="169" docExpressionCount="0" docLength="169" length="7" offset="150" repeat="4" timestamp="1605815" timestamp2="1607028">
+    <text><![CDATA[
+     ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="617" _type="InsertStringCommand" date="Thu Aug 15 21:15:36 EDT 2019" timestamp="1605824" timestamp2="1605824">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="619" _type="InsertStringCommand" date="Thu Aug 15 21:15:37 EDT 2019" repeat="3" timestamp="1606644" timestamp2="1607034">
+    <data><![CDATA[   ]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="624" _type="Delete" date="Thu Aug 15 21:15:39 EDT 2019" docASTNodeCount="1" docActiveCodeLength="168" docExpressionCount="0" docLength="168" endLine="7" length="1" offset="156" startLine="7" timestamp="1608137">
+    <text><![CDATA[ ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="625" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:15:39 EDT 2019" timestamp="1608142" />
+  <Command __id="626" _type="ShellCommand" date="Thu Aug 15 21:15:48 EDT 2019" timestamp="1617334" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="627" _type="ShellCommand" date="Thu Aug 15 21:15:53 EDT 2019" timestamp="1622052" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="628" _type="MoveCaretCommand" caretOffset="157" date="Thu Aug 15 21:16:06 EDT 2019" docOffset="157" timestamp="1635425" />
+  <DocumentChange __id="629" _type="Delete" date="Thu Aug 15 21:16:07 EDT 2019" docASTNodeCount="1" docActiveCodeLength="166" docExpressionCount="0" docLength="166" endLine="8" length="2" offset="157" startLine="7" timestamp="1636462">
+    <text><![CDATA[
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="630" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu Aug 15 21:16:07 EDT 2019" timestamp="1636496" />
+  <Command __id="631" _type="MoveCaretCommand" caretOffset="166" date="Thu Aug 15 21:16:16 EDT 2019" docOffset="166" timestamp="1645182" />
+  <DocumentChange __id="632" _type="Delete" date="Thu Aug 15 21:16:16 EDT 2019" docASTNodeCount="1" docActiveCodeLength="165" docExpressionCount="0" docLength="165" endLine="8" length="1" offset="165" startLine="8" timestamp="1645604">
+    <text><![CDATA[)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="633" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:16:16 EDT 2019" timestamp="1645609" />
+  <Command __id="634" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:16:18 EDT 2019" timestamp="1647242" />
+  <Command __id="635" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:16:55 EDT 2019" timestamp="1684830" />
+  <Command __id="636" _type="ShellCommand" date="Thu Aug 15 21:16:55 EDT 2019" timestamp="1684935" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="637" _type="ShellCommand" date="Thu Aug 15 21:17:00 EDT 2019" timestamp="1689510" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="638" _type="MoveCaretCommand" caretOffset="160" date="Thu Aug 15 21:17:04 EDT 2019" docOffset="160" timestamp="1693141" />
+  <DocumentChange __id="639" _type="Delete" date="Thu Aug 15 21:17:05 EDT 2019" docASTNodeCount="1" docActiveCodeLength="164" docExpressionCount="0" docLength="164" endLine="7" length="1" offset="160" startLine="7" timestamp="1694052">
+    <text><![CDATA[ ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="640" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu Aug 15 21:17:05 EDT 2019" timestamp="1694092" />
+  <Command __id="641" _type="PredictionCommand" date="Thu Aug 15 21:17:05 EDT 2019" prediction_type="MakingProgress" timestamp="1694096" />
+  <Command __id="642" _type="MoveCaretCommand" caretOffset="159" date="Thu Aug 15 21:17:06 EDT 2019" docOffset="159" timestamp="1695909" />
+  <DocumentChange __id="643" _type="Delete" date="Thu Aug 15 21:17:07 EDT 2019" docASTNodeCount="1" docActiveCodeLength="161" docExpressionCount="0" docLength="161" endLine="8" length="3" offset="159" repeat="2" startLine="7" timestamp="1696694" timestamp2="1697200">
+    <text><![CDATA[ 
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="644" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu Aug 15 21:17:07 EDT 2019" repeat="2" timestamp="1696719" timestamp2="1697219" />
+  <Command __id="647" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:17:09 EDT 2019" timestamp="1698535" />
+  <Command __id="648" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:17:11 EDT 2019" timestamp="1700906" />
+  <Command __id="649" _type="ShellCommand" date="Thu Aug 15 21:17:12 EDT 2019" timestamp="1701063" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="650" _type="ShellCommand" date="Thu Aug 15 21:17:15 EDT 2019" timestamp="1704323" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="651" _type="ShellCommand" date="Thu Aug 15 21:17:30 EDT 2019" timestamp="1718993" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="652" _type="ShellCommand" date="Thu Aug 15 21:17:54 EDT 2019" timestamp="1743196" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="653" _type="MoveCaretCommand" caretOffset="127" date="Thu Aug 15 21:17:58 EDT 2019" docOffset="127" timestamp="1747717" />
+  <DocumentChange __id="654" _type="Delete" date="Thu Aug 15 21:17:59 EDT 2019" docASTNodeCount="1" docActiveCodeLength="160" docExpressionCount="0" docLength="160" endLine="5" length="1" offset="126" startLine="5" timestamp="1748262">
+    <text><![CDATA[ ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="655" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:17:59 EDT 2019" timestamp="1748268" />
+  <Command __id="656" _type="MoveCaretCommand" caretOffset="158" date="Thu Aug 15 21:18:10 EDT 2019" docOffset="158" timestamp="1759533" />
+  <Command __id="657" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:18:12 EDT 2019" timestamp="1761360" />
+  <Command __id="658" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:18:18 EDT 2019" timestamp="1767745" />
+  <Command __id="659" _type="ShellCommand" date="Thu Aug 15 21:18:18 EDT 2019" timestamp="1767844" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="660" _type="ShellCommand" date="Thu Aug 15 21:18:22 EDT 2019" timestamp="1771208" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="661" _type="MoveCaretCommand" caretOffset="140" date="Thu Aug 15 21:18:40 EDT 2019" docOffset="140" timestamp="1789648" />
+  <DocumentChange __id="662" _type="Delete" date="Thu Aug 15 21:18:41 EDT 2019" docASTNodeCount="1" docActiveCodeLength="159" docExpressionCount="0" docLength="159" endLine="6" length="1" offset="139" startLine="6" timestamp="1790326">
+    <text><![CDATA[ ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="663" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:18:41 EDT 2019" timestamp="1790347" />
+  <Command __id="664" _type="MoveCaretCommand" caretOffset="154" date="Thu Aug 15 21:18:43 EDT 2019" docOffset="154" timestamp="1792766" />
+  <DocumentChange __id="665" _type="Delete" date="Thu Aug 15 21:18:44 EDT 2019" docASTNodeCount="1" docActiveCodeLength="156" docExpressionCount="0" docLength="156" endLine="7" length="3" offset="151" repeat="3" startLine="7" timestamp="1793205" timestamp2="1794240">
+    <text><![CDATA[   ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="666" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:18:44 EDT 2019" repeat="3" timestamp="1793211" timestamp2="1794244" />
+  <Command __id="671" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:18:47 EDT 2019" timestamp="1796940" />
+  <Command __id="672" _type="ShellCommand" date="Thu Aug 15 21:19:02 EDT 2019" timestamp="1810999" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="673" _type="ShellCommand" date="Thu Aug 15 21:19:23 EDT 2019" timestamp="1832485" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="674" _type="MoveCaretCommand" caretOffset="109" date="Thu Aug 15 21:19:28 EDT 2019" docOffset="109" timestamp="1837243" />
+  <Command __id="675" _type="MoveCaretCommand" caretOffset="110" date="Thu Aug 15 21:19:29 EDT 2019" docOffset="110" timestamp="1838081" />
+  <DocumentChange __id="676" _type="Delete" date="Thu Aug 15 21:19:29 EDT 2019" docASTNodeCount="1" docActiveCodeLength="155" docExpressionCount="0" docLength="155" endLine="5" length="1" offset="109" startLine="5" timestamp="1838565">
+    <text><![CDATA[(]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="677" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:19:29 EDT 2019" timestamp="1838589" />
+  <Command __id="678" _type="PredictionCommand" date="Thu Aug 15 21:19:29 EDT 2019" prediction_type="MakingProgress" timestamp="1838597" />
+  <Command __id="679" _type="MoveCaretCommand" caretOffset="126" date="Thu Aug 15 21:19:31 EDT 2019" docOffset="126" timestamp="1840653" />
+  <Command __id="680" _type="MoveCaretCommand" caretOffset="109" date="Thu Aug 15 21:19:35 EDT 2019" docOffset="109" timestamp="1843955" />
+  <Command __id="682" _type="InsertStringCommand" date="Thu Aug 15 21:19:36 EDT 2019" timestamp="1845424" timestamp2="1845424">
+    <data><![CDATA[(]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="683" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Thu Aug 15 21:19:36 EDT 2019" start_end="START" timestamp="1845927" />
+  <Command __id="684" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:19:39 EDT 2019" timestamp="1848124" />
+  <Command __id="685" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Thu Aug 15 21:19:39 EDT 2019" start_end="END" timestamp="1848165" />
+  <Command __id="686" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalSelection" date="Thu Aug 15 21:19:43 EDT 2019" timestamp="1852422" />
+  <Command __id="687" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:19:47 EDT 2019" timestamp="1856252" />
+  <Command __id="688" _type="ShellCommand" date="Thu Aug 15 21:19:47 EDT 2019" timestamp="1856365" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="689" _type="ShellCommand" date="Thu Aug 15 21:19:53 EDT 2019" timestamp="1862821" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="690" _type="MoveCaretCommand" caretOffset="130" date="Thu Aug 15 21:20:18 EDT 2019" docOffset="130" timestamp="1887116" />
+  <Command __id="691" _type="SelectTextCommand" caretOffset="132" date="Thu Aug 15 21:20:18 EDT 2019" end="132" start="128" timestamp="1887343" />
+  <Command __id="693" _type="InsertStringCommand" date="Thu Aug 15 21:20:19 EDT 2019" timestamp="1888095" timestamp2="1888095">
+    <data><![CDATA[0]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="694" _type="MoveCaretCommand" caretOffset="142" date="Thu Aug 15 21:20:20 EDT 2019" docOffset="142" timestamp="1889737" />
+  <Command __id="695" _type="SelectTextCommand" caretOffset="144" date="Thu Aug 15 21:20:20 EDT 2019" end="144" start="139" timestamp="1889938" />
+  <Command __id="697" _type="InsertStringCommand" date="Thu Aug 15 21:20:23 EDT 2019" timestamp="1892421" timestamp2="1892421">
+    <data><![CDATA[1]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="698" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:20:25 EDT 2019" timestamp="1894103" />
+  <Command __id="699" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:20:30 EDT 2019" timestamp="1899416" />
+  <Command __id="700" _type="ShellCommand" date="Thu Aug 15 21:20:30 EDT 2019" timestamp="1899515" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="701" _type="ShellCommand" date="Thu Aug 15 21:20:34 EDT 2019" timestamp="1903830" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="702" _type="MoveCaretCommand" caretOffset="130" date="Thu Aug 15 21:20:42 EDT 2019" docOffset="130" timestamp="1911266" />
+  <Command __id="704" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:20:42 EDT 2019" timestamp="1911785" />
+  <Command __id="705" _type="MoveCaretCommand" caretOffset="148" date="Thu Aug 15 21:20:46 EDT 2019" docOffset="148" timestamp="1915723" />
+  <Command __id="706" _type="MoveCaretCommand" caretOffset="145" date="Thu Aug 15 21:20:51 EDT 2019" docOffset="145" timestamp="1920715" />
+  <Command __id="708" _type="InsertStringCommand" date="Thu Aug 15 21:20:53 EDT 2019" timestamp="1922790" timestamp2="1922790">
+    <data><![CDATA[)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="709" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:20:56 EDT 2019" timestamp="1925149" />
+  <Command __id="710" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:21:05 EDT 2019" timestamp="1934273" />
+  <Command __id="711" _type="ShellCommand" date="Thu Aug 15 21:21:05 EDT 2019" timestamp="1934375" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="712" _type="ShellCommand" date="Thu Aug 15 21:21:07 EDT 2019" timestamp="1936596" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="713" _type="ShellCommand" date="Thu Aug 15 21:21:11 EDT 2019" timestamp="1940410" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="714" _type="PredictionCommand" date="Thu Aug 15 21:21:11 EDT 2019" prediction_type="MakingProgress" timestamp="1940416" />
+  <Command __id="715" _type="ShellCommand" date="Thu Aug 15 21:22:29 EDT 2019" timestamp="2018501" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="716" _type="ShellCommand" date="Thu Aug 15 21:22:41 EDT 2019" timestamp="2030110" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="717" _type="ShellCommand" date="Thu Aug 15 21:22:53 EDT 2019" timestamp="2042350" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="718" _type="MoveCaretCommand" caretOffset="109" date="Thu Aug 15 21:22:55 EDT 2019" docOffset="109" timestamp="2044328" />
+  <Command __id="720" _type="InsertStringCommand" date="Thu Aug 15 21:22:56 EDT 2019" timestamp="2045321" timestamp2="2045321">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="722" _type="InsertStringCommand" date="Thu Aug 15 21:23:23 EDT 2019" timestamp="2072090" timestamp2="2072090">
+    <data><![CDATA[(]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="723" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Thu Aug 15 21:23:23 EDT 2019" start_end="START" timestamp="2072581" />
+  <DocumentChange __id="681" _type="Insert" date="Thu Aug 15 21:19:36 EDT 2019" docASTNodeCount="1" docActiveCodeLength="156" docExpressionCount="0" docLength="156" length="1" offset="109" timestamp="1845415">
+    <text><![CDATA[(]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="692" _type="Replace" date="Thu Aug 15 21:20:19 EDT 2019" docASTNodeCount="1" docActiveCodeLength="153" docExpressionCount="0" docLength="153" endLine="5" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="152" int_docExpressionCount="0" int_docLength="152" length="4" offset="128" startLine="5" timestamp="1888058">
+    <deletedText><![CDATA[true]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[0]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="696" _type="Replace" date="Thu Aug 15 21:20:23 EDT 2019" docASTNodeCount="1" docActiveCodeLength="149" docExpressionCount="0" docLength="149" endLine="6" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="148" int_docExpressionCount="0" int_docLength="148" length="5" offset="139" startLine="6" timestamp="1892391">
+    <deletedText><![CDATA[false]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[1]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="703" _type="Delete" date="Thu Aug 15 21:20:42 EDT 2019" docASTNodeCount="1" docActiveCodeLength="148" docExpressionCount="0" docLength="148" endLine="5" length="1" offset="129" startLine="5" timestamp="1911763">
+    <text><![CDATA[)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="707" _type="Insert" date="Thu Aug 15 21:20:53 EDT 2019" docASTNodeCount="1" docActiveCodeLength="149" docExpressionCount="0" docLength="149" length="1" offset="145" timestamp="1922783">
+    <text><![CDATA[)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="719" _type="Insert" date="Thu Aug 15 21:22:56 EDT 2019" docASTNodeCount="1" docActiveCodeLength="157" docExpressionCount="0" docLength="157" length="8" offset="109" timestamp="2045318">
+    <text><![CDATA[
+      ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="721" _type="Insert" date="Thu Aug 15 21:23:23 EDT 2019" docASTNodeCount="1" docActiveCodeLength="158" docExpressionCount="0" docLength="158" length="1" offset="117" timestamp="2072083">
+    <text><![CDATA[(]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="725" _type="Insert" date="Thu Aug 15 21:23:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="159" docExpressionCount="0" docLength="159" length="1" offset="138" timestamp="2076702">
+    <text><![CDATA[)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="728" _type="Insert" date="Thu Aug 15 21:23:35 EDT 2019" docASTNodeCount="1" docActiveCodeLength="162" docExpressionCount="0" docLength="162" length="3" offset="145" repeat="3" timestamp="2084418" timestamp2="2085158">
+    <text><![CDATA[   ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="724" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Thu Aug 15 21:23:26 EDT 2019" start_end="END" timestamp="2075700" />
+  <Command __id="726" _type="InsertStringCommand" date="Thu Aug 15 21:23:27 EDT 2019" timestamp="2076707" timestamp2="2076707">
+    <data><![CDATA[)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="727" _type="MoveCaretCommand" caretOffset="145" date="Thu Aug 15 21:23:34 EDT 2019" docOffset="145" timestamp="2083398" />
+  <Command __id="729" _type="InsertStringCommand" date="Thu Aug 15 21:23:35 EDT 2019" repeat="3" timestamp="2084424" timestamp2="2085169">
+    <data><![CDATA[   ]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="735" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:23:37 EDT 2019" timestamp="2086075" />
+  <Command __id="736" _type="ShellCommand" date="Thu Aug 15 21:23:41 EDT 2019" timestamp="2090843" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="737" _type="ShellCommand" date="Thu Aug 15 21:23:52 EDT 2019" timestamp="2101139" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="738" _type="MoveCaretCommand" caretOffset="156" date="Thu Aug 15 21:23:58 EDT 2019" docOffset="156" timestamp="2107564" />
+  <Command __id="739" _type="MoveCaretCommand" caretOffset="155" date="Thu Aug 15 21:24:01 EDT 2019" docOffset="155" timestamp="2110118" />
+  <Command __id="741" _type="InsertStringCommand" date="Thu Aug 15 21:24:01 EDT 2019" repeat="3" timestamp="2110531" timestamp2="2110932">
+    <data><![CDATA[   ]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="746" _type="MoveCaretCommand" caretOffset="160" date="Thu Aug 15 21:24:03 EDT 2019" docOffset="160" timestamp="2112856" />
+  <Command __id="748" _type="InsertStringCommand" date="Thu Aug 15 21:24:04 EDT 2019" timestamp="2113447" timestamp2="2113447">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="750" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:24:05 EDT 2019" timestamp="2114692" />
+  <Command __id="751" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:24:11 EDT 2019" timestamp="2120880" />
+  <Command __id="752" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:24:15 EDT 2019" timestamp="2124859" />
+  <Command __id="753" _type="MoveCaretCommand" caretOffset="138" date="Thu Aug 15 21:24:30 EDT 2019" docOffset="138" timestamp="2139307" />
+  <Command __id="755" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:24:31 EDT 2019" timestamp="2140207" />
+  <Command __id="757" _type="InsertStringCommand" date="Thu Aug 15 21:24:31 EDT 2019" repeat="3" timestamp="2140745" timestamp2="2141509">
+    <data><![CDATA[tre]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="734" _type="Delete" date="Thu Aug 15 21:23:37 EDT 2019" docASTNodeCount="1" docActiveCodeLength="161" docExpressionCount="0" docLength="161" endLine="7" length="1" offset="147" startLine="7" timestamp="2086068">
+    <text><![CDATA[ ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="740" _type="Insert" date="Thu Aug 15 21:24:01 EDT 2019" docASTNodeCount="1" docActiveCodeLength="164" docExpressionCount="0" docLength="164" length="3" offset="155" repeat="3" timestamp="2110526" timestamp2="2110926">
+    <text><![CDATA[   ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="747" _type="Insert" date="Thu Aug 15 21:24:04 EDT 2019" docASTNodeCount="1" docActiveCodeLength="168" docExpressionCount="0" docLength="168" length="4" offset="160" timestamp="2113440">
+    <text><![CDATA[
+  ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="749" _type="Delete" date="Thu Aug 15 21:24:05 EDT 2019" docASTNodeCount="1" docActiveCodeLength="167" docExpressionCount="0" docLength="167" endLine="9" length="1" offset="163" startLine="9" timestamp="2114689">
+    <text><![CDATA[ ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="754" _type="Delete" date="Thu Aug 15 21:24:31 EDT 2019" docASTNodeCount="1" docActiveCodeLength="166" docExpressionCount="0" docLength="166" endLine="6" length="1" offset="137" startLine="6" timestamp="2140183">
+    <text><![CDATA[0]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="756" _type="Insert" date="Thu Aug 15 21:24:31 EDT 2019" docASTNodeCount="1" docActiveCodeLength="169" docExpressionCount="0" docLength="169" length="3" offset="137" repeat="3" timestamp="2140739" timestamp2="2141501">
+    <text><![CDATA[tre]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="762" _type="Delete" date="Thu Aug 15 21:24:33 EDT 2019" docASTNodeCount="1" docActiveCodeLength="168" docExpressionCount="0" docLength="168" endLine="6" length="1" offset="139" startLine="6" timestamp="2141988">
+    <text><![CDATA[e]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="765" _type="Insert" date="Thu Aug 15 21:24:33 EDT 2019" docASTNodeCount="1" docActiveCodeLength="170" docExpressionCount="0" docLength="170" length="2" offset="139" repeat="2" timestamp="2142310" timestamp2="2142389">
+    <text><![CDATA[ue]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="770" _type="Delete" date="Thu Aug 15 21:24:37 EDT 2019" docASTNodeCount="1" docActiveCodeLength="169" docExpressionCount="0" docLength="169" endLine="7" length="1" offset="153" startLine="7" timestamp="2146228">
+    <text><![CDATA[1]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="763" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:24:33 EDT 2019" timestamp="2141993" />
+  <Command __id="764" _type="PredictionCommand" date="Thu Aug 15 21:24:33 EDT 2019" prediction_type="MakingProgress" timestamp="2142002" />
+  <Command __id="766" _type="InsertStringCommand" date="Thu Aug 15 21:24:33 EDT 2019" repeat="2" timestamp="2142316" timestamp2="2142396">
+    <data><![CDATA[ue]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="769" _type="MoveCaretCommand" caretOffset="154" date="Thu Aug 15 21:24:35 EDT 2019" docOffset="154" timestamp="2143979" />
+  <Command __id="771" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:24:37 EDT 2019" timestamp="2146232" />
+  <Command __id="773" _type="InsertStringCommand" date="Thu Aug 15 21:24:38 EDT 2019" repeat="5" timestamp="2146995" timestamp2="2147610">
+    <data><![CDATA[false]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="782" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:24:39 EDT 2019" timestamp="2148431" />
+  <Command __id="783" _type="MoveCaretCommand" caretOffset="174" date="Thu Aug 15 21:25:26 EDT 2019" docOffset="174" timestamp="2195582" />
+  <Command __id="784" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:25:28 EDT 2019" timestamp="2197940" />
+  <Command __id="785" _type="MoveCaretCommand" caretOffset="172" date="Thu Aug 15 21:27:22 EDT 2019" docOffset="172" timestamp="2311873" />
+  <Command __id="786" _type="SelectTextCommand" caretOffset="76" date="Thu Aug 15 21:27:25 EDT 2019" end="172" start="76" timestamp="2314003" />
+  <Command __id="787" _type="CopyCommand" date="Thu Aug 15 21:27:25 EDT 2019" timestamp="2314614" />
+  <Command __id="788" _type="MoveCaretCommand" caretOffset="172" date="Thu Aug 15 21:27:26 EDT 2019" docOffset="172" timestamp="2315809" />
+  <Command __id="790" _type="InsertStringCommand" date="Thu Aug 15 21:27:27 EDT 2019" timestamp="2316494" timestamp2="2316494">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="792" _type="PasteCommand" date="Thu Aug 15 21:27:28 EDT 2019" timestamp="2317358" />
+  <Command __id="793" _type="MoveCaretCommand" caretOffset="182" date="Thu Aug 15 21:27:30 EDT 2019" docOffset="182" timestamp="2319192" />
+  <Command __id="795" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:27:30 EDT 2019" timestamp="2319796" />
+  <Command __id="797" _type="InsertStringCommand" date="Thu Aug 15 21:27:31 EDT 2019" timestamp="2320612" timestamp2="2320612">
+    <data><![CDATA[b]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="798" _type="MoveCaretCommand" caretOffset="227" date="Thu Aug 15 21:27:36 EDT 2019" docOffset="227" timestamp="2325077" />
+  <Command __id="799" _type="PredictionCommand" date="Thu Aug 15 21:27:36 EDT 2019" prediction_type="MakingProgress" timestamp="2325082" />
+  <Command __id="801" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:27:36 EDT 2019" timestamp="2325717" />
+  <Command __id="803" _type="InsertStringCommand" date="Thu Aug 15 21:27:37 EDT 2019" timestamp="2326486" timestamp2="2326486">
+    <data><![CDATA[b]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="804" _type="MoveCaretCommand" caretOffset="216" date="Thu Aug 15 21:27:42 EDT 2019" docOffset="216" timestamp="2331450" />
+  <Command __id="806" _type="InsertStringCommand" date="Thu Aug 15 21:27:43 EDT 2019" timestamp="2332730" timestamp2="2332730">
+    <data><![CDATA[(]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="807" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Thu Aug 15 21:27:44 EDT 2019" start_end="START" timestamp="2333220" />
+  <Command __id="808" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Thu Aug 15 21:27:45 EDT 2019" start_end="END" timestamp="2334686" />
+  <Command __id="810" _type="InsertStringCommand" date="Thu Aug 15 21:27:46 EDT 2019" repeat="4" timestamp="2335816" timestamp2="2338558">
+    <data><![CDATA[ & (]]]]><![CDATA[></data>
+  </Command>
+  <DocumentChange __id="772" _type="Insert" date="Thu Aug 15 21:24:38 EDT 2019" docASTNodeCount="1" docActiveCodeLength="174" docExpressionCount="0" docLength="174" length="5" offset="153" repeat="5" timestamp="2146973" timestamp2="2147606">
+    <text><![CDATA[false]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="789" _type="Insert" date="Thu Aug 15 21:27:27 EDT 2019" docASTNodeCount="1" docActiveCodeLength="272" docExpressionCount="0" docLength="272" length="98" offset="172" repeat="2" timestamp="2316490" timestamp2="2317333">
+    <text><![CDATA[
+(defun aGrade (total)
+    (cond 
+      ((>= total aCutOff) true)
+      (t false)
+    ) 
+ ) ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="794" _type="Delete" date="Thu Aug 15 21:27:30 EDT 2019" docASTNodeCount="1" docActiveCodeLength="271" docExpressionCount="0" docLength="271" endLine="10" length="1" offset="181" startLine="10" timestamp="2319793">
+    <text><![CDATA[a]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="796" _type="Insert" date="Thu Aug 15 21:27:31 EDT 2019" docASTNodeCount="1" docActiveCodeLength="272" docExpressionCount="0" docLength="272" length="1" offset="181" timestamp="2320606">
+    <text><![CDATA[b]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="800" _type="Delete" date="Thu Aug 15 21:27:36 EDT 2019" docASTNodeCount="1" docActiveCodeLength="271" docExpressionCount="0" docLength="271" endLine="12" length="1" offset="226" startLine="12" timestamp="2325716">
+    <text><![CDATA[a]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="802" _type="Insert" date="Thu Aug 15 21:27:37 EDT 2019" docASTNodeCount="1" docActiveCodeLength="272" docExpressionCount="0" docLength="272" length="1" offset="226" timestamp="2326480">
+    <text><![CDATA[b]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="805" _type="Insert" date="Thu Aug 15 21:27:43 EDT 2019" docASTNodeCount="1" docActiveCodeLength="273" docExpressionCount="0" docLength="273" length="1" offset="216" timestamp="2332722">
+    <text><![CDATA[(]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="809" _type="Insert" date="Thu Aug 15 21:27:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="283" docExpressionCount="0" docLength="283" length="10" offset="235" repeat="10" timestamp="2335810" timestamp2="2342687">
+    <text><![CDATA[ & (< ttal]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="829" _type="Delete" date="Thu Aug 15 21:27:54 EDT 2019" docASTNodeCount="1" docActiveCodeLength="280" docExpressionCount="0" docLength="280" endLine="12" length="3" offset="242" repeat="3" startLine="12" timestamp="2343838" timestamp2="2344223">
+    <text><![CDATA[tal]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="861" _type="UndoCommand" date="Thu Aug 15 21:30:28 EDT 2019" timestamp="2497810" />
+  <Command __id="863" _type="MoveCaretCommand" caretOffset="247" date="Thu Aug 15 21:31:32 EDT 2019" docOffset="247" timestamp="2561373" />
+  <Command __id="865" _type="InsertStringCommand" date="Thu Aug 15 21:31:43 EDT 2019" repeat="8" timestamp="2572878" timestamp2="2576515">
+    <data><![CDATA[aCutOff)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="880" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:31:55 EDT 2019" timestamp="2584480" />
+  <Command __id="882" _type="InsertStringCommand" date="Thu Aug 15 21:32:08 EDT 2019" timestamp="2597124" timestamp2="2597124">
+    <data><![CDATA[)]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="883" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:32:09 EDT 2019" timestamp="2598834" />
+  <Command __id="884" _type="ShellCommand" date="Thu Aug 15 21:32:14 EDT 2019" timestamp="2603246" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="885" _type="ShellCommand" date="Thu Aug 15 21:32:36 EDT 2019" timestamp="2625915" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="886" _type="MoveCaretCommand" caretOffset="238" date="Thu Aug 15 21:32:40 EDT 2019" docOffset="238" timestamp="2629040" />
+  <DocumentChange __id="835" _type="Insert" date="Thu Aug 15 21:27:55 EDT 2019" docASTNodeCount="1" docActiveCodeLength="285" docExpressionCount="0" docLength="285" length="5" offset="242" repeat="5" timestamp="2344779" timestamp2="2345970">
+    <text><![CDATA[otal ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="845" _type="FileOpenCommand" date="Thu Aug 15 21:29:59 EDT 2019" docASTNodeCount="1" docActiveCodeLength="580" docExpressionCount="0" docLength="580" projectName="test-prolog" timestamp="2467970">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-prolog\src\test.pl]]]]><![CDATA[></filePath>
+  </Command>
+  <DocumentChange __id="848" _type="Insert" date="Thu Aug 15 21:30:05 EDT 2019" docASTNodeCount="1" docActiveCodeLength="582" docExpressionCount="0" docLength="582" length="2" offset="54" timestamp="2474224">
+    <text><![CDATA[
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="850" _type="Insert" date="Thu Aug 15 21:30:11 EDT 2019" docASTNodeCount="1" docActiveCodeLength="587" docExpressionCount="0" docLength="587" length="5" offset="56" repeat="5" timestamp="2480344" timestamp2="2480922">
+    <text><![CDATA[grade]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="860" _type="Delete" date="Thu Aug 15 21:30:28 EDT 2019" docASTNodeCount="1" docActiveCodeLength="580" docExpressionCount="0" docLength="580" endLine="4" length="7" offset="54" startLine="3" timestamp="2497790">
+    <text><![CDATA[
+grade]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="862" _type="FileOpenCommand" date="Thu Aug 15 21:31:32 EDT 2019" docASTNodeCount="1" docActiveCodeLength="285" docExpressionCount="0" docLength="285" projectName="test-lisp" timestamp="2561278">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-lisp\test.lisp]]]]><![CDATA[></filePath>
+    <snapshot><![CDATA[(setq aCutOff 90)
+(setq bCutOff 80)
+(setq cCutOff 70)
+(setq sCutOff 60)
+(defun aGrade (total)
+    (cond 
+      ((>= total aCutOff) true)
+      (t false)
+    ) 
+ ) 
+(defun bGrade (total)
+    (cond 
+      (((>= total bCutOff) & (< total  true)
+      (t false)
+    ) 
+ )   ]]]]><![CDATA[></snapshot>
+  </Command>
+  <DocumentChange __id="864" _type="Insert" date="Thu Aug 15 21:31:43 EDT 2019" docASTNodeCount="1" docActiveCodeLength="293" docExpressionCount="0" docLength="293" length="8" offset="247" repeat="8" timestamp="2572872" timestamp2="2576510">
+    <text><![CDATA[aCutOff)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="881" _type="Insert" date="Thu Aug 15 21:32:08 EDT 2019" docASTNodeCount="1" docActiveCodeLength="294" docExpressionCount="0" docLength="294" length="1" offset="255" timestamp="2597121">
+    <text><![CDATA[)]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="887" _type="Delete" date="Thu Aug 15 21:32:40 EDT 2019" docASTNodeCount="1" docActiveCodeLength="291" docExpressionCount="0" docLength="291" endLine="12" length="3" offset="235" repeat="3" startLine="12" timestamp="2629710" timestamp2="2630576">
+    <text><![CDATA[ & ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <Command __id="888" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:32:40 EDT 2019" timestamp="2629736" />
+  <Command __id="889" _type="PredictionCommand" date="Thu Aug 15 21:32:40 EDT 2019" prediction_type="MakingProgress" timestamp="2629781" />
+  <Command __id="891" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 15 21:32:40 EDT 2019" repeat="2" timestamp="2629909" timestamp2="2630580" />
+  <Command __id="894" _type="MoveCaretCommand" caretOffset="217" date="Thu Aug 15 21:32:44 EDT 2019" docOffset="217" timestamp="2633541" />
+  <Command __id="896" _type="InsertStringCommand" date="Thu Aug 15 21:32:44 EDT 2019" repeat="4" timestamp="2633885" timestamp2="2634411">
+    <data><![CDATA[and ]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="903" _type="MoveCaretCommand" caretOffset="295" date="Thu Aug 15 21:32:47 EDT 2019" docOffset="295" timestamp="2636875" />
+  <Command __id="904" _type="ShellCommand" date="Thu Aug 15 21:33:00 EDT 2019" timestamp="2649291" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="905" _type="ShellCommand" date="Thu Aug 15 21:33:08 EDT 2019" timestamp="2657581" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="906" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:33:10 EDT 2019" timestamp="2659500" />
+  <Command __id="907" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:33:14 EDT 2019" timestamp="2663119" />
+  <Command __id="908" _type="ShellCommand" date="Thu Aug 15 21:33:28 EDT 2019" timestamp="2677301" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="909" _type="ShellCommand" date="Thu Aug 15 21:33:32 EDT 2019" timestamp="2681649" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="910" _type="ShellCommand" date="Thu Aug 15 21:33:34 EDT 2019" timestamp="2683431" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="911" _type="ShellCommand" date="Thu Aug 15 21:33:34 EDT 2019" timestamp="2683872" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="912" _type="MoveCaretCommand" caretOffset="172" date="Thu Aug 15 21:33:38 EDT 2019" docOffset="172" timestamp="2687252" />
+  <Command __id="913" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:33:43 EDT 2019" timestamp="2691966" />
+  <Command __id="914" _type="ShellCommand" date="Thu Aug 15 21:33:50 EDT 2019" timestamp="2699178" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="915" _type="ShellCommand" date="Thu Aug 15 21:33:57 EDT 2019" timestamp="2706883" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="916" _type="SelectTextCommand" caretOffset="174" date="Thu Aug 15 21:34:10 EDT 2019" end="292" start="174" timestamp="2719867" />
+  <Command __id="918" _type="CutCommand" date="Thu Aug 15 21:34:11 EDT 2019" timestamp="2720623" />
+  <Command __id="919" _type="MoveCaretCommand" caretOffset="172" date="Thu Aug 15 21:34:12 EDT 2019" docOffset="172" timestamp="2721748" />
+  <Command __id="921" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu Aug 15 21:34:13 EDT 2019" timestamp="2722369" />
+  <Command __id="922" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:34:14 EDT 2019" timestamp="2723431" />
+  <Command __id="923" _type="PredictionCommand" date="Thu Aug 15 21:34:14 EDT 2019" prediction_type="MakingProgress" timestamp="2723452" />
+  <Command __id="924" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:34:17 EDT 2019" timestamp="2725997" />
+  <Command __id="925" _type="ShellCommand" date="Thu Aug 15 21:34:23 EDT 2019" timestamp="2732446" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="926" _type="ShellCommand" date="Thu Aug 15 21:34:30 EDT 2019" timestamp="2739133" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="927" _type="MoveCaretCommand" caretOffset="174" date="Thu Aug 15 21:34:35 EDT 2019" docOffset="174" timestamp="2744166" />
+  <Command __id="929" _type="InsertStringCommand" date="Thu Aug 15 21:34:36 EDT 2019" timestamp="2745276" timestamp2="2745276">
+    <data><![CDATA[]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="931" _type="UndoCommand" date="Thu Aug 15 21:34:38 EDT 2019" repeat="3" timestamp="2747394" timestamp2="2749506" />
+  <Command __id="936" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:34:41 EDT 2019" timestamp="2750813" />
+  <Command __id="937" _type="ShellCommand" date="Thu Aug 15 21:35:00 EDT 2019" timestamp="2769287" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="938" _type="ShellCommand" date="Thu Aug 15 21:35:08 EDT 2019" timestamp="2777612" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="939" _type="MoveCaretCommand" caretOffset="195" date="Thu Aug 15 21:35:10 EDT 2019" docOffset="195" timestamp="2779308" />
+  <Command __id="940" _type="ShellCommand" date="Thu Aug 15 21:35:28 EDT 2019" timestamp="2797454" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="941" _type="ShellCommand" date="Thu Aug 15 21:35:31 EDT 2019" timestamp="2800057" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="942" _type="SelectTextCommand" caretOffset="293" date="Thu Aug 15 21:35:48 EDT 2019" end="293" start="174" timestamp="2817103" />
+  <Command __id="944" _type="CutCommand" date="Thu Aug 15 21:35:49 EDT 2019" timestamp="2818532" />
+  <Command __id="945" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:35:51 EDT 2019" timestamp="2820139" />
+  <Command __id="946" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:35:54 EDT 2019" timestamp="2823757" />
+  <Command __id="947" _type="ShellCommand" date="Thu Aug 15 21:36:01 EDT 2019" timestamp="2830473" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="948" _type="ShellCommand" date="Thu Aug 15 21:36:14 EDT 2019" timestamp="2843253" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="949" _type="MoveCaretCommand" caretOffset="139" date="Thu Aug 15 21:36:27 EDT 2019" docOffset="139" timestamp="2856951" />
+  <Command __id="950" _type="SelectTextCommand" caretOffset="141" date="Thu Aug 15 21:36:28 EDT 2019" end="141" start="137" timestamp="2857107" />
+  <Command __id="952" _type="InsertStringCommand" date="Thu Aug 15 21:36:28 EDT 2019" timestamp="2857919" timestamp2="2857919">
+    <data><![CDATA[0]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="953" _type="ShellCommand" date="Thu Aug 15 21:36:29 EDT 2019" timestamp="2858946" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="954" _type="ShellCommand" date="Thu Aug 15 21:36:30 EDT 2019" timestamp="2859369" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="955" _type="MoveCaretCommand" caretOffset="152" date="Thu Aug 15 21:36:30 EDT 2019" docOffset="152" timestamp="2859424" />
+  <Command __id="956" _type="SelectTextCommand" caretOffset="155" date="Thu Aug 15 21:36:30 EDT 2019" end="155" start="150" timestamp="2859626" />
+  <Command __id="958" _type="InsertStringCommand" date="Thu Aug 15 21:36:31 EDT 2019" timestamp="2860277" timestamp2="2860277">
+    <data><![CDATA[1]]]]><![CDATA[></data>
+  </Command>
+  <Command __id="959" _type="PredictionCommand" date="Thu Aug 15 21:36:31 EDT 2019" prediction_type="MakingProgress" timestamp="2860284" />
+  <Command __id="960" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 15 21:36:32 EDT 2019" timestamp="2861577" />
+  <Command __id="961" _type="ShellCommand" date="Thu Aug 15 21:36:33 EDT 2019" timestamp="2862524" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="962" _type="ShellCommand" date="Thu Aug 15 21:36:33 EDT 2019" timestamp="2862940" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="963" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 15 21:36:37 EDT 2019" timestamp="2866921" />
+  <Command __id="964" _type="MoveCaretCommand" caretOffset="169" date="Thu Aug 15 21:36:54 EDT 2019" docOffset="169" timestamp="2883258" />
+  <Command __id="966" _type="PasteCommand" date="Thu Aug 15 21:36:55 EDT 2019" timestamp="2884248" />
+  <Command __id="967" _type="MoveCaretCommand" caretOffset="255" date="Thu Aug 15 21:36:57 EDT 2019" docOffset="255" timestamp="2886067" />
+  <DocumentChange __id="895" _type="Insert" date="Thu Aug 15 21:32:44 EDT 2019" docASTNodeCount="1" docActiveCodeLength="295" docExpressionCount="0" docLength="295" length="4" offset="217" repeat="4" timestamp="2633879" timestamp2="2634404">
+    <text><![CDATA[and ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="917" _type="Delete" date="Thu Aug 15 21:34:11 EDT 2019" docASTNodeCount="1" docActiveCodeLength="175" docExpressionCount="0" docLength="175" endLine="15" length="120" offset="172" repeat="2" startLine="9" timestamp="2720573" timestamp2="2722357">
+    <text><![CDATA[
+(defun bGrade (total)
+    (cond 
+      ((and (>= total bCutOff)(< total aCutOff)) true)
+      (t false)
+    ) 
+ )]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="928" _type="Insert" date="Thu Aug 15 21:34:36 EDT 2019" docASTNodeCount="1" docActiveCodeLength="177" docExpressionCount="0" docLength="177" length="2" offset="174" timestamp="2745273">
+    <text><![CDATA[
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="930" _type="Delete" date="Thu Aug 15 21:34:38 EDT 2019" docASTNodeCount="1" docActiveCodeLength="175" docExpressionCount="0" docLength="175" endLine="10" length="2" offset="174" startLine="9" timestamp="2747372">
+    <text><![CDATA[
+]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="932" _type="Insert" date="Thu Aug 15 21:34:39 EDT 2019" docASTNodeCount="1" docActiveCodeLength="295" docExpressionCount="0" docLength="295" length="120" offset="172" repeat="2" timestamp="2748870" timestamp2="2749495">
+    <text><![CDATA[
+(defun bGrade (total)
+    (cond 
+      ((and (>= total bCutOff)(< total aCutOff)) true)
+      (t false)
+    ) 
+ )]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="943" _type="Delete" date="Thu Aug 15 21:35:49 EDT 2019" docASTNodeCount="1" docActiveCodeLength="176" docExpressionCount="0" docLength="176" endLine="15" length="119" offset="174" startLine="10" timestamp="2818496">
+    <text><![CDATA[(defun bGrade (total)
+    (cond 
+      ((and (>= total bCutOff)(< total aCutOff)) true)
+      (t false)
+    ) 
+ ) ]]]]><![CDATA[></text>
+  </DocumentChange>
+  <DocumentChange __id="951" _type="Replace" date="Thu Aug 15 21:36:28 EDT 2019" docASTNodeCount="1" docActiveCodeLength="173" docExpressionCount="0" docLength="173" endLine="6" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="172" int_docExpressionCount="0" int_docLength="172" length="4" offset="137" startLine="6" timestamp="2857877">
+    <deletedText><![CDATA[true]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[0]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="957" _type="Replace" date="Thu Aug 15 21:36:31 EDT 2019" docASTNodeCount="1" docActiveCodeLength="169" docExpressionCount="0" docLength="169" endLine="7" insertionLength="1" int_docASTNodeCount="1" int_docActiveCodeLength="168" int_docExpressionCount="0" int_docLength="168" length="5" offset="150" startLine="7" timestamp="2860244">
+    <deletedText><![CDATA[false]]]]><![CDATA[></deletedText>
+    <insertedText><![CDATA[1]]]]><![CDATA[></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="965" _type="Insert" date="Thu Aug 15 21:36:55 EDT 2019" docASTNodeCount="1" docActiveCodeLength="288" docExpressionCount="0" docLength="288" length="119" offset="169" timestamp="2884237">
+    <text><![CDATA[(defun bGrade (total)
+    (cond 
+      ((and (>= total bCutOff)(< total aCutOff)) true)
+      (t false)
+    ) 
+ ) ]]]]><![CDATA[></text>
+  </DocumentChange>
+</Events>
+]]></snapshot>
+  </Command>
+  <Command __id="2" _type="ShellCommand" date="Fri Aug 16 10:30:26 EDT 2019" timestamp="2218" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="3" _type="EclipseCommand" commandID="" date="Fri Aug 16 10:30:28 EDT 2019" timestamp="3431" />
+  <DocumentChange __id="1535" _type="Insert" date="Sat Aug 17 12:37:42 EDT 2019" docASTNodeCount="1" docActiveCodeLength="731" docExpressionCount="0" docLength="767" length="3" offset="379" repeat="3" timestamp="94038265" timestamp2="94038719">
+    <text><![CDATA[REG]]></text>
+  </DocumentChange>
+  <Command __id="1536" _type="InsertStringCommand" date="Sat Aug 17 12:37:42 EDT 2019" repeat="3" timestamp="94038268" timestamp2="94038722">
+    <data><![CDATA[REG]]></data>
+  </Command>
+  <DocumentChange __id="2407" _type="Insert" date="Sat Aug 17 12:55:45 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1148" docExpressionCount="0" docLength="1184" length="1" offset="409" timestamp="95120617">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <Command __id="2408" _type="InsertStringCommand" date="Sat Aug 17 12:55:45 EDT 2019" timestamp="95120621" timestamp2="95120621">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="2409" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sat Aug 17 12:55:46 EDT 2019" timestamp="95121555" />
+  <Command __id="2580" _type="FileOpenCommand" date="Sat Aug 17 13:20:03 EDT 2019" docASTNodeCount="1" docActiveCodeLength="65" docExpressionCount="0" docLength="65" projectName="sml-test" timestamp="96578794">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\sml-test\test.sml]]></filePath>
+  </Command>
+  <Command __id="2581" _type="ShellCommand" date="Sat Aug 17 13:20:15 EDT 2019" timestamp="96590841" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2582" _type="ShellCommand" date="Sat Aug 17 13:20:18 EDT 2019" timestamp="96594028" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2583" _type="ShellCommand" date="Sat Aug 17 13:20:30 EDT 2019" timestamp="96606378" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2584" _type="ShellCommand" date="Sat Aug 17 13:20:37 EDT 2019" timestamp="96612548" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2585" _type="ShellCommand" date="Sat Aug 17 13:20:39 EDT 2019" timestamp="96614967" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2586" _type="ShellCommand" date="Sat Aug 17 13:20:42 EDT 2019" timestamp="96617654" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2587" _type="ShellCommand" date="Sat Aug 17 13:20:46 EDT 2019" timestamp="96622366" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2588" _type="ShellCommand" date="Sat Aug 17 13:21:07 EDT 2019" timestamp="96643137" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2589" _type="ShellCommand" date="Sat Aug 17 13:21:15 EDT 2019" timestamp="96650922" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2590" _type="ShellCommand" date="Sat Aug 17 13:21:19 EDT 2019" timestamp="96654815" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2591" _type="ShellCommand" date="Sat Aug 17 13:21:23 EDT 2019" timestamp="96659082" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2592" _type="ShellCommand" date="Sat Aug 17 13:21:34 EDT 2019" timestamp="96670365" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2593" _type="ShellCommand" date="Sat Aug 17 13:21:50 EDT 2019" timestamp="96685609" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2594" _type="ShellCommand" date="Sat Aug 17 13:22:06 EDT 2019" timestamp="96702123" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2595" _type="ShellCommand" date="Sat Aug 17 13:22:12 EDT 2019" timestamp="96707725" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2596" _type="ShellCommand" date="Sat Aug 17 13:22:17 EDT 2019" timestamp="96713250" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2597" _type="RunCommand" date="Sat Aug 17 13:22:17 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="96713384" type="Run" />
+  <Command __id="2598" _type="EHExceptionCommand" date="Sat Aug 17 13:22:18 EDT 2019" timestamp="96713906" type="Exception">
+    <outputString><![CDATA[Standard ML of New Jersey, Version 110.0.7, September 28, 2000 [CM&CMB]
+- [opening test.sml]
+val fact = fn : int -> int
+val it = () : unit
+- ]]></outputString>
+  </Command>
+  <Command __id="2599" _type="ShellCommand" date="Sat Aug 17 13:23:13 EDT 2019" timestamp="96769056" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2600" _type="ShellCommand" date="Sat Aug 17 13:28:21 EDT 2019" timestamp="97076869" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2602" _type="MoveCaretCommand" caretOffset="852" date="Sat Aug 17 13:33:01 EDT 2019" docOffset="852" timestamp="97356850" />
+  <Command __id="2603" _type="SelectTextCommand" caretOffset="906" date="Sat Aug 17 13:33:13 EDT 2019" end="906" start="414" timestamp="97368901" />
+  <Command __id="2604" _type="CopyCommand" date="Sat Aug 17 13:33:14 EDT 2019" timestamp="97369667" />
+  <Command __id="15102" _type="ShellCommand" date="Sun Aug 18 13:28:18 EDT 2019" timestamp="183473823" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="15103" _type="MoveCaretCommand" caretOffset="587" date="Sun Aug 18 13:28:24 EDT 2019" docOffset="587" timestamp="183480332" />
+  <Command __id="15104" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 13:28:25 EDT 2019" timestamp="183481128" />
+  <Command __id="15105" _type="MoveCaretCommand" caretOffset="446" date="Sun Aug 18 13:28:32 EDT 2019" docOffset="446" timestamp="183488200" />
+  <Command __id="15106" _type="ShellCommand" date="Sun Aug 18 13:29:04 EDT 2019" timestamp="183519926" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="15107" _type="ShellCommand" date="Sun Aug 18 13:29:14 EDT 2019" timestamp="183529978" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="15108" _type="MoveCaretCommand" caretOffset="622" date="Sun Aug 18 13:29:16 EDT 2019" docOffset="622" timestamp="183532266" />
+  <Command __id="15109" _type="MoveCaretCommand" caretOffset="495" date="Sun Aug 18 13:29:28 EDT 2019" docOffset="495" timestamp="183544167" />
+  <Command __id="15110" _type="EclipseCommand" commandID="org.eclipse.ui.edit.selectAll" date="Sun Aug 18 13:29:29 EDT 2019" timestamp="183545016" />
+  <Command __id="15111" _type="MoveCaretCommand" caretOffset="526" date="Sun Aug 18 13:29:36 EDT 2019" docOffset="526" timestamp="183551595" />
+  <Command __id="15113" _type="SelectTextCommand" caretOffset="906" date="Sun Aug 18 13:29:58 EDT 2019" end="906" start="289" timestamp="183573575" />
+  <Command __id="15114" _type="MoveCaretCommand" caretOffset="762" date="Sun Aug 18 13:29:59 EDT 2019" docOffset="762" timestamp="183574704" />
+  <Command __id="15115" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Sun Aug 18 13:30:02 EDT 2019" timestamp="183578314" />
+  <Command __id="15117" _type="MoveCaretCommand" caretOffset="526" date="Sun Aug 18 13:30:16 EDT 2019" docOffset="526" timestamp="183591694" />
+  <Command __id="15119" _type="SelectTextCommand" caretOffset="804" date="Sun Aug 18 13:30:32 EDT 2019" end="805" start="804" timestamp="183607718" />
+  <Command __id="15121" _type="MoveCaretCommand" caretOffset="762" date="Sun Aug 18 13:30:33 EDT 2019" docOffset="762" timestamp="183608943" />
+  <Command __id="15122" _type="SelectTextCommand" caretOffset="906" date="Sun Aug 18 13:30:41 EDT 2019" end="906" start="289" timestamp="183616606" />
+  <Command __id="15123" _type="CopyCommand" date="Sun Aug 18 13:30:41 EDT 2019" timestamp="183617395" />
+  <Command __id="15125" _type="MoveCaretCommand" caretOffset="526" date="Sun Aug 18 13:30:45 EDT 2019" docOffset="526" timestamp="183620466" />
+  <Command __id="15126" _type="EclipseCommand" commandID="org.eclipse.ui.edit.selectAll" date="Sun Aug 18 13:30:46 EDT 2019" timestamp="183622344" />
+  <Command __id="15128" _type="PasteCommand" date="Sun Aug 18 13:30:47 EDT 2019" timestamp="183623334" />
+  <Command __id="15129" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 13:30:49 EDT 2019" timestamp="183624688" />
+  <Command __id="15131" _type="UndoCommand" date="Sun Aug 18 13:31:06 EDT 2019" timestamp="183642033" />
+  <Command __id="15132" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 13:31:08 EDT 2019" timestamp="183643641" />
+  <Command __id="15134" _type="SelectTextCommand" caretOffset="906" date="Sun Aug 18 13:31:10 EDT 2019" end="906" start="289" timestamp="183645890" />
+  <Command __id="15135" _type="MoveCaretCommand" caretOffset="762" date="Sun Aug 18 13:31:11 EDT 2019" docOffset="762" timestamp="183647179" />
+  <Command __id="15137" _type="SelectTextCommand" caretOffset="641" date="Sun Aug 18 13:31:20 EDT 2019" end="641" start="0" timestamp="183656050" />
+  <Command __id="15138" _type="MoveCaretCommand" caretOffset="61" date="Sun Aug 18 13:31:21 EDT 2019" docOffset="61" timestamp="183656991" />
+  <Command __id="15140" _type="MoveCaretCommand" caretOffset="762" date="Sun Aug 18 13:31:36 EDT 2019" docOffset="762" timestamp="183672109" />
+  <Command __id="15141" _type="MoveCaretCommand" caretOffset="52" date="Sun Aug 18 13:31:38 EDT 2019" docOffset="52" timestamp="183673512" />
+  <Command __id="15142" _type="EclipseCommand" commandID="org.eclipse.ui.edit.selectAll" date="Sun Aug 18 13:31:39 EDT 2019" timestamp="183675125" />
+  <Command __id="15143" _type="MoveCaretCommand" caretOffset="52" date="Sun Aug 18 13:31:39 EDT 2019" docOffset="52" timestamp="183675362" />
+  <Command __id="15145" _type="MoveCaretCommand" caretOffset="61" date="Sun Aug 18 13:31:42 EDT 2019" docOffset="61" timestamp="183678373" />
+  <Command __id="15146" _type="EclipseCommand" commandID="org.eclipse.ui.edit.selectAll" date="Sun Aug 18 13:31:44 EDT 2019" timestamp="183680225" />
+  <Command __id="15148" _type="PasteCommand" date="Sun Aug 18 13:31:45 EDT 2019" timestamp="183681139" />
+  <Command __id="15149" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 13:31:47 EDT 2019" timestamp="183682508" />
+  <Command __id="15150" _type="MoveCaretCommand" caretOffset="409" date="Sun Aug 18 13:31:54 EDT 2019" docOffset="409" timestamp="183689636" />
+  <Command __id="15151" _type="MoveCaretCommand" caretOffset="397" date="Sun Aug 18 13:32:00 EDT 2019" docOffset="397" timestamp="183695433" />
+  <Command __id="15153" _type="UndoCommand" date="Sun Aug 18 13:32:00 EDT 2019" repeat="2" timestamp="183696378" timestamp2="183697002" />
+  <Command __id="15159" _type="RedoCommand" date="Sun Aug 18 13:32:03 EDT 2019" timestamp="183698980" />
+  <Command __id="15160" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Aug 18 13:32:05 EDT 2019" timestamp="183701220" />
+  <Command __id="15161" _type="ShellCommand" date="Sun Aug 18 13:32:08 EDT 2019" timestamp="183703574" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="15162" _type="ShellCommand" date="Sun Aug 18 13:32:10 EDT 2019" timestamp="183706062" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="15163" _type="MoveCaretCommand" caretOffset="118" date="Sun Aug 18 13:32:15 EDT 2019" docOffset="118" timestamp="183710715" />
+  <Command __id="15164" _type="ShellCommand" date="Sun Aug 18 13:32:50 EDT 2019" timestamp="183745953" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="15165" _type="ShellCommand" date="Sun Aug 18 13:32:55 EDT 2019" timestamp="183751392" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="15166" _type="EclipseCommand" commandID="org.eclipse.ui.project.properties" date="Sun Aug 18 13:32:55 EDT 2019" timestamp="183751406" />
+  <Command __id="15167" _type="ShellCommand" date="Sun Aug 18 13:33:01 EDT 2019" timestamp="183757151" type="ECLIPSE_LOST_FOCUS" />
+</Events>

@@ -1,0 +1,57 @@
+<Events startTimestamp="1566149966784" logVersion="1.0.0.1">
+  <Command __id="17" _type="FileOpenCommand" date="Sun Aug 18 13:43:51 EDT 2019" docASTNodeCount="1" docActiveCodeLength="641" docExpressionCount="0" docLength="641" projectName="PL_Lisp" timestamp="264252">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Lisp\pass.lisp]]></filePath>
+  </Command>
+  <Command __id="18" _type="MoveCaretCommand" caretOffset="202" date="Sun Aug 18 13:43:51 EDT 2019" docOffset="202" timestamp="264386" />
+  <Command __id="19" _type="ShellCommand" date="Sun Aug 18 13:43:57 EDT 2019" timestamp="270796" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="20" _type="ShellCommand" date="Sun Aug 18 13:43:59 EDT 2019" timestamp="272974" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21" _type="ShellCommand" date="Sun Aug 18 13:43:59 EDT 2019" timestamp="273032" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="22" _type="ShellCommand" date="Sun Aug 18 13:44:02 EDT 2019" timestamp="275238" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="23" _type="EclipseCommand" commandID="org.eclipse.ui.project.properties" date="Sun Aug 18 13:44:02 EDT 2019" timestamp="275247" />
+  <Command __id="24" _type="ShellCommand" date="Sun Aug 18 13:44:04 EDT 2019" timestamp="277988" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="25" _type="ShellCommand" date="Sun Aug 18 13:44:13 EDT 2019" timestamp="286992" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="26" _type="EclipseCommand" commandID="org.eclipse.ltk.ui.refactoring.commands.deleteResources" date="Sun Aug 18 13:44:13 EDT 2019" timestamp="287015" />
+  <Command __id="27" _type="CopyCommand" date="Sun Aug 18 13:44:18 EDT 2019" timestamp="291526" />
+  <Command __id="28" _type="ShellCommand" date="Sun Aug 18 13:44:20 EDT 2019" timestamp="293309" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="29" _type="ShellCommand" date="Sun Aug 18 13:44:48 EDT 2019" timestamp="321624" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="30" _type="FileOpenCommand" date="Sun Aug 18 13:44:58 EDT 2019" docASTNodeCount="1" docActiveCodeLength="641" docExpressionCount="0" docLength="641" projectName="test-lisp" timestamp="331589">
+    <filePath><![CDATA[D:\dewan_backup\Java\eclipse\test-lisp\pass.lisp]]></filePath>
+    <snapshot><![CDATA[(setq PASS_CUTOFF 60)
+(defun regularPass (total)
+    (cond 
+      ((>= total PASS_CUTOFF) t)
+      (t nil)
+    ) 
+ ) 
+
+(setq HIGH_FINAL_CUTOFF 40)
+(setq HIGH_FINAL_THRESHOLD 80)
+
+(defun highFinalPass (total final)
+    (cond 
+	    (
+           (and 
+             (>= final HIGH_FINAL_THRESHOLD)
+             (>= total HIGH_FINAL_CUTOFF)
+           )
+           t
+        )
+        (t nil)
+    )
+  )
+(defun pass (total final)
+    (cond 
+	    (
+           (or 
+             (regularPass total)
+             (highFinalPass total final)
+           )
+           t
+        )
+        (t nil)
+    )
+  )
+        
+  ]]></snapshot>
+  </Command>
+</Events>
