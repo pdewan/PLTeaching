@@ -5,4 +5,4 @@
  * @author dewan
  *
  */
-package pass.basic;
+package pass.regular;

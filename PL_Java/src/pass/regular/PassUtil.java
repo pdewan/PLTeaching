@@ -1,6 +1,10 @@
-package pass.basic;
+package pass.regular;
 
 import java.util.Scanner;
+
+import pass.controller.PassControllerFactory;
+import pass.model.PassModelFactory;
+import pass.view.PassViewFactory;
 
 public class PassUtil {
 	static Scanner scanner = new Scanner(System.in);
@@ -22,6 +26,10 @@ public class PassUtil {
 	public static boolean pass (double totalScore, double finalScore) {
 		return regularPass(totalScore) || highFinalPass(totalScore, finalScore);
 	}
+	public static void startPassMVC () {
+		PassModelFactory.getPassModel().addPropertyChangeListener(PassViewFactory.getPassView());
+		PassControllerFactory.getPassController().processInput();
+	}
 	
 	public static void main (String[] args) {
 		for (;;) {
@@ -30,7 +38,7 @@ public class PassUtil {
 				break;
 			}
 			double finalScore = inputDouble("Please input the final score");
-			System.out.println(String.format("isPass:%s\n", pass(totalScore, finalScore) ? "true" : "false"));
+			System.out.println(String.format("isPass:%s", pass(totalScore, finalScore) ? "true" : "false"));
 		}
 	}
 

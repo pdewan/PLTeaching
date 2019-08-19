@@ -1,8 +1,8 @@
-package pass;
+package pass.model;
 
-import pass.basic.ARegularPassModel;
+import pass.regular.ARegularPassModel;
 
-public class PassFactory {
+public class DelegatePassModelFactory {
 	static PassModel passModel;
 
 	public static PassModel getPassModel() {

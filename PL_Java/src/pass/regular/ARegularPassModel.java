@@ -1,10 +1,10 @@
-package pass.basic;
+package pass.regular;
 
-import pass.AnAbstractPassModel;
+import pass.model.AnAbstractPassModel;
 
 public class ARegularPassModel extends AnAbstractPassModel{
 	@Override
-	public boolean isPass() {
+	public Boolean isPass() {
 		return PassUtil.regularPass(getTotalScore());
 	}
 
