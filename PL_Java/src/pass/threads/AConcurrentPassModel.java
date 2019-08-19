@@ -14,7 +14,7 @@ public class AConcurrentPassModel extends AnAbstractPassModel  {
 	public Boolean isPass() {		
 		HighFinalRunnablelFactory.getHighFinalRunnable().unblockPeer(); // notify high pass thread
 		Boolean aRegularPass = PassUtil.regularPass(getTotalScore());
-		System.out.println(Thread.currentThread()+": regularPass = " + aRegularPass);
+		System.out.println(Thread.currentThread()+": regularPass =" + aRegularPass);
 		return aRegularPass || HighFinalRunnablelFactory.getHighFinalRunnable().waitForHighFinalPass();		
 	}
 

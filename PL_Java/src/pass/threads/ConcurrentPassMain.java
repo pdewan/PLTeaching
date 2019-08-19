@@ -9,9 +9,7 @@ import pass.view.PassViewFactory;
 
 public class ConcurrentPassMain {
 	public static void main (String[] args) {
-		PassModelFactory.setPassModel(new AConcurrentPassModel()); // used by view and controller
-		HighFinalRunnablelFactory.setHighFinalRunnable(new AHighFinalRunnable());			
-		ConcurrentPassUtil.startHighFinalThread();
+		PassModelFactory.setPassModel(new ALambdaConcurrentPassModel()); // used by view and controller
 		PassUtil.startPassMVC();
 	}
 
