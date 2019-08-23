@@ -1,7 +1,5 @@
 package pass.model;
-
 import pass.regular.ARegularPassModel;
-
 public class PassModelFactory {
 	static PassModel passModel;
 
@@ -11,9 +9,7 @@ public class PassModelFactory {
 		}
 		return passModel;
 	}
-
 	public static void setPassModel(PassModel newVal) {
 		passModel = newVal;
 	}
-
 }

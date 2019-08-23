@@ -1,8 +1,6 @@
 package pass.controller;
-
+import pass.PassUtil;
 import pass.model.PassModelFactory;
-import pass.regular.PassUtil;
-
 public class AConsolePassController implements PassController {
 	@Override
 	public void processInput() {
@@ -15,5 +13,4 @@ public class AConsolePassController implements PassController {
 			PassModelFactory.getPassModel().setScores(aTotalScore, aFinalScore);
 		}
 	}
-
 }

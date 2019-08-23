@@ -1,0 +1,38 @@
+<Events startTimestamp="1566150505796" logVersion="1.0.0.1">
+  <Command __id="17727" _type="EHExceptionCommand" date="Tue Aug 20 11:51:34 EDT 2019" timestamp="165788496" type="Exception">
+    <outputString><![CDATA[pass(59,79);
+]]></outputString>
+  </Command>
+  <Command __id="17728" _type="EHExceptionCommand" date="Tue Aug 20 11:51:34 EDT 2019" timestamp="165789024" type="Exception">
+    <outputString><![CDATA[val it = false : bool
+- ]]></outputString>
+  </Command>
+  <Command __id="17729" _type="ShellCommand" date="Tue Aug 20 11:51:50 EDT 2019" timestamp="165804736" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17730" _type="ShellCommand" date="Tue Aug 20 11:55:12 EDT 2019" timestamp="166006296" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17733" _type="MoveCaretCommand" caretOffset="1084" date="Tue Aug 20 11:58:21 EDT 2019" docOffset="1084" timestamp="166195988" />
+  <Command __id="17735" _type="MoveCaretCommand" caretOffset="366" date="Tue Aug 20 11:58:29 EDT 2019" docOffset="366" timestamp="166204014" />
+  <Command __id="17736" _type="SelectTextCommand" caretOffset="379" date="Tue Aug 20 11:58:35 EDT 2019" end="398" start="379" timestamp="166210042" />
+  <Command __id="17737" _type="SelectTextCommand" caretOffset="344" date="Tue Aug 20 11:58:36 EDT 2019" end="368" start="344" timestamp="166210568" />
+  <Command __id="17738" _type="MoveCaretCommand" caretOffset="295" date="Tue Aug 20 11:58:36 EDT 2019" docOffset="295" timestamp="166210825" />
+  <Command __id="17739" _type="MoveCaretCommand" caretOffset="371" date="Tue Aug 20 11:58:38 EDT 2019" docOffset="371" timestamp="166213035" />
+  <Command __id="17741" _type="InsertStringCommand" date="Tue Aug 20 11:58:39 EDT 2019" timestamp="166213847" timestamp2="166213847">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="17743" _type="InsertStringCommand" date="Tue Aug 20 11:58:41 EDT 2019" repeat="3" timestamp="166215314" timestamp2="166216256">
+    <data><![CDATA[			]]></data>
+  </Command>
+  <Command __id="17749" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Aug 20 11:58:42 EDT 2019" timestamp="166217153" />
+  <Command __id="17751" _type="InsertStringCommand" date="Tue Aug 20 11:58:43 EDT 2019" repeat="6" timestamp="166217744" timestamp2="166219160">
+    <data><![CDATA[      ]]></data>
+  </Command>
+  <Command __id="17762" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Tue Aug 20 11:58:48 EDT 2019" timestamp="166222208" />
+  <Command __id="17763" _type="SelectTextCommand" caretOffset="0" date="Tue Aug 20 11:58:51 EDT 2019" end="408" start="0" timestamp="166225705" />
+  <Command __id="17764" _type="CopyCommand" date="Tue Aug 20 11:58:52 EDT 2019" timestamp="166226510" />
+  <Command __id="17765" _type="ShellCommand" date="Tue Aug 20 11:58:53 EDT 2019" timestamp="166227981" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17766" _type="ShellCommand" date="Tue Aug 20 21:59:42 EDT 2019" timestamp="202276602" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17767" _type="ShellCommand" date="Tue Aug 20 21:59:46 EDT 2019" timestamp="202280206" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17768" _type="ShellCommand" date="Tue Aug 20 22:01:08 EDT 2019" timestamp="202362600" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17769" _type="ShellCommand" date="Tue Aug 20 22:01:12 EDT 2019" timestamp="202366922" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17770" _type="ShellCommand" date="Wed Aug 21 00:06:31 EDT 2019" timestamp="209885744" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17771" _type="ShellCommand" date="Wed Aug 21 00:08:36 EDT 2019" timestamp="210011046" type="ECLIPSE_LOST_FOCUS" />
+</Events>

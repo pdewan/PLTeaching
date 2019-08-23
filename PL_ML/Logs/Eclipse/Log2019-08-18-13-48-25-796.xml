@@ -1,0 +1,233 @@
+<Events startTimestamp="1566150505796" logVersion="1.0.0.1">
+  <DocumentChange __id="17531" _type="Delete" date="Mon Aug 19 17:12:45 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1131" docExpressionCount="0" docLength="1131" endLine="34" length="1" offset="834" startLine="34" timestamp="98660201">
+    <text><![CDATA[u]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17532" _type="Delete" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1130" docExpressionCount="0" docLength="1130" endLine="29" length="1" offset="757" startLine="29" timestamp="98660478">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17533" _type="Delete" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1129" docExpressionCount="0" docLength="1129" endLine="34" length="1" offset="832" startLine="34" timestamp="98660478">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17534" _type="Delete" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1128" docExpressionCount="0" docLength="1128" endLine="29" length="1" offset="756" startLine="29" timestamp="98660482">
+    <text><![CDATA[F]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17535" _type="Delete" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1127" docExpressionCount="0" docLength="1127" endLine="34" length="1" offset="830" startLine="34" timestamp="98660482">
+    <text><![CDATA[F]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17536" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1128" docExpressionCount="0" docLength="1128" length="1" offset="756" timestamp="98660482">
+    <text><![CDATA[B]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17537" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1129" docExpressionCount="0" docLength="1129" length="1" offset="831" timestamp="98660486">
+    <text><![CDATA[B]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17538" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1130" docExpressionCount="0" docLength="1130" length="1" offset="757" timestamp="98660486">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17539" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1131" docExpressionCount="0" docLength="1131" length="1" offset="833" timestamp="98660488">
+    <text><![CDATA[l]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17540" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1132" docExpressionCount="0" docLength="1132" length="1" offset="758" timestamp="98660488">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17541" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1133" docExpressionCount="0" docLength="1133" length="1" offset="835" timestamp="98660488">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17542" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1134" docExpressionCount="0" docLength="1134" length="1" offset="759" timestamp="98660493">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17543" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1135" docExpressionCount="0" docLength="1135" length="1" offset="837" timestamp="98660493">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17544" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1136" docExpressionCount="0" docLength="1136" length="1" offset="760" timestamp="98660496">
+    <text><![CDATA[k]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17545" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1137" docExpressionCount="0" docLength="1137" length="1" offset="839" timestamp="98660497">
+    <text><![CDATA[k]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17546" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1138" docExpressionCount="0" docLength="1138" length="1" offset="761" timestamp="98660497">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17547" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1139" docExpressionCount="0" docLength="1139" length="1" offset="841" timestamp="98660501">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17548" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1140" docExpressionCount="0" docLength="1140" length="1" offset="762" timestamp="98660501">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17549" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1141" docExpressionCount="0" docLength="1141" length="1" offset="843" timestamp="98660501">
+    <text><![CDATA[n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17550" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1142" docExpressionCount="0" docLength="1142" length="1" offset="763" timestamp="98660506">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17551" _type="Insert" date="Mon Aug 19 17:12:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1143" docExpressionCount="0" docLength="1143" length="1" offset="845" timestamp="98660515">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <DocumentChange __id="17552" _type="Replace" date="Mon Aug 19 17:12:47 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1140" docExpressionCount="0" docLength="1140" endLine="34" insertionLength="17" int_docASTNodeCount="1" int_docActiveCodeLength="1123" int_docExpressionCount="0" int_docLength="1123" length="20" offset="826" startLine="34" timestamp="98661482">
+    <deletedText><![CDATA[enableOutputBlocking]]></deletedText>
+    <insertedText><![CDATA[enableOutputFlush]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="17553" _type="Replace" date="Mon Aug 19 17:12:47 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1137" docExpressionCount="0" docLength="1137" endLine="29" insertionLength="17" int_docASTNodeCount="1" int_docActiveCodeLength="1120" int_docExpressionCount="0" int_docLength="1120" length="20" offset="744" startLine="29" timestamp="98661498">
+    <deletedText><![CDATA[enableOutputBlocking]]></deletedText>
+    <insertedText><![CDATA[enableOutputFlush]]></insertedText>
+  </DocumentChange>
+  <Command __id="17581" _type="FileOpenCommand" date="Mon Aug 19 23:07:10 EDT 2019" docASTNodeCount="1" docActiveCodeLength="403" docExpressionCount="0" docLength="403" projectName="PL_ML" timestamp="119924331">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_ML\pass.sml]]></filePath>
+    <snapshot><![CDATA[(* an sml file *)
+fun fact 0 = 1 | fact n =  n* fact (n -1);
+val passCutoff = 60;
+fun regularPass aTotal = aTotal >= passCutoff;
+ 
+val passCutoff = 40;
+val highFinalThreshold = 80;
+
+fun highFinalPass (aTotal, aFinal) = 
+	(aFinal >= highFinalThreshold) andalso
+	 (aTotal >= passCutoff);
+	 
+fun pass (aTotal, aFinal) = 
+	regularPass(aTotal) orelse 
+	highFinalPass(aTotal, aFinal); 
+    
+
+]]></snapshot>
+  </Command>
+  <Command __id="17677" _type="RunCommand" date="Tue Aug 20 11:40:00 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165095046" type="Debug" />
+  <Command __id="17678" _type="RunCommand" date="Tue Aug 20 11:40:01 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165095679" type="Run" />
+  <Command __id="17679" _type="RunCommand" date="Tue Aug 20 11:40:01 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165095679" type="Debug" />
+  <Command __id="17680" _type="RunCommand" date="Tue Aug 20 11:40:01 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165095679" type="Run" />
+  <Command __id="17681" _type="ShellCommand" date="Tue Aug 20 11:40:16 EDT 2019" timestamp="165110410" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17682" _type="ShellCommand" date="Tue Aug 20 11:40:16 EDT 2019" timestamp="165110442" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17683" _type="ShellCommand" date="Tue Aug 20 11:40:23 EDT 2019" timestamp="165117331" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17684" _type="ShellCommand" date="Tue Aug 20 11:40:33 EDT 2019" timestamp="165128033" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17685" _type="EclipseCommand" commandID="" date="Tue Aug 20 11:40:34 EDT 2019" repeat="2" timestamp="165128224" timestamp2="165128460" />
+  <Command __id="17687" _type="RunCommand" date="Tue Aug 20 11:40:37 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165131901" type="Run" />
+  <Command __id="17688" _type="EHExceptionCommand" date="Tue Aug 20 11:40:37 EDT 2019" timestamp="165132127" type="Exception">
+    <outputString><![CDATA[Standard ML of New Jersey, Version 110.0.7, September 28, 2000 [CM&CMB]
+- [opening pass.sml]
+val PASS_CUTOFF = 60 : int
+val regularPass = fn : int -> bool
+val PASS_CUTOFF = 40 : int
+val HIGH_FINAL_CUTOFF = 80 : int
+val highFinalPass = fn : int * int -> bool
+val pass = fn : int * int -> bool
+val it = () : unit
+- ]]></outputString>
+  </Command>
+  <Command __id="17690" _type="ShellCommand" date="Tue Aug 20 11:40:48 EDT 2019" timestamp="165143086" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17691" _type="ShellCommand" date="Tue Aug 20 11:42:00 EDT 2019" timestamp="165214542" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17692" _type="ShellCommand" date="Tue Aug 20 11:42:18 EDT 2019" timestamp="165233002" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17693" _type="ShellCommand" date="Tue Aug 20 11:43:34 EDT 2019" timestamp="165308597" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17694" _type="EHExceptionCommand" date="Tue Aug 20 11:43:55 EDT 2019" timestamp="165329339" type="Exception">
+    <outputString><![CDATA[Premature end of file before int was input, exitingPremature end of file before int was input, exitingPremature end of file before int was input, exitingPremature end of file before int was input, exitingPremature end of file before int was input, exitingpass(59, 79)
+]]></outputString>
+  </Command>
+  <Command __id="17695" _type="RunCommand" date="Tue Aug 20 11:44:01 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165335336" type="Debug" />
+  <Command __id="17696" _type="RunCommand" date="Tue Aug 20 11:44:01 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165335336" type="Debug" />
+  <Command __id="17697" _type="RunCommand" date="Tue Aug 20 11:44:01 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165335336" type="Run" />
+  <Command __id="17698" _type="EHExceptionCommand" date="Tue Aug 20 11:44:01 EDT 2019" timestamp="165335401" type="Exception">
+    <outputString><![CDATA[val it = false : bool
+]]></outputString>
+  </Command>
+  <Command __id="17699" _type="RunCommand" date="Tue Aug 20 11:44:03 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165337998" type="Run" />
+  <Command __id="17700" _type="EHExceptionCommand" date="Tue Aug 20 11:44:04 EDT 2019" timestamp="165338843" type="Exception">
+    <outputString><![CDATA[Standard ML of New Jersey, Version 110.0.7, September 28, 2000 [CM&CMB]
+- [opening pass.sml]
+val PASS_CUTOFF = 60 : int
+val regularPass = fn : int -> bool
+val PASS_CUTOFF = 40 : int
+val HIGH_FINAL_CUTOFF = 80 : int
+val highFinalPass = fn : int * int -> bool
+val pass = fn : int * int -> bool
+val it = () : unit
+- ]]></outputString>
+  </Command>
+  <Command __id="17701" _type="EHExceptionCommand" date="Tue Aug 20 11:44:16 EDT 2019" timestamp="165350419" type="Exception">
+    <outputString><![CDATA[= pass(59,79);
+]]></outputString>
+  </Command>
+  <Command __id="17702" _type="EHExceptionCommand" date="Tue Aug 20 11:44:16 EDT 2019" timestamp="165350527" type="Exception">
+    <outputString><![CDATA[val it = false : bool
+- ]]></outputString>
+  </Command>
+  <Command __id="17703" _type="EHExceptionCommand" date="Tue Aug 20 11:44:25 EDT 2019" timestamp="165360039" type="Exception">
+    <outputString><![CDATA[pass(60,79);
+]]></outputString>
+  </Command>
+  <Command __id="17704" _type="EHExceptionCommand" date="Tue Aug 20 11:44:26 EDT 2019" timestamp="165360606" type="Exception">
+    <outputString><![CDATA[val it = true : bool
+- ]]></outputString>
+  </Command>
+  <Command __id="17705" _type="EHExceptionCommand" date="Tue Aug 20 11:44:36 EDT 2019" timestamp="165370252" type="Exception">
+    <outputString><![CDATA[pass(59,80)
+]]></outputString>
+  </Command>
+  <Command __id="17706" _type="EHExceptionCommand" date="Tue Aug 20 11:44:41 EDT 2019" timestamp="165375431" type="Exception">
+    <outputString><![CDATA[= ;
+]]></outputString>
+  </Command>
+  <Command __id="17707" _type="EHExceptionCommand" date="Tue Aug 20 11:44:41 EDT 2019" timestamp="165375490" type="Exception">
+    <outputString><![CDATA[GC #0.0.0.0.1.17:  val it = true : bool
+-  (0 ms)
+]]></outputString>
+  </Command>
+  <Command __id="17708" _type="RunCommand" date="Tue Aug 20 11:44:46 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165380335" type="Debug" />
+  <Command __id="17709" _type="RunCommand" date="Tue Aug 20 11:44:46 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165380335" type="Debug" />
+  <Command __id="17710" _type="RunCommand" date="Tue Aug 20 11:44:46 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165380335" type="Run" />
+  <Command __id="17711" _type="RunCommand" date="Tue Aug 20 11:44:47 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165381637" type="Run" />
+  <Command __id="17712" _type="EHExceptionCommand" date="Tue Aug 20 11:44:48 EDT 2019" timestamp="165382444" type="Exception">
+    <outputString><![CDATA[Standard ML of New Jersey, Version 110.0.7, September 28, 2000 [CM&CMB]
+- [opening pass.sml]
+val PASS_CUTOFF = 60 : int
+val regularPass = fn : int -> bool
+val PASS_CUTOFF = 40 : int
+val HIGH_FINAL_CUTOFF = 80 : int
+val highFinalPass = fn : int * int -> bool
+val pass = fn : int * int -> bool
+val it = () : unit
+- ]]></outputString>
+  </Command>
+  <Command __id="17713" _type="EHExceptionCommand" date="Tue Aug 20 11:44:56 EDT 2019" timestamp="165391116" type="Exception">
+    <outputString><![CDATA[pass(59,79);
+]]></outputString>
+  </Command>
+  <Command __id="17714" _type="EHExceptionCommand" date="Tue Aug 20 11:44:56 EDT 2019" timestamp="165391183" type="Exception">
+    <outputString><![CDATA[val it = false : bool
+- ]]></outputString>
+  </Command>
+  <Command __id="17715" _type="EHExceptionCommand" date="Tue Aug 20 11:45:05 EDT 2019" timestamp="165399345" type="Exception">
+    <outputString><![CDATA[pass(60,79);
+]]></outputString>
+  </Command>
+  <Command __id="17716" _type="EHExceptionCommand" date="Tue Aug 20 11:45:05 EDT 2019" timestamp="165399400" type="Exception">
+    <outputString><![CDATA[val it = true : bool
+- ]]></outputString>
+  </Command>
+  <Command __id="17717" _type="EHExceptionCommand" date="Tue Aug 20 11:45:12 EDT 2019" timestamp="165406278" type="Exception">
+    <outputString><![CDATA[pass(59,80);
+]]></outputString>
+  </Command>
+  <Command __id="17718" _type="EHExceptionCommand" date="Tue Aug 20 11:45:12 EDT 2019" timestamp="165406332" type="Exception">
+    <outputString><![CDATA[GC #0.0.0.0.1.17:  val it = true : bool
+-  (1 ms)
+]]></outputString>
+  </Command>
+  <Command __id="17719" _type="ShellCommand" date="Tue Aug 20 11:45:49 EDT 2019" timestamp="165443817" type="ECLIPSE_MINIMIZED" />
+  <Command __id="17720" _type="ShellCommand" date="Tue Aug 20 11:45:49 EDT 2019" timestamp="165443835" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17721" _type="ShellCommand" date="Tue Aug 20 11:47:20 EDT 2019" timestamp="165535126" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="17722" _type="ShellCommand" date="Tue Aug 20 11:47:21 EDT 2019" timestamp="165535703" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17723" _type="ShellCommand" date="Tue Aug 20 11:47:34 EDT 2019" timestamp="165548517" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17724" _type="ShellCommand" date="Tue Aug 20 11:51:03 EDT 2019" timestamp="165757569" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="17725" _type="RunCommand" date="Tue Aug 20 11:51:17 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="165771565" type="Run" />
+  <Command __id="17726" _type="EHExceptionCommand" date="Tue Aug 20 11:51:17 EDT 2019" timestamp="165771950" type="Exception">
+    <outputString><![CDATA[Standard ML of New Jersey, Version 110.0.7, September 28, 2000 [CM&CMB]
+- [opening pass.sml]
+val PASS_CUTOFF = 60 : int
+val regularPass = fn : int -> bool
+val PASS_CUTOFF = 40 : int
+val HIGH_FINAL_CUTOFF = 80 : int
+val highFinalPass = fn : int * int -> bool
+val pass = fn : int * int -> bool
+val it = () : unit
+- ]]></outputString>
+  </Command>
+</Events>

@@ -1,7 +1,7 @@
 package pass.threads;
 
+import pass.PassUtil;
 import pass.model.AnAbstractPassModel;
-import pass.regular.PassUtil;
 
 public class AConcurrentPassModel extends AnAbstractPassModel  {
 	protected void resetProperties() {

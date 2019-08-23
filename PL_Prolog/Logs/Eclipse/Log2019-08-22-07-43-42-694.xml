@@ -1,0 +1,13 @@
+<Events startTimestamp="1566474222694" logVersion="1.0.0.1">
+  <DocumentChange __id="45" _type="Delete" date="Thu Aug 22 09:12:52 EDT 2019" docASTNodeCount="1" docActiveCodeLength="641" docExpressionCount="0" docLength="641" endLine="0" length="1" offset="20" startLine="0" timestamp="5350013">
+    <text><![CDATA["]]></text>
+  </DocumentChange>
+  <Command __id="46" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Aug 22 09:12:52 EDT 2019" timestamp="5350016" />
+  <Command __id="47" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 22 09:12:53 EDT 2019" timestamp="5350914" />
+  <Command __id="48" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 22 09:12:58 EDT 2019" timestamp="5356068" />
+  <Command __id="49" _type="ShellCommand" date="Thu Aug 22 09:13:09 EDT 2019" timestamp="5366690" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="50" _type="ShellCommand" date="Thu Aug 22 09:18:44 EDT 2019" timestamp="5702005" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="51" _type="CopyCommand" date="Thu Aug 22 09:18:47 EDT 2019" timestamp="5705184" />
+  <Command __id="52" _type="ShellCommand" date="Thu Aug 22 09:18:49 EDT 2019" timestamp="5706851" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="53" _type="ShellCommand" date="Thu Aug 22 10:15:46 EDT 2019" timestamp="9124287" type="ECLIPSE_GAINED_FOCUS" />
+</Events>

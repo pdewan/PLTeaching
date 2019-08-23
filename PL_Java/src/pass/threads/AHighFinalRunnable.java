@@ -1,8 +1,8 @@
 package pass.threads;
 
+import pass.PassUtil;
 import pass.model.PassModel;
 import pass.model.PassModelFactory;
-import pass.regular.PassUtil;
 
 public class AHighFinalRunnable implements HighFinalRunnable{
 	protected Boolean highFinalPass = null;

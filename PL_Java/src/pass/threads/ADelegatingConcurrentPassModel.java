@@ -2,9 +2,9 @@ package pass.threads;
 
 import java.beans.PropertyChangeListener;
 
+import pass.PassUtil;
 import pass.model.DelegatePassModelFactory;
 import pass.model.PassModel;
-import pass.regular.PassUtil;
 
 public class ADelegatingConcurrentPassModel implements ConcurrentPassModel {
 	PassModel delegate;

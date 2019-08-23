@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-//typedef enum { false, true } bool;
 double inputDouble(char *aPrompt) {
 	double retVal;
 	printf(aPrompt);
@@ -11,9 +10,7 @@ double inputDouble(char *aPrompt) {
 	}
 	return retVal;
 }
-void enableOutputFlush() {
-	setvbuf(stdout, NULL, _IONBF, 0);
-}
+
 const double PASS_CUT_OFF = 60;
 _Bool regularPass(double totalScore) {
 	return totalScore >= PASS_CUT_OFF;
@@ -30,7 +27,11 @@ _Bool pass(double totalScore, double finalScore) {
 	return regularPass(totalScore) || highFinalPass(totalScore, finalScore);
 }
 
-int main() {
+void enableOutputFlush() {
+	setvbuf(stdout, NULL, _IONBF, 0);
+}
+
+int passMain() {
 	enableOutputFlush();
 	for (;;) {
 		double totalScore = inputDouble("Please input the total score\n");

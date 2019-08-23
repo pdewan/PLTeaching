@@ -1,7 +1,5 @@
 package pass.controller;
-
 import pass.regular.ARegularPassModel;
-
 public class PassControllerFactory {
 	static PassController passController;
 
@@ -11,9 +9,7 @@ public class PassControllerFactory {
 		}
 		return passController;
 	}
-
 	public static void setPassController(PassController newVal) {
 		passController = newVal;
 	}
-
 }

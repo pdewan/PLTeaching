@@ -6,4 +6,5 @@ highFinalPass(Total, Final) :- highFinalThreshold(HighFinalThreshold),
 		      Final >= HighFinalThreshold,
 		      highFinalCutoff(HighFinalCutoff),		      
 		      Total >= HighFinalCutoff.
-pass(Total, Final) :- regularPass(Total); highFinalPass(Total,Final).
+pass(Total, Final) :- regularPass(Total); 
+		      highFinalPass(Total,Final).

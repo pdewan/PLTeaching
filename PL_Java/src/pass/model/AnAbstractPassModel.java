@@ -1,8 +1,6 @@
 package pass.model;
-
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-
 public abstract class AnAbstractPassModel implements PassModel {
 	Double totalScore;
 	Double finalScore;
@@ -11,8 +9,7 @@ public abstract class AnAbstractPassModel implements PassModel {
 	@Override
 	public Double getTotalScore() {
 		return totalScore;
-	}
-	
+	}	
 	@Override
 	public Double getFinalScore() {
 		return finalScore;
@@ -42,6 +39,4 @@ public abstract class AnAbstractPassModel implements PassModel {
 	public void addPropertyChangeListener(PropertyChangeListener aListener) {
 		propertyChangeSupport.addPropertyChangeListener(aListener);
 	}
-
-
 }

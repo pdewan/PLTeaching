@@ -4,19 +4,26 @@
 @attribute finalScore numeric
 @attribute pass {true,false}
 @data
-30,0,false
+20,20,false
 30,30,false
-30,60,false
-59,59,false
-10,59,false
+40,30,false
+40,40,false
+50,30,false
+50,40,false
+59,30,false
 60,0,true
+60,30,true
 60,60,true
-30,70,false
-30,80,false
+60,90,true
+10,79,false
+39,79,false
+40,79,false
+59,79,false
+10,80,false
 39,80,false
+40,80,true
+49,80,true
+59,90,true
+59,100,true
 39,90,false
 39,100,false
-40,80,true
-40,90,true
-40,100,true
-10,100,false
