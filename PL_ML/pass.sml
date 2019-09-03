@@ -1,7 +1,7 @@
 val PASS_CUTOFF = 60;
 fun regularPass aTotal = aTotal >= PASS_CUTOFF;
  
-val PASS_CUTOFF = 40;
+val PASS_CUTOFF = "40";
 val HIGH_FINAL_CUTOFF = 80;
 
 fun highFinalPass (aTotal, aFinal) = 

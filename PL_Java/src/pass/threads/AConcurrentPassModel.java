@@ -17,7 +17,4 @@ public class AConcurrentPassModel extends AnAbstractPassModel  {
 		System.out.println(Thread.currentThread()+": regularPass =" + aRegularPass);
 		return aRegularPass || HighFinalRunnablelFactory.getHighFinalRunnable().waitForHighFinalPass();		
 	}
-
-	
-
 }

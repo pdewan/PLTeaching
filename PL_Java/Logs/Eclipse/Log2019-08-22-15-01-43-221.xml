@@ -1,0 +1,42 @@
+<Events startTimestamp="1566500503221" logVersion="1.0.0.1">
+  <DocumentChange __id="74" _type="Insert" date="Thu Aug 22 15:03:46 EDT 2019" docASTNodeCount="1" docActiveCodeLength="1106" docExpressionCount="0" docLength="1106" length="1" offset="947" timestamp="122904">
+    <text><![CDATA[Q]]></text>
+  </DocumentChange>
+  <Command __id="75" _type="InsertStringCommand" date="Thu Aug 22 15:03:46 EDT 2019" timestamp="122908" timestamp2="122908">
+    <data><![CDATA[Q]]></data>
+  </Command>
+  <Command __id="76" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Aug 22 15:03:47 EDT 2019" timestamp="123910" />
+  <Command __id="77" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 22 15:03:50 EDT 2019" timestamp="127685" />
+  <Command __id="78" _type="MoveCaretCommand" caretOffset="931" date="Thu Aug 22 15:03:57 EDT 2019" docOffset="931" timestamp="134097" />
+  <Command __id="79" _type="EclipseCommand" commandID="de.defmacro.dandelion.commands.editor.evalFile" date="Thu Aug 22 15:04:00 EDT 2019" timestamp="136976" />
+  <Command __id="80" _type="ShellCommand" date="Thu Aug 22 15:11:28 EDT 2019" timestamp="585404" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="81" _type="ShellCommand" date="Thu Aug 22 15:11:33 EDT 2019" timestamp="589783" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="82" _type="ShellCommand" date="Thu Aug 22 15:11:50 EDT 2019" timestamp="607480" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="83" _type="ShellCommand" date="Thu Aug 22 15:29:38 EDT 2019" timestamp="1675085" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="85" _type="MoveCaretCommand" caretOffset="398" date="Thu Aug 22 15:31:01 EDT 2019" docOffset="541" timestamp="1758477" />
+  <Command __id="86" _type="MoveCaretCommand" caretOffset="109" date="Thu Aug 22 15:31:23 EDT 2019" docOffset="252" timestamp="1780319" />
+  <Command __id="800" _type="CopyCommand" date="Fri Aug 23 09:38:35 EDT 2019" timestamp="67012062" />
+  <Command __id="801" _type="ShellCommand" date="Fri Aug 23 09:38:38 EDT 2019" timestamp="67015496" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="802" _type="ShellCommand" date="Fri Aug 23 09:39:59 EDT 2019" timestamp="67096220" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="803" _type="CopyCommand" date="Fri Aug 23 09:40:04 EDT 2019" timestamp="67101291" />
+  <Command __id="804" _type="ShellCommand" date="Fri Aug 23 09:40:06 EDT 2019" timestamp="67102988" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="805" _type="ShellCommand" date="Fri Aug 23 09:40:11 EDT 2019" timestamp="67108745" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="806" _type="ShellCommand" date="Fri Aug 23 09:40:22 EDT 2019" timestamp="67119323" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="807" _type="ShellCommand" date="Fri Aug 23 09:40:31 EDT 2019" timestamp="67127794" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="808" _type="ShellCommand" date="Fri Aug 23 09:40:36 EDT 2019" timestamp="67132943" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="809" _type="ShellCommand" date="Fri Aug 23 09:43:24 EDT 2019" timestamp="67301007" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="810" _type="ShellCommand" date="Fri Aug 23 09:43:24 EDT 2019" timestamp="67301101" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="811" _type="ShellCommand" date="Fri Aug 23 09:43:26 EDT 2019" timestamp="67303159" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="812" _type="ShellCommand" date="Fri Aug 23 09:43:35 EDT 2019" timestamp="67312548" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="813" _type="ShellCommand" date="Fri Aug 23 09:44:35 EDT 2019" timestamp="67371838" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="814" _type="EclipseCommand" commandID="org.eclipse.egit.ui.team.Commit" date="Fri Aug 23 09:44:35 EDT 2019" timestamp="67371863" />
+  <Command __id="815" _type="ShellCommand" date="Fri Aug 23 09:44:39 EDT 2019" timestamp="67376336" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="816" _type="ShellCommand" date="Fri Aug 23 09:44:41 EDT 2019" timestamp="67378336" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="817" _type="ShellCommand" date="Fri Aug 23 09:44:44 EDT 2019" timestamp="67380907" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="818" _type="ShellCommand" date="Fri Aug 23 09:45:07 EDT 2019" timestamp="67404772" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="819" _type="EclipseCommand" commandID="org.eclipse.egit.ui.team.Commit" date="Fri Aug 23 09:45:08 EDT 2019" timestamp="67404783" />
+  <Command __id="820" _type="ShellCommand" date="Fri Aug 23 09:45:14 EDT 2019" timestamp="67411721" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="821" _type="ShellCommand" date="Fri Aug 23 10:00:24 EDT 2019" timestamp="68321091" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="822" _type="ShellCommand" date="Fri Aug 23 10:00:43 EDT 2019" timestamp="68340453" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="823" _type="ShellCommand" date="Fri Aug 23 10:01:16 EDT 2019" timestamp="68373002" type="ECLIPSE_GAINED_FOCUS" />
+</Events>

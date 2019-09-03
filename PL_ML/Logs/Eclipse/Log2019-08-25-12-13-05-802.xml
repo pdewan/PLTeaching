@@ -1,0 +1,251 @@
+<Events startTimestamp="1566749585802" logVersion="1.0.0.1">
+  <Command __id="21221" _type="FileOpenCommand" date="Wed Aug 28 10:46:13 EDT 2019" docASTNodeCount="191" docActiveCodeLength="1036" docExpressionCount="119" docLength="1036" projectName="DemoCourseLocalBasicChecks" timestamp="253988020">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\src\testables\java\sharedCode\AnAbstractTestableCartesianPoint.java]]></filePath>
+    <snapshot><![CDATA[package testables.java.sharedCode;
+
+import util.annotations.Explanation;
+import util.annotations.Tags;
+
+import java.util.Scanner;
+
+import bus.uigen.ObjectEditor;
+import testables.java.correct.TestablePoint;
+public abstract class AnAbstractTestableCartesianPoint {	
+	static Scanner scanner = new Scanner(System.in);
+	protected int x, y;
+	public AnAbstractTestableCartesianPoint(int theX, int theY) {
+		x = theX;
+		y = theY;
+	}
+	public AnAbstractTestableCartesianPoint(double theRadius, double theAngle) {
+		x =  (int) (theRadius*Math.cos(theAngle));
+		y = (int) (theRadius*Math.sin(theAngle));
+	}
+	public int getX() { return x; }
+	public int getY() { return y; } 	
+	public double getAngle() { 
+		return Math.atan2(y, x); 
+	}
+	@Tags({"radius", "getter"})	
+	public double getRadius() { 
+		return Math.sqrt(x*x + y*y); 
+	}
+	public void print () {
+		System.out.println ("X: " + x + " Y:" + y);
+	}
+	public static int inputX() {
+		System.out.println("Please enter the X coordinate:");
+		return 0;
+		
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="21225" _type="Insert" date="Wed Aug 28 10:46:20 EDT 2019" docASTNodeCount="192" docActiveCodeLength="1048" docExpressionCount="120" docLength="1048" length="12" offset="916" repeat="11" timestamp="253994997" timestamp2="253998895">
+    <text><![CDATA[ + " radius"]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21247" _type="Delete" date="Wed Aug 28 10:46:25 EDT 2019" docASTNodeCount="192" docActiveCodeLength="1042" docExpressionCount="120" docLength="1042" endLine="30" length="6" offset="921" repeat="6" startLine="30" timestamp="253999346" timestamp2="254000151">
+    <text><![CDATA[radius]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21259" _type="Insert" date="Wed Aug 28 10:46:27 EDT 2019" docASTNodeCount="192" docActiveCodeLength="1050" docExpressionCount="120" docLength="1050" length="8" offset="921" repeat="8" timestamp="254001426" timestamp2="254004243">
+    <text><![CDATA[ radius:]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21276" _type="Delete" date="Wed Aug 28 10:46:32 EDT 2019" docASTNodeCount="192" docActiveCodeLength="1049" docExpressionCount="120" docLength="1049" endLine="30" length="1" offset="922" startLine="30" timestamp="254007138">
+    <text><![CDATA[r]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21278" _type="Insert" date="Wed Aug 28 10:46:34 EDT 2019" docASTNodeCount="192" docActiveCodeLength="1050" docExpressionCount="120" docLength="1050" length="1" offset="922" timestamp="254008654">
+    <text><![CDATA[R]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21282" _type="Insert" date="Wed Aug 28 10:46:40 EDT 2019" docASTNodeCount="193" docActiveCodeLength="1056" docExpressionCount="121" docLength="1056" length="6" offset="930" repeat="6" timestamp="254014623" timestamp2="254017644">
+    <text><![CDATA[ + get]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21294" _type="Insert" date="Wed Aug 28 10:46:46 EDT 2019" docASTNodeCount="195" docActiveCodeLength="1073" docExpressionCount="123" docLength="1073" length="17" offset="936" repeat="15" timestamp="254020609" timestamp2="254027512">
+    <text><![CDATA[Radius() + " Anf"]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21325" _type="Delete" date="Wed Aug 28 10:46:54 EDT 2019" docASTNodeCount="195" docActiveCodeLength="1072" docExpressionCount="123" docLength="1072" endLine="30" length="1" offset="951" startLine="30" timestamp="254028238">
+    <text><![CDATA[f]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21327" _type="Insert" date="Wed Aug 28 10:46:54 EDT 2019" docASTNodeCount="195" docActiveCodeLength="1076" docExpressionCount="123" docLength="1076" length="4" offset="951" repeat="4" timestamp="254028669" timestamp2="254030802">
+    <text><![CDATA[gle:]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21336" _type="Insert" date="Wed Aug 28 10:47:00 EDT 2019" docASTNodeCount="195" docActiveCodeLength="1079" docExpressionCount="123" docLength="1079" length="3" offset="956" repeat="3" timestamp="254034974" timestamp2="254035917">
+    <text><![CDATA[ + ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21342" _type="Insert" date="Wed Aug 28 10:47:08 EDT 2019" docASTNodeCount="197" docActiveCodeLength="1089" docExpressionCount="125" docLength="1089" length="10" offset="959" repeat="9" timestamp="254042297" timestamp2="254044376">
+    <text><![CDATA[getAngle()]]></text>
+  </DocumentChange>
+  <Command __id="21384" _type="FileOpenCommand" date="Wed Aug 28 10:48:08 EDT 2019" docASTNodeCount="249" docActiveCodeLength="1744" docExpressionCount="151" docLength="1880" projectName="DemoCourseLocalBasicChecks" timestamp="254103023">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\src\testables\java\correct\ACorrectTestableCartesianPoint.java]]></filePath>
+    <snapshot><![CDATA[package testables.java.correct;
+
+import util.annotations.Explanation;
+import util.annotations.Tags;
+
+import java.util.Scanner;
+
+import bus.uigen.ObjectEditor;
+import testables.java.sharedCode.AnAbstractTestableCartesianPoint;
+@Explanation("Uses Cartesian representation.")
+@Tags({"cartesian", "point"})
+public class ACorrectTestableCartesianPoint extends AnAbstractTestableCartesianPoint implements TestablePoint {	
+	public static Scanner scanner = new Scanner(System.in);
+	public ACorrectTestableCartesianPoint(int theX, int theY) {
+		super(theX, theY);
+	}
+	public ACorrectTestableCartesianPoint(double theRadius, double theAngle) {
+		super(theRadius, theAngle);
+	}
+	@Override
+	public TestablePoint translate (int anXDelta, int aYDelta) {
+		return new ACorrectTestableCartesianPoint (getX() + anXDelta, getY() + aYDelta);
+	}
+	public static final String QUIT = "quit";
+	public static int inputInt(String aPrompt) {
+		System.out.println(aPrompt);
+		String aNextLine = scanner.nextLine();
+		if (QUIT.equals(aNextLine)) {
+			System.exit(0);		}
+		int anX = Integer.parseInt(aNextLine);
+		return anX;
+	}
+	public static void main(String args[]) {
+		System.out.println("You can type quit anytime to terminate");
+		for (;;) {
+			int anX = inputInt("Please enter the X coordinate.");			
+			int aY = inputInt("Please enter the Y coordinate.");
+			TestablePoint aPoint = new ACorrectTestableCartesianPoint(anX, aY);
+			aPoint.print();
+			int anXDelta = inputInt("Please enter how much to move in the X direction");			
+			int aYDelta = inputInt("Please enter how much to move in the Y direction");
+			TestablePoint aTranslatedPoint = aPoint.translate(anXDelta, aYDelta);
+			aPoint.print();
+
+			
+		}
+//		TestablePoint point =  new ACorrectTestableCartesianPoint (50, 100);
+//		point = new ACorrectTestableCartesianPoint(100, Math.PI/4);	
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="21391" _type="Replace" date="Wed Aug 28 10:48:17 EDT 2019" docASTNodeCount="249" docActiveCodeLength="1754" docExpressionCount="151" docLength="1890" endLine="42" insertionLength="19" int_docASTNodeCount="248" int_docActiveCodeLength="1735" int_docExpressionCount="150" int_docLength="1871" length="9" offset="1701" startLine="42" timestamp="254111239">
+    <deletedText><![CDATA[			aPoint]]></deletedText>
+    <insertedText><![CDATA[			aTranslatedPoint]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="21418" _type="Insert" date="Wed Aug 28 10:49:13 EDT 2019" docASTNodeCount="251" docActiveCodeLength="1766" docExpressionCount="153" docLength="1902" length="12" offset="1045" repeat="8" timestamp="254167347" timestamp2="254169311">
+    <text><![CDATA[
+			System.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21435" _type="Insert" date="Wed Aug 28 10:49:18 EDT 2019" docASTNodeCount="255" docActiveCodeLength="1769" docExpressionCount="154" docLength="1905" length="3" offset="1057" repeat="3" timestamp="254172403" timestamp2="254172830">
+    <text><![CDATA[out]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21439" _type="Replace" date="Wed Aug 28 10:49:19 EDT 2019" docASTNodeCount="253" docActiveCodeLength="1770" docExpressionCount="155" docLength="1906" endLine="28" insertionLength="4" int_docASTNodeCount="251" int_docActiveCodeLength="1766" int_docExpressionCount="153" int_docLength="1902" length="3" offset="1057" startLine="28" timestamp="254173448">
+    <deletedText><![CDATA[out]]></deletedText>
+    <insertedText><![CDATA[out.]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="21442" _type="Insert" date="Wed Aug 28 10:49:19 EDT 2019" docASTNodeCount="256" docActiveCodeLength="1782" docExpressionCount="157" docLength="1918" length="12" offset="1061" repeat="11" timestamp="254173706" timestamp2="254177836">
+    <text><![CDATA[println(QUI)]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21456" _type="Delete" date="Wed Aug 28 10:49:24 EDT 2019" docASTNodeCount="255" docActiveCodeLength="1779" docExpressionCount="156" docLength="1915" endLine="28" length="3" offset="1069" repeat="3" startLine="28" timestamp="254178940" timestamp2="254179254">
+    <text><![CDATA[QUI]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21462" _type="Insert" date="Wed Aug 28 10:49:25 EDT 2019" docASTNodeCount="256" docActiveCodeLength="1785" docExpressionCount="157" docLength="1921" length="6" offset="1069" repeat="5" timestamp="254179822" timestamp2="254181262">
+    <text><![CDATA["qutt"]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21472" _type="Delete" date="Wed Aug 28 10:49:27 EDT 2019" docASTNodeCount="256" docActiveCodeLength="1783" docExpressionCount="157" docLength="1919" endLine="28" length="2" offset="1072" repeat="2" startLine="28" timestamp="254181867" timestamp2="254181992">
+    <text><![CDATA[tt]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21476" _type="Insert" date="Wed Aug 28 10:49:28 EDT 2019" docASTNodeCount="256" docActiveCodeLength="1789" docExpressionCount="157" docLength="1925" length="6" offset="1072" repeat="6" timestamp="254182349" timestamp2="254183456">
+    <text><![CDATA[itting]]></text>
+  </DocumentChange>
+  <DocumentChange __id="21490" _type="Insert" date="Wed Aug 28 10:49:33 EDT 2019" docASTNodeCount="256" docActiveCodeLength="1790" docExpressionCount="157" docLength="1926" length="1" offset="1080" timestamp="254187199">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <Command __id="21500" _type="FileOpenCommand" date="Wed Aug 28 15:02:13 EDT 2019" docASTNodeCount="1" docActiveCodeLength="343" docExpressionCount="0" docLength="343" projectName="PL_ML" timestamp="269347684">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_ML\pass.sml]]></filePath>
+    <snapshot><![CDATA[val PASS_CUTOFF = 60;
+fun regularPass aTotal = aTotal >= PASS_CUTOFF;
+ 
+val PASS_CUTOFF = 40;
+val HIGH_FINAL_CUTOFF = 80;
+
+fun highFinalPass (aTotal, aFinal) = 
+	 (aFinal >= HIGH_FINAL_CUTOFF) andalso
+	 (aTotal >= PASS_CUTOFF);
+	 
+fun pass (aTotal, aFinal) = 
+	regularPass(aTotal) orelse 
+	highFinalPass(aTotal, aFinal); 
+    
+
+]]></snapshot>
+  </Command>
+  <Command __id="21457" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Wed Aug 28 10:49:24 EDT 2019" repeat="3" timestamp="254178945" timestamp2="254179266" />
+  <Command __id="21463" _type="InsertStringCommand" date="Wed Aug 28 10:49:25 EDT 2019" repeat="5" timestamp="254179830" timestamp2="254181267">
+    <data><![CDATA["qutt]]></data>
+  </Command>
+  <Command __id="21473" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Wed Aug 28 10:49:27 EDT 2019" repeat="2" timestamp="254181874" timestamp2="254182000" />
+  <Command __id="21477" _type="InsertStringCommand" date="Wed Aug 28 10:49:28 EDT 2019" repeat="6" timestamp="254182355" timestamp2="254183459">
+    <data><![CDATA[itting]]></data>
+  </Command>
+  <Command __id="21488" _type="MoveCaretCommand" caretOffset="941" date="Wed Aug 28 10:49:30 EDT 2019" docOffset="1103" timestamp="254185075" />
+  <Command __id="21489" _type="MoveCaretCommand" caretOffset="918" date="Wed Aug 28 10:49:32 EDT 2019" docOffset="1080" timestamp="254186572" />
+  <Command __id="21491" _type="InsertStringCommand" date="Wed Aug 28 10:49:33 EDT 2019" timestamp="254187211" timestamp2="254187211">
+    <data><![CDATA[;]]></data>
+  </Command>
+  <Command __id="21492" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Wed Aug 28 10:49:33 EDT 2019" timestamp="254187724" />
+  <Command __id="21493" _type="EclipseCommand" commandID="" date="Wed Aug 28 10:49:33 EDT 2019" repeat="2" timestamp="254187806" timestamp2="254187862" />
+  <Command __id="21495" _type="MoveCaretCommand" caretOffset="828" date="Wed Aug 28 10:49:41 EDT 2019" docOffset="990" timestamp="254195452" />
+  <Command __id="21496" _type="ShellCommand" date="Wed Aug 28 10:49:46 EDT 2019" timestamp="254200909" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21497" _type="ShellCommand" date="Wed Aug 28 12:23:52 EDT 2019" timestamp="259846716" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21498" _type="ShellCommand" date="Wed Aug 28 12:24:46 EDT 2019" timestamp="259901193" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21499" _type="ShellCommand" date="Wed Aug 28 15:01:36 EDT 2019" timestamp="269310483" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21501" _type="ShellCommand" date="Wed Aug 28 15:02:57 EDT 2019" timestamp="269391824" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21502" _type="ShellCommand" date="Wed Aug 28 15:03:26 EDT 2019" timestamp="269420496" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21503" _type="ShellCommand" date="Wed Aug 28 15:03:33 EDT 2019" timestamp="269427870" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21504" _type="ShellCommand" date="Wed Aug 28 15:03:50 EDT 2019" timestamp="269444943" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21505" _type="ShellCommand" date="Wed Aug 28 15:03:55 EDT 2019" timestamp="269450022" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21506" _type="ShellCommand" date="Wed Aug 28 15:04:46 EDT 2019" timestamp="269500697" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21508" _type="ShellCommand" date="Wed Aug 28 15:05:22 EDT 2019" timestamp="269536249" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21509" _type="ShellCommand" date="Wed Aug 28 15:05:22 EDT 2019" timestamp="269536299" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21510" _type="ShellCommand" date="Wed Aug 28 15:05:44 EDT 2019" timestamp="269558484" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21511" _type="ShellCommand" date="Wed Aug 28 15:06:08 EDT 2019" timestamp="269582461" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21512" _type="ShellCommand" date="Wed Aug 28 15:06:33 EDT 2019" timestamp="269607496" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21513" _type="PredictionCommand" date="Wed Aug 28 15:06:33 EDT 2019" prediction_type="MakingProgress" timestamp="269607515" />
+  <Command __id="21514" _type="ShellCommand" date="Wed Aug 28 15:09:10 EDT 2019" timestamp="269764688" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21515" _type="ShellCommand" date="Wed Aug 28 15:09:20 EDT 2019" timestamp="269774807" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21516" _type="ShellCommand" date="Wed Aug 28 15:10:01 EDT 2019" timestamp="269816021" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21517" _type="ShellCommand" date="Wed Aug 28 15:10:09 EDT 2019" timestamp="269823893" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21518" _type="ShellCommand" date="Wed Aug 28 15:10:24 EDT 2019" timestamp="269839017" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21519" _type="RunCommand" date="Wed Aug 28 15:10:29 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="269843698" type="Run" />
+  <Command __id="21520" _type="EHExceptionCommand" date="Wed Aug 28 15:10:29 EDT 2019" timestamp="269843870" type="Exception">
+    <outputString><![CDATA[Standard ML of New Jersey, Version 110.0.7, September 28, 2000 [CM&CMB]
+- [opening pass.sml]
+val PASS_CUTOFF = 60 : int
+val regularPass = fn : int -> bool
+val PASS_CUTOFF = "40" : string
+val HIGH_FINAL_CUTOFF = 80 : int
+val highFinalPass = fn : string * int -> bool
+pass.sml:13.2-13.31 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: string * int
+  operand:         int * 'Z
+  in expression:
+    highFinalPass (aTotal,aFinal)
+- ]]></outputString>
+  </Command>
+  <Command __id="21521" _type="ShellCommand" date="Wed Aug 28 15:11:28 EDT 2019" timestamp="269903077" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21522" _type="ShellCommand" date="Wed Aug 28 15:12:35 EDT 2019" timestamp="269970164" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21523" _type="ShellCommand" date="Wed Aug 28 15:12:41 EDT 2019" timestamp="269975797" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21524" _type="ShellCommand" date="Wed Aug 28 15:12:43 EDT 2019" timestamp="269977758" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21525" _type="ShellCommand" date="Wed Aug 28 15:12:45 EDT 2019" timestamp="269980055" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21526" _type="ShellCommand" date="Wed Aug 28 15:13:23 EDT 2019" timestamp="270017758" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21527" _type="ShellCommand" date="Wed Aug 28 15:13:28 EDT 2019" timestamp="270022270" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21528" _type="ShellCommand" date="Wed Aug 28 15:13:49 EDT 2019" timestamp="270043247" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21529" _type="ShellCommand" date="Wed Aug 28 15:14:14 EDT 2019" timestamp="270069080" type="ECLIPSE_MINIMIZED" />
+  <Command __id="21530" _type="ShellCommand" date="Wed Aug 28 15:14:14 EDT 2019" timestamp="270069087" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21531" _type="ShellCommand" date="Wed Aug 28 16:40:58 EDT 2019" timestamp="275273101" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="21532" _type="ShellCommand" date="Wed Aug 28 16:40:59 EDT 2019" timestamp="275273231" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21533" _type="ShellCommand" date="Wed Aug 28 16:41:16 EDT 2019" timestamp="275290855" type="ECLIPSE_MINIMIZED" />
+  <Command __id="21534" _type="ShellCommand" date="Wed Aug 28 16:41:16 EDT 2019" timestamp="275290864" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="21535" _type="ShellCommand" date="Wed Aug 28 16:41:51 EDT 2019" timestamp="275325764" type="ECLIPSE_MAXIMIZED" />
+</Events>

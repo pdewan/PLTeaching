@@ -12,5 +12,4 @@ public class ConcurrentPassMain {
 		PassModelFactory.setPassModel(new ALambdaConcurrentPassModel()); // used by view and controller
 		MVCPassUtil.startPassMVC();
 	}
-
 }

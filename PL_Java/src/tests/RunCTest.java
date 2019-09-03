@@ -1,6 +1,6 @@
 package tests;
 
-import grader.basics.execution.BasicExecutionSpecificationSelector;
+import grader.basics.config.BasicExecutionSpecificationSelector;
 import gradingTools.comp524f19.assignment1.Assignment1Suite;
 import trace.grader.basics.GraderBasicsTraceUtility;
 import util.trace.Tracer;

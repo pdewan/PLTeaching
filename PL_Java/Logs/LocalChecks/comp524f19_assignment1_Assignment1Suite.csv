@@ -1,0 +1,5 @@
+#,Time,%Passes,Change,Test,Pass,Partial,Fail,Untested
+0,Sat Aug 24 16:43:46 EDT 2019,40,40,PromptSuite,IncrementalInputPromptTestCase+ PromptTestCase+ , , ,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase PledgeTestCase ,
+1,Sat Aug 24 16:43:51 EDT 2019,60,20,PledgeTestCase,IncrementalInputPromptTestCase PledgeTestCase+ PromptTestCase , , ,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase ,
+2,Sat Aug 24 16:44:00 EDT 2019,100,40,CustomCommandSuite,CustomCommandIncrementalPromptTestCase+ CustomCommandPromptTestCase+ IncrementalInputPromptTestCase PledgeTestCase PromptTestCase , , , ,
+3,Sun Aug 25 10:08:37 EDT 2019,100,0,PromptSuite,CustomCommandIncrementalPromptTestCase CustomCommandPromptTestCase IncrementalInputPromptTestCase PledgeTestCase PromptTestCase , , , ,
