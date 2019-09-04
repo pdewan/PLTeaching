@@ -1,4 +1,4 @@
-package pass.sockets.server;
+package pass.sockets.server.regular;
 
 
 public class RegularServerPassMain {

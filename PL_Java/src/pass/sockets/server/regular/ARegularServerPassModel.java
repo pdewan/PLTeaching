@@ -1,6 +1,7 @@
-package pass.sockets.server;
+package pass.sockets.server.regular;
 
 import pass.PassUtil;
+import pass.sockets.server.AnAbstractServerPassModel;
 
 public class ARegularServerPassModel extends AnAbstractServerPassModel{
 	@Override

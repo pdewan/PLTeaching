@@ -1,6 +1,7 @@
-package pass.sockets.server;
+package pass.sockets.server.flexible;
 
 import pass.PassUtil;
+import pass.sockets.server.AnAbstractServerPassModel;
 
 public class AServerPassModel extends AnAbstractServerPassModel{
 	@Override
