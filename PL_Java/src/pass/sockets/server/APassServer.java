@@ -1,4 +1,4 @@
-package pass.sockets;
+package pass.sockets.server;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -6,15 +6,15 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class APassServer {
-	public static final int PORT_NUMBER = 10000;
+public abstract class APassServer implements PassServerModel {
+	
 
 	public static void main(String[] args) {
-//		int portNumber = Integer.parseInt(args[0]);
 
 		try {
 			ServerSocket aServerSocketFactory = new ServerSocket(PORT_NUMBER);
 			Socket aServerEnd = aServerSocketFactory.accept();
+			System.out.println("Connected to client:" + aServerEnd);
 			PrintWriter aServerOut = new PrintWriter(aServerEnd.getOutputStream(), true);
 			BufferedReader aServerIn = new BufferedReader(new InputStreamReader(aServerEnd.getInputStream()));
 			while (true) {

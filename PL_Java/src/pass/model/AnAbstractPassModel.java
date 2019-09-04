@@ -2,9 +2,9 @@ package pass.model;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 public abstract class AnAbstractPassModel implements PassModel {
-	Double totalScore;
-	Double finalScore;
-	Boolean pass;	
+	protected Double totalScore;
+	protected Double finalScore;
+	protected Boolean pass;	
 	PropertyChangeSupport propertyChangeSupport = new PropertyChangeSupport(this);
 	@Override
 	public Double getTotalScore() {

@@ -1,9 +1,12 @@
-package pass.sockets;
+package pass.sockets.client;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+
+import pass.sockets.server.APassServer;
+import pass.sockets.server.PassServerModel;
 
 public class APassClient {
 
@@ -12,7 +15,7 @@ public class APassClient {
 //		int portNumber = Integer.parseInt(args[1]);
 
 		try {
-			Socket aClientEnd = new Socket(hostName, APassServer.PORT_NUMBER);
+			Socket aClientEnd = new Socket(hostName, PassServerModel.PORT_NUMBER);
 			PrintWriter aClientOut = new PrintWriter(aClientEnd.getOutputStream(), true);
 			BufferedReader aClientIn = new BufferedReader(new InputStreamReader(aClientEnd.getInputStream()));
 //			BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));

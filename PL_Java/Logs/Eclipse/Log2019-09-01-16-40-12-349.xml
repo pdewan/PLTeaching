@@ -1,0 +1,1545 @@
+<Events startTimestamp="1567370412349" logVersion="1.0.0.1">
+  <Command __id="8256" _type="ShellCommand" date="Tue Sep 03 08:33:55 EDT 2019" timestamp="143622746" type="ECLIPSE_MINIMIZED" />
+  <Command __id="8257" _type="ShellCommand" date="Tue Sep 03 08:33:55 EDT 2019" timestamp="143622792" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8258" _type="ShellCommand" date="Tue Sep 03 09:58:17 EDT 2019" timestamp="148684942" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="8259" _type="ShellCommand" date="Tue Sep 03 09:58:17 EDT 2019" timestamp="148685025" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8260" _type="ShellCommand" date="Tue Sep 03 09:59:09 EDT 2019" timestamp="148737638" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8261" _type="ShellCommand" date="Tue Sep 03 10:01:34 EDT 2019" timestamp="148882177" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8262" _type="RunCommand" date="Tue Sep 03 10:01:41 EDT 2019" kind="HitBreakPoint" projectName="PL_Java" timestamp="148889484" type="Run" />
+  <Command __id="8263" _type="RunCommand" date="Tue Sep 03 10:01:41 EDT 2019" kind="HitBreakPoint" projectName="PL_Java" timestamp="148889485" type="Run" />
+  <Command __id="8264" _type="RunCommand" date="Tue Sep 03 10:01:42 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="148889955" type="Run" />
+  <Command __id="8265" _type="RunCommand" date="Tue Sep 03 10:01:42 EDT 2019" kind="StepInto" projectName="(Unknown)" timestamp="148890115" type="Run" />
+  <Command __id="8266" _type="RunCommand" date="Tue Sep 03 10:01:42 EDT 2019" kind="HitBreakPoint" projectName="(Unknown)" timestamp="148890274" type="Run" />
+  <Command __id="8267" _type="ShellCommand" date="Tue Sep 03 10:01:46 EDT 2019" timestamp="148894377" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8268" _type="EHExceptionCommand" date="Tue Sep 03 10:02:08 EDT 2019" timestamp="148915848" type="Exception">
+    <outputString><![CDATA[69 50
+]]></outputString>
+  </Command>
+  <Command __id="8269" _type="ShellCommand" date="Tue Sep 03 10:03:36 EDT 2019" timestamp="149003956" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8270" _type="ShellCommand" date="Tue Sep 03 10:03:50 EDT 2019" timestamp="149018604" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8271" _type="ShellCommand" date="Tue Sep 03 10:24:05 EDT 2019" timestamp="150233532" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8273" _type="MoveCaretCommand" caretOffset="1560" date="Tue Sep 03 10:24:25 EDT 2019" docOffset="1731" timestamp="150253260" />
+  <Command __id="8274" _type="MoveCaretCommand" caretOffset="1560" date="Tue Sep 03 10:24:25 EDT 2019" docOffset="1731" timestamp="150253334" />
+  <Command __id="8275" _type="ShellCommand" date="Tue Sep 03 10:24:45 EDT 2019" timestamp="150273355" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8276" _type="ShellCommand" date="Tue Sep 03 10:25:20 EDT 2019" timestamp="150308604" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8277" _type="EclipseCommand" commandID="org.eclipse.egit.ui.team.Commit" date="Tue Sep 03 10:25:20 EDT 2019" timestamp="150308623" />
+  <Command __id="8278" _type="ShellCommand" date="Tue Sep 03 10:25:25 EDT 2019" timestamp="150312692" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8279" _type="ShellCommand" date="Tue Sep 03 10:25:28 EDT 2019" timestamp="150316021" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8281" _type="MoveCaretCommand" caretOffset="691" date="Tue Sep 03 10:25:33 EDT 2019" docOffset="780" timestamp="150320976" />
+  <Command __id="7684" _type="FileOpenCommand" date="Mon Sep 02 12:58:53 EDT 2019" docASTNodeCount="1011" docActiveCodeLength="8241" docExpressionCount="654" docLength="11039" projectName="GraderBasics" timestamp="73120748">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\gradingTools\interpreter\AnInterpretingGradableJUnitTopLevelSuite.java]]></filePath>
+    <snapshot><![CDATA[package gradingTools.interpreter;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import com.sun.xml.internal.ws.encoding.RootOnlyCodec;
+
+import bus.uigen.ObjectEditor;
+import grader.basics.config.BasicExecutionSpecificationSelector;
+import grader.basics.config.BasicStaticConfigurationUtils;
+import grader.basics.file.FileProxy;
+import grader.basics.file.RootFolderProxy;
+import grader.basics.file.filesystem.AFileSystemRootFolderProxy;
+import grader.basics.file.zipfile.AZippedRootFolderProxy;
+import grader.basics.junit.AGradableJUnitSuite;
+import grader.basics.junit.AGradableJUnitTopLevelSuite;
+import grader.basics.junit.GradableJUnitSuite;
+import grader.basics.junit.GradableJUnitTest;
+import grader.basics.project.BasicProject;
+import grader.basics.requirements.interpreter.specification.ACSVRequirementsSpecification;
+import grader.basics.requirements.interpreter.specification.CSVRequirementsSpecification;
+import grader.basics.testcase.PassFailJUnitTestCase;
+import util.annotations.Visible;
+
+public class AnInterpretingGradableJUnitTopLevelSuite extends AGradableJUnitTopLevelSuite{
+	protected Map<String, GradableJUnitSuite> stringToGradableSuite = new HashMap<>();
+	public static final String emptyString = "";
+	static protected RootFolderProxy assignmentsDataFolderProxy;
+
+	public AnInterpretingGradableJUnitTopLevelSuite(RootFolderProxy aParentFolder, CSVRequirementsSpecification aCSVRequirementsSpecification) {
+		super(null);
+		addDescendents(aCSVRequirementsSpecification);
+		
+	}
+	@Override
+	/**
+	 * do nothing as JUnit class is null
+	 */
+	public void setJUnitClass(Class aJUnitClass) {
+	}
+	@Visible(false)
+	public String getSimpleName() {
+		return "root";
+	}
+	protected void addLeaf(
+//			FileProxy aParentFolder,
+			GradableJUnitSuite aParentSuite,
+			CSVRequirementsSpecification aCSVRequirementsSpecification, 			
+			int aRequirementNumber,
+			String aSimpleDescription) {
+//		String aDescription = aCSVRequirementsSpecification.getDescription(aRequirementNumber);
+//		if (aDescription == null) {
+//			return;
+//		}
+			
+//		String[] aDescriptionNames = aDescription.split("\\.");
+//		String aSimpleDescription = aDescriptionNames[aDescriptionNames.length - 1];
+		PassFailJUnitTestCase aPassFailJUnitTestCase = new AnInterpretingJUnitTestCase(aSimpleDescription, aCSVRequirementsSpecification, aRequirementNumber);
+		GradableJUnitTest aGradableJUnitTest = 
+				new AnInterpretingGradableJUnitTest(AnInterpretingJUnitTestCase.class, aPassFailJUnitTestCase,aSimpleDescription, aCSVRequirementsSpecification, aRequirementNumber );
+		aParentSuite.add(aGradableJUnitTest);
+	}
+	protected void addDescendents(
+//			FileProxy aParentFolder,
+			CSVRequirementsSpecification aCSVRequirementsSpecification, 
+			int aRequirementNumber, 
+			String[] aDescriptionComponents, 
+			String aParentString, 
+			int anIndex) {
+		GradableJUnitSuite aParentSuite = stringToGradableSuite.get(aParentString);
+		
+		
+		if (anIndex == aDescriptionComponents.length - 1 ) {
+			
+			addLeaf(aParentSuite, aCSVRequirementsSpecification, aRequirementNumber, aDescriptionComponents[anIndex]);	
+			return;
+		} else {
+			String aNodeFullName = aParentString + "_" + aDescriptionComponents[anIndex];
+			GradableJUnitSuite anInternalNode = stringToGradableSuite.get(aNodeFullName);
+			if (anInternalNode == null) {
+				anInternalNode = new AnInterpretingGradableJUnitSuite(aDescriptionComponents[anIndex]); // may need special node
+				stringToGradableSuite.put(aNodeFullName, anInternalNode);
+				aParentSuite.add(anInternalNode);
+			}
+			addDescendents(aCSVRequirementsSpecification, aRequirementNumber, aDescriptionComponents, aNodeFullName, anIndex + 1);			
+		}
+		
+	}
+	protected void addDescendents(CSVRequirementsSpecification aCSVRequirementsSpecification) {
+		int aNumRequirements = aCSVRequirementsSpecification.getNumberOfRequirements();
+		stringToGradableSuite.put(emptyString, this);			
+
+		for (int aRequirementNumber = 0; aRequirementNumber <  aNumRequirements; aRequirementNumber++) {
+			String aDescription = aCSVRequirementsSpecification.getDescription(aRequirementNumber);
+			if (aDescription == null) {
+				continue;
+			}
+				
+			String[] aDescriptionNames = aDescription.split("\\.");
+			addDescendents(aCSVRequirementsSpecification, aRequirementNumber, aDescriptionNames, emptyString, 0);
+
+//			String aSimpleDescription = aDescriptionNames[aDescriptionNames.length - 1];
+//			PassFailJUnitTestCase aPassFailJUnitTestCase = new AnInterpretingJUnitTestCase(aSimpleDescription, aCSVRequirementsSpecification, aRequirementNumber);
+//			GradableJUnitTest aGradableJUnitTest = 
+//					new AnInterpretingGradableJUnitTest(AnInterpretingJUnitTestCase.class, aPassFailJUnitTestCase,aSimpleDescription, aCSVRequirementsSpecification, aRequirementNumber );
+//			add(aGradableJUnitTest);
+		}
+	}
+	public static RootFolderProxy getAssignmentDataProxy() {
+		if (assignmentsDataFolderProxy == null) {
+			assignmentsDataFolderProxy = searchForAssignmentDataProxy(new File("."));
+		}
+		return assignmentsDataFolderProxy;
+	}
+	@Visible(false)
+	public static RootFolderProxy searchForAssignmentDataProxy(File aParentFolder) {
+		File aFile = searchForAssignmentDataFolder(aParentFolder);
+		
+		if (aFile == null || !aFile.exists())
+			return null;
+		if (aFile.isDirectory()) {
+			return new AFileSystemRootFolderProxy(aFile.getAbsolutePath());
+		}
+		return new AZippedRootFolderProxy(aFile.getAbsolutePath());
+	}
+	@Visible(false)
+	public static File searchForAssignmentDataFolder(File aParentFolder) {
+		File[] aFiles = aParentFolder.listFiles();
+//		System.out.println(aParentFolder.getAbsolutePath());
+		for (File aFile:aFiles) {
+			String aFileName = aFile.getName();
+//			if (
+//					aFileName.equals(aProject.getBuildFolder().getName()) ||
+//					aFileName.equals(aProject.getSourceFolder().getName())
+//				) {
+//				continue;
+//			}
+			
+			if (aFileName.startsWith("."))
+				continue;
+			String[] aFileNames = aFileName.split("\\.");
+			int aLastIndex = aFileNames[0].length() - 1;
+			char aLastChar = aFileNames[0].charAt(aLastIndex);
+			if (Character.isDigit(aLastChar)) { // "recitation1"
+				return aFile;
+			}
+			if (aFileName.contains("ssignment")) {
+				return aFile;
+			}
+			
+			
+		}
+		return null;		
+	}
+	@Visible(false)
+	public static File getSpecifiedRequirementsFile (File aCurrentDirFile, String aRelativeLocation) {
+		try {
+			String aCurrentDir = aCurrentDirFile.getCanonicalPath();
+			File aFile = new File (aCurrentDir + "/" + aRelativeLocation);
+			return aFile;
+		} catch (IOException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+	@Visible(false)
+	public static File getUnspecifiedRequirementsFile (File aCurrentDirFile) {
+		File anAssignmentsDataFolder = searchForAssignmentDataFolder(aCurrentDirFile) ;
+		
+		if (!anAssignmentsDataFolder.exists()) {
+			return null;
+		}
+		else {
+			File aFile = null;
+			try {
+				aFile = new File (aCurrentDirFile.getCanonicalPath() + "/" + CSVRequirementsSpecification.DEFAULT_REQUIREMENTS_SPREADHEET_NAME);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+			return aFile;
+		}
+		
+	}
+	@Visible(false)
+	public static FileProxy getUnspecifiedRequirementsFile (RootFolderProxy aCurrentDirFile) {
+		if (aCurrentDirFile == null) {
+			return null;
+		}
+//		Set<String> aFiles = aCurrentDirFile.getChildrenNames();
+		List<FileProxy> aFiles = aCurrentDirFile.getFileEntries();
+//		String aFileName = null;
+		for (FileProxy aFile:aFiles) {
+			String aFileName = aFile.getLocalName();
+//			if (aFileName.equals(CSVRequirementsSpecification.DEFAULT_REQUIREMENTS_SPREADHEET_NAME)) {
+//				return aFile;
+//			}
+			if (aFileName.endsWith(".csv") && (aFileName.contains("equirements"))) {
+				return aFile;
+			}
+		}
+		
+		return null;
+		
+	}
+	@Visible(false)
+	public static File getRequirementsFile() {
+		String aConfigurationFileName = BasicExecutionSpecificationSelector.getBasicExecutionSpecification().getRequirementsLocation();
+		File aCurrentDir = new File(".");
+		if (aConfigurationFileName != null) {
+			return getSpecifiedRequirementsFile(aCurrentDir, aConfigurationFileName);
+		} else {
+			return getUnspecifiedRequirementsFile(aCurrentDir);
+		}
+	}
+	@Visible(false)
+	public static void runSpecifiedTests( ) {
+//		RootFolderProxy anAssignmentData = searchForAssignmentDataProxy(new File("."));
+		RootFolderProxy anAssignmentData = getAssignmentDataProxy();
+
+		FileProxy aRequirementsFile = getUnspecifiedRequirementsFile(anAssignmentData);
+		if (aRequirementsFile == null) {
+			System.err.println("Could not find requirements file");
+			return;
+		}
+		String aFileName = aRequirementsFile.getMixedCaseLocalName();
+		String[] aFileNameComponents = aFileName.split("_|-");
+		if (aFileNameComponents.length < 3) {
+			System.err.println(aFileName + " not of the form <Course>_<Problem>_Requirements.csv");
+		} else {
+			BasicStaticConfigurationUtils.setModule(aFileNameComponents[0]);
+			BasicStaticConfigurationUtils.setProblem(aFileNameComponents[1]);
+		}
+		
+//		System.out.println(aRequirementsFile);
+		CSVRequirementsSpecification aSpecification = new ACSVRequirementsSpecification(aRequirementsFile);
+		GradableJUnitSuite aTopLevelSuite = new AnInterpretingGradableJUnitTopLevelSuite(assignmentsDataFolderProxy, aSpecification);
+		ObjectEditor.treeEdit(aTopLevelSuite);
+	}
+	public static void main (String[] args) {
+		runSpecifiedTests();
+//		RootFolderProxy anAssignmentData = searchForAssignmentDataProxy(new File("."));
+//		FileProxy aRequirementsFile = getUnspecifiedRequirementsFile(anAssignmentData);
+//		if (aRequirementsFile == null) {
+//			System.err.println("Could not find requirements file");
+//			return;
+//		}
+//		String aFileName = aRequirementsFile.getMixedCaseLocalName();
+//		String[] aFileNameComponents = aFileName.split("_|-");
+//		if (aFileNameComponents.length < 3) {
+//			System.err.println(aFileName + " not of the form <Course>_<Problem>_Requirements.csv");
+//		} else {
+//			BasicStaticConfigurationUtils.setModule(aFileNameComponents[0]);
+//			BasicStaticConfigurationUtils.setProblem(aFileNameComponents[1]);
+//		}
+//		
+////		System.out.println(aRequirementsFile);
+//		CSVRequirementsSpecification aSpecification = new ACSVRequirementsSpecification(aRequirementsFile);
+//		GradableJUnitSuite aTopLevelSuite = new AnInterpretingGradableJUnitTopLevelSuite(aSpecification);
+//		ObjectEditor.treeEdit(aTopLevelSuite);
+////		int aNumRequirements = aSpecification.getNumberOfRequirements();
+////		for (int aRequirementNumber = 0; aRequirementNumber <=  aNumRequirements; aRequirementNumber++) {
+////			String aDescription = aSpecification.getDescription(aRequirementNumber);
+////			String[] aDescriptionNames = aDescription.split("\\.");
+////		}
+			
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="7712" _type="FileOpenCommand" date="Mon Sep 02 12:59:18 EDT 2019" docASTNodeCount="916" docActiveCodeLength="6216" docExpressionCount="523" docLength="6524" projectName="GraderBasics" timestamp="73145751">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\grader\basics\requirements\interpreter\specification\ACSVRequirementsSpecification.java]]></filePath>
+  </Command>
+  <Command __id="7854" _type="FileOpenCommand" date="Mon Sep 02 13:02:54 EDT 2019" docASTNodeCount="1" docActiveCodeLength="0" docExpressionCount="0" docLength="0" projectName="DemoCourseLocalBasicChecks" timestamp="73361753">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+    <snapshot><![CDATA[]]></snapshot>
+  </Command>
+  <Command __id="7855" _type="FileOpenCommand" date="Mon Sep 02 13:04:47 EDT 2019" docASTNodeCount="1" docActiveCodeLength="0" docExpressionCount="0" docLength="0" projectName="DemoCourseLocalBasicChecks" timestamp="73475014">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+  </Command>
+  <Command __id="7858" _type="FileOpenCommand" date="Mon Sep 02 13:05:10 EDT 2019" docASTNodeCount="1" docActiveCodeLength="755" docExpressionCount="0" docLength="755" projectName="DemoCourseLocalBasicChecks" timestamp="73498148">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\config\Requirements.csv]]></filePath>
+    <snapshot><![CDATA[Type,Description,MaxScore,Timeout,Input,Model Output,Extra Credit?,Checker,Argument1, Argument2, Argument3
+DueDate,"02/4/2014 23:55:59",1,,,,,,,,
+DueDate,"02/5/2014 23:55:59",0.5,,,,,,,,
+Feature,Has a main,5,,,,,match,$Source,[\\s\\S]*int\\s+main\\s*\\(\\s*\\)[\\s\\S]*
+Feature,Adds and multiplies the numbers,30,1,inputs/Input1.txt,correctoutput.txt,,diff,"-i -w -b",$ModelOutput,$ActualOutput
+Feature,Adds and multiplies the numbers exact match,5,1,"1\\n2.5\\n",correctoutput.txt,yes,diff,,$ModelOutput,$ActualOutput
+Feature,Prompts for input,10,,,,,match,$ActualOutput,"[\\s\\S]*int[\\s\\S]*decimal[\\s\\S]*"
+Feature,Clear messages,20,,,,yes,,,,
+Restriction,No commented Java println,5,,,,,match,$Source,(?![\\s\\S]*System.out.println[\\s\\S]*)]]></snapshot>
+  </Command>
+  <Command __id="7859" _type="FileOpenCommand" date="Mon Sep 02 13:05:18 EDT 2019" docASTNodeCount="1" docActiveCodeLength="0" docExpressionCount="0" docLength="0" projectName="DemoCourseLocalBasicChecks" timestamp="73506595">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+  </Command>
+  <Command __id="7869" _type="FileOpenCommand" date="Mon Sep 02 13:05:58 EDT 2019" docASTNodeCount="1011" docActiveCodeLength="8241" docExpressionCount="654" docLength="11039" projectName="GraderBasics" timestamp="73545761">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\gradingTools\interpreter\AnInterpretingGradableJUnitTopLevelSuite.java]]></filePath>
+  </Command>
+  <Command __id="7873" _type="FileOpenCommand" date="Mon Sep 02 13:06:00 EDT 2019" docASTNodeCount="916" docActiveCodeLength="6216" docExpressionCount="523" docLength="6524" projectName="GraderBasics" timestamp="73547844">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\grader\basics\requirements\interpreter\specification\ACSVRequirementsSpecification.java]]></filePath>
+  </Command>
+  <Command __id="7896" _type="FileOpenCommand" date="Mon Sep 02 13:06:42 EDT 2019" docASTNodeCount="1011" docActiveCodeLength="8241" docExpressionCount="654" docLength="11039" projectName="GraderBasics" timestamp="73590400">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\gradingTools\interpreter\AnInterpretingGradableJUnitTopLevelSuite.java]]></filePath>
+  </Command>
+  <DocumentChange __id="7899" _type="Insert" date="Mon Sep 02 13:06:55 EDT 2019" docASTNodeCount="1014" docActiveCodeLength="8259" docExpressionCount="657" docLength="11057" length="18" offset="4994" repeat="15" timestamp="73603191" timestamp2="73607523">
+    <text><![CDATA[
+	@Visible(false)]]></text>
+  </DocumentChange>
+  <Command __id="7968" _type="FileOpenCommand" date="Mon Sep 02 13:07:06 EDT 2019" docASTNodeCount="916" docActiveCodeLength="6216" docExpressionCount="523" docLength="6524" projectName="GraderBasics" timestamp="73614644">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\grader\basics\requirements\interpreter\specification\ACSVRequirementsSpecification.java]]></filePath>
+  </Command>
+  <Command __id="7982" _type="FileOpenCommand" date="Mon Sep 02 13:07:19 EDT 2019" docASTNodeCount="1" docActiveCodeLength="0" docExpressionCount="0" docLength="0" projectName="DemoCourseLocalBasicChecks" timestamp="73627640">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+  </Command>
+  <Command __id="7983" _type="FileOpenCommand" date="Mon Sep 02 13:07:56 EDT 2019" docASTNodeCount="1" docActiveCodeLength="755" docExpressionCount="0" docLength="755" projectName="DemoCourseLocalBasicChecks" timestamp="73664141">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\config\Requirements.csv]]></filePath>
+  </Command>
+  <Command __id="7984" _type="FileOpenCommand" date="Mon Sep 02 13:08:00 EDT 2019" docASTNodeCount="1" docActiveCodeLength="0" docExpressionCount="0" docLength="0" projectName="DemoCourseLocalBasicChecks" timestamp="73667731">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+  </Command>
+  <Command __id="7987" _type="FileOpenCommand" date="Mon Sep 02 13:08:11 EDT 2019" docASTNodeCount="1014" docActiveCodeLength="8259" docExpressionCount="657" docLength="11057" projectName="GraderBasics" timestamp="73679271">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\gradingTools\interpreter\AnInterpretingGradableJUnitTopLevelSuite.java]]></filePath>
+    <snapshot><![CDATA[package gradingTools.interpreter;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import com.sun.xml.internal.ws.encoding.RootOnlyCodec;
+
+import bus.uigen.ObjectEditor;
+import grader.basics.config.BasicExecutionSpecificationSelector;
+import grader.basics.config.BasicStaticConfigurationUtils;
+import grader.basics.file.FileProxy;
+import grader.basics.file.RootFolderProxy;
+import grader.basics.file.filesystem.AFileSystemRootFolderProxy;
+import grader.basics.file.zipfile.AZippedRootFolderProxy;
+import grader.basics.junit.AGradableJUnitSuite;
+import grader.basics.junit.AGradableJUnitTopLevelSuite;
+import grader.basics.junit.GradableJUnitSuite;
+import grader.basics.junit.GradableJUnitTest;
+import grader.basics.project.BasicProject;
+import grader.basics.requirements.interpreter.specification.ACSVRequirementsSpecification;
+import grader.basics.requirements.interpreter.specification.CSVRequirementsSpecification;
+import grader.basics.testcase.PassFailJUnitTestCase;
+import util.annotations.Visible;
+
+public class AnInterpretingGradableJUnitTopLevelSuite extends AGradableJUnitTopLevelSuite{
+	protected Map<String, GradableJUnitSuite> stringToGradableSuite = new HashMap<>();
+	public static final String emptyString = "";
+	static protected RootFolderProxy assignmentsDataFolderProxy;
+
+	public AnInterpretingGradableJUnitTopLevelSuite(RootFolderProxy aParentFolder, CSVRequirementsSpecification aCSVRequirementsSpecification) {
+		super(null);
+		addDescendents(aCSVRequirementsSpecification);
+		
+	}
+	@Override
+	/**
+	 * do nothing as JUnit class is null
+	 */
+	public void setJUnitClass(Class aJUnitClass) {
+	}
+	@Visible(false)
+	public String getSimpleName() {
+		return "root";
+	}
+	protected void addLeaf(
+//			FileProxy aParentFolder,
+			GradableJUnitSuite aParentSuite,
+			CSVRequirementsSpecification aCSVRequirementsSpecification, 			
+			int aRequirementNumber,
+			String aSimpleDescription) {
+//		String aDescription = aCSVRequirementsSpecification.getDescription(aRequirementNumber);
+//		if (aDescription == null) {
+//			return;
+//		}
+			
+//		String[] aDescriptionNames = aDescription.split("\\.");
+//		String aSimpleDescription = aDescriptionNames[aDescriptionNames.length - 1];
+		PassFailJUnitTestCase aPassFailJUnitTestCase = new AnInterpretingJUnitTestCase(aSimpleDescription, aCSVRequirementsSpecification, aRequirementNumber);
+		GradableJUnitTest aGradableJUnitTest = 
+				new AnInterpretingGradableJUnitTest(AnInterpretingJUnitTestCase.class, aPassFailJUnitTestCase,aSimpleDescription, aCSVRequirementsSpecification, aRequirementNumber );
+		aParentSuite.add(aGradableJUnitTest);
+	}
+	protected void addDescendents(
+//			FileProxy aParentFolder,
+			CSVRequirementsSpecification aCSVRequirementsSpecification, 
+			int aRequirementNumber, 
+			String[] aDescriptionComponents, 
+			String aParentString, 
+			int anIndex) {
+		GradableJUnitSuite aParentSuite = stringToGradableSuite.get(aParentString);
+		
+		
+		if (anIndex == aDescriptionComponents.length - 1 ) {
+			
+			addLeaf(aParentSuite, aCSVRequirementsSpecification, aRequirementNumber, aDescriptionComponents[anIndex]);	
+			return;
+		} else {
+			String aNodeFullName = aParentString + "_" + aDescriptionComponents[anIndex];
+			GradableJUnitSuite anInternalNode = stringToGradableSuite.get(aNodeFullName);
+			if (anInternalNode == null) {
+				anInternalNode = new AnInterpretingGradableJUnitSuite(aDescriptionComponents[anIndex]); // may need special node
+				stringToGradableSuite.put(aNodeFullName, anInternalNode);
+				aParentSuite.add(anInternalNode);
+			}
+			addDescendents(aCSVRequirementsSpecification, aRequirementNumber, aDescriptionComponents, aNodeFullName, anIndex + 1);			
+		}
+		
+	}
+	protected void addDescendents(CSVRequirementsSpecification aCSVRequirementsSpecification) {
+		int aNumRequirements = aCSVRequirementsSpecification.getNumberOfRequirements();
+		stringToGradableSuite.put(emptyString, this);			
+
+		for (int aRequirementNumber = 0; aRequirementNumber <  aNumRequirements; aRequirementNumber++) {
+			String aDescription = aCSVRequirementsSpecification.getDescription(aRequirementNumber);
+			if (aDescription == null) {
+				continue;
+			}
+				
+			String[] aDescriptionNames = aDescription.split("\\.");
+			addDescendents(aCSVRequirementsSpecification, aRequirementNumber, aDescriptionNames, emptyString, 0);
+
+//			String aSimpleDescription = aDescriptionNames[aDescriptionNames.length - 1];
+//			PassFailJUnitTestCase aPassFailJUnitTestCase = new AnInterpretingJUnitTestCase(aSimpleDescription, aCSVRequirementsSpecification, aRequirementNumber);
+//			GradableJUnitTest aGradableJUnitTest = 
+//					new AnInterpretingGradableJUnitTest(AnInterpretingJUnitTestCase.class, aPassFailJUnitTestCase,aSimpleDescription, aCSVRequirementsSpecification, aRequirementNumber );
+//			add(aGradableJUnitTest);
+		}
+	}
+	@Visible(false)
+	public static RootFolderProxy getAssignmentDataProxy() {
+		if (assignmentsDataFolderProxy == null) {
+			assignmentsDataFolderProxy = searchForAssignmentDataProxy(new File("."));
+		}
+		return assignmentsDataFolderProxy;
+	}
+	@Visible(false)
+	public static RootFolderProxy searchForAssignmentDataProxy(File aParentFolder) {
+		File aFile = searchForAssignmentDataFolder(aParentFolder);
+		
+		if (aFile == null || !aFile.exists())
+			return null;
+		if (aFile.isDirectory()) {
+			return new AFileSystemRootFolderProxy(aFile.getAbsolutePath());
+		}
+		return new AZippedRootFolderProxy(aFile.getAbsolutePath());
+	}
+	@Visible(false)
+	public static File searchForAssignmentDataFolder(File aParentFolder) {
+		File[] aFiles = aParentFolder.listFiles();
+//		System.out.println(aParentFolder.getAbsolutePath());
+		for (File aFile:aFiles) {
+			String aFileName = aFile.getName();
+//			if (
+//					aFileName.equals(aProject.getBuildFolder().getName()) ||
+//					aFileName.equals(aProject.getSourceFolder().getName())
+//				) {
+//				continue;
+//			}
+			
+			if (aFileName.startsWith("."))
+				continue;
+			String[] aFileNames = aFileName.split("\\.");
+			int aLastIndex = aFileNames[0].length() - 1;
+			char aLastChar = aFileNames[0].charAt(aLastIndex);
+			if (Character.isDigit(aLastChar)) { // "recitation1"
+				return aFile;
+			}
+			if (aFileName.contains("ssignment")) {
+				return aFile;
+			}
+			
+			
+		}
+		return null;		
+	}
+	@Visible(false)
+	public static File getSpecifiedRequirementsFile (File aCurrentDirFile, String aRelativeLocation) {
+		try {
+			String aCurrentDir = aCurrentDirFile.getCanonicalPath();
+			File aFile = new File (aCurrentDir + "/" + aRelativeLocation);
+			return aFile;
+		} catch (IOException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+	@Visible(false)
+	public static File getUnspecifiedRequirementsFile (File aCurrentDirFile) {
+		File anAssignmentsDataFolder = searchForAssignmentDataFolder(aCurrentDirFile) ;
+		
+		if (!anAssignmentsDataFolder.exists()) {
+			return null;
+		}
+		else {
+			File aFile = null;
+			try {
+				aFile = new File (aCurrentDirFile.getCanonicalPath() + "/" + CSVRequirementsSpecification.DEFAULT_REQUIREMENTS_SPREADHEET_NAME);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+			return aFile;
+		}
+		
+	}
+	@Visible(false)
+	public static FileProxy getUnspecifiedRequirementsFile (RootFolderProxy aCurrentDirFile) {
+		if (aCurrentDirFile == null) {
+			return null;
+		}
+//		Set<String> aFiles = aCurrentDirFile.getChildrenNames();
+		List<FileProxy> aFiles = aCurrentDirFile.getFileEntries();
+//		String aFileName = null;
+		for (FileProxy aFile:aFiles) {
+			String aFileName = aFile.getLocalName();
+//			if (aFileName.equals(CSVRequirementsSpecification.DEFAULT_REQUIREMENTS_SPREADHEET_NAME)) {
+//				return aFile;
+//			}
+			if (aFileName.endsWith(".csv") && (aFileName.contains("equirements"))) {
+				return aFile;
+			}
+		}
+		
+		return null;
+		
+	}
+	@Visible(false)
+	public static File getRequirementsFile() {
+		String aConfigurationFileName = BasicExecutionSpecificationSelector.getBasicExecutionSpecification().getRequirementsLocation();
+		File aCurrentDir = new File(".");
+		if (aConfigurationFileName != null) {
+			return getSpecifiedRequirementsFile(aCurrentDir, aConfigurationFileName);
+		} else {
+			return getUnspecifiedRequirementsFile(aCurrentDir);
+		}
+	}
+	@Visible(false)
+	public static void runSpecifiedTests( ) {
+//		RootFolderProxy anAssignmentData = searchForAssignmentDataProxy(new File("."));
+		RootFolderProxy anAssignmentData = getAssignmentDataProxy();
+
+		FileProxy aRequirementsFile = getUnspecifiedRequirementsFile(anAssignmentData);
+		if (aRequirementsFile == null) {
+			System.err.println("Could not find requirements file");
+			return;
+		}
+		String aFileName = aRequirementsFile.getMixedCaseLocalName();
+		String[] aFileNameComponents = aFileName.split("_|-");
+		if (aFileNameComponents.length < 3) {
+			System.err.println(aFileName + " not of the form <Course>_<Problem>_Requirements.csv");
+		} else {
+			BasicStaticConfigurationUtils.setModule(aFileNameComponents[0]);
+			BasicStaticConfigurationUtils.setProblem(aFileNameComponents[1]);
+		}
+		
+//		System.out.println(aRequirementsFile);
+		CSVRequirementsSpecification aSpecification = new ACSVRequirementsSpecification(aRequirementsFile);
+		GradableJUnitSuite aTopLevelSuite = new AnInterpretingGradableJUnitTopLevelSuite(assignmentsDataFolderProxy, aSpecification);
+		ObjectEditor.treeEdit(aTopLevelSuite);
+	}
+	public static void main (String[] args) {
+		runSpecifiedTests();
+//		RootFolderProxy anAssignmentData = searchForAssignmentDataProxy(new File("."));
+//		FileProxy aRequirementsFile = getUnspecifiedRequirementsFile(anAssignmentData);
+//		if (aRequirementsFile == null) {
+//			System.err.println("Could not find requirements file");
+//			return;
+//		}
+//		String aFileName = aRequirementsFile.getMixedCaseLocalName();
+//		String[] aFileNameComponents = aFileName.split("_|-");
+//		if (aFileNameComponents.length < 3) {
+//			System.err.println(aFileName + " not of the form <Course>_<Problem>_Requirements.csv");
+//		} else {
+//			BasicStaticConfigurationUtils.setModule(aFileNameComponents[0]);
+//			BasicStaticConfigurationUtils.setProblem(aFileNameComponents[1]);
+//		}
+//		
+////		System.out.println(aRequirementsFile);
+//		CSVRequirementsSpecification aSpecification = new ACSVRequirementsSpecification(aRequirementsFile);
+//		GradableJUnitSuite aTopLevelSuite = new AnInterpretingGradableJUnitTopLevelSuite(aSpecification);
+//		ObjectEditor.treeEdit(aTopLevelSuite);
+////		int aNumRequirements = aSpecification.getNumberOfRequirements();
+////		for (int aRequirementNumber = 0; aRequirementNumber <=  aNumRequirements; aRequirementNumber++) {
+////			String aDescription = aSpecification.getDescription(aRequirementNumber);
+////			String[] aDescriptionNames = aDescription.split("\\.");
+////		}
+			
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="8017" _type="FileOpenCommand" date="Mon Sep 02 13:10:30 EDT 2019" docASTNodeCount="916" docActiveCodeLength="6216" docExpressionCount="523" docLength="6524" projectName="GraderBasics" timestamp="73817925">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\grader\basics\requirements\interpreter\specification\ACSVRequirementsSpecification.java]]></filePath>
+  </Command>
+  <Command __id="8037" _type="FileOpenCommand" date="Mon Sep 02 13:10:47 EDT 2019" docASTNodeCount="1" docActiveCodeLength="755" docExpressionCount="0" docLength="755" projectName="DemoCourseLocalBasicChecks" timestamp="73835602">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+    <snapshot><![CDATA[Type,Description,MaxScore,Timeout,Input,Model Output,Extra Credit?,Checker,Argument1, Argument2, Argument3
+DueDate,"02/4/2014 23:55:59",1,,,,,,,,
+DueDate,"02/5/2014 23:55:59",0.5,,,,,,,,
+Feature,Has a main,5,,,,,match,$Source,[\\s\\S]*int\\s+main\\s*\\(\\s*\\)[\\s\\S]*
+Feature,Adds and multiplies the numbers,30,1,inputs/Input1.txt,correctoutput.txt,,diff,"-i -w -b",$ModelOutput,$ActualOutput
+Feature,Adds and multiplies the numbers exact match,5,1,"1\\n2.5\\n",correctoutput.txt,yes,diff,,$ModelOutput,$ActualOutput
+Feature,Prompts for input,10,,,,,match,$ActualOutput,"[\\s\\S]*int[\\s\\S]*decimal[\\s\\S]*"
+Feature,Clear messages,20,,,,yes,,,,
+Restriction,No commented Java println,5,,,,,match,$Source,(?![\\s\\S]*System.out.println[\\s\\S]*)]]></snapshot>
+  </Command>
+  <Command __id="8038" _type="FileOpenCommand" date="Mon Sep 02 13:10:47 EDT 2019" docASTNodeCount="1" docActiveCodeLength="755" docExpressionCount="0" docLength="755" projectName="DemoCourseLocalBasicChecks" timestamp="73835629">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+  </Command>
+  <Command __id="8039" _type="FileOpenCommand" date="Mon Sep 02 13:11:00 EDT 2019" docASTNodeCount="1" docActiveCodeLength="755" docExpressionCount="0" docLength="755" projectName="DemoCourseLocalBasicChecks" timestamp="73848300">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+  </Command>
+  <Command __id="8058" _type="FileOpenCommand" date="Mon Sep 02 13:12:43 EDT 2019" docASTNodeCount="1" docActiveCodeLength="755" docExpressionCount="0" docLength="755" projectName="DemoCourseLocalBasicChecks" timestamp="73950819">
+    <filePath><![CDATA[D:\dewan_backup\Java\DemoCourseLocalBasicChecks\assignmentXYZ\CompXYZ_Assignment1_Requirements.csv]]></filePath>
+  </Command>
+  <Command __id="8059" _type="FileOpenCommand" date="Mon Sep 02 13:12:44 EDT 2019" docASTNodeCount="916" docActiveCodeLength="6216" docExpressionCount="523" docLength="6524" projectName="GraderBasics" timestamp="73952494">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\grader\basics\requirements\interpreter\specification\ACSVRequirementsSpecification.java]]></filePath>
+  </Command>
+  <Command __id="8272" _type="FileOpenCommand" date="Tue Sep 03 10:24:25 EDT 2019" docASTNodeCount="916" docActiveCodeLength="6216" docExpressionCount="523" docLength="6524" projectName="GraderBasics" timestamp="150253209">
+    <filePath><![CDATA[D:\dewan_backup\Java\GraderBasics\src\grader\basics\requirements\interpreter\specification\ACSVRequirementsSpecification.java]]></filePath>
+  </Command>
+  <Command __id="8280" _type="FileOpenCommand" date="Tue Sep 03 10:25:33 EDT 2019" docASTNodeCount="135" docActiveCodeLength="767" docExpressionCount="90" docLength="895" projectName="PL_Java" timestamp="150320815">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\APassClient.java]]></filePath>
+    <snapshot><![CDATA[package pass.sockets;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+public class APassClient {
+
+	public static void main(String[] args) {
+		String hostName = args.length > 0? args[0]:"localhost";
+//		int portNumber = Integer.parseInt(args[1]);
+
+		try {
+			Socket aClientEnd = new Socket(hostName, APassServer.PORT_NUMBER);
+			PrintWriter aClientOut = new PrintWriter(aClientEnd.getOutputStream(), true);
+			BufferedReader aClientIn = new BufferedReader(new InputStreamReader(aClientEnd.getInputStream()));
+//			BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));
+			aClientOut.println("40");
+			aClientOut.println("60");
+			String aResult = aClientIn.readLine();
+			System.out.println("result:" + aResult);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="8286" _type="FileOpenCommand" date="Tue Sep 03 10:25:53 EDT 2019" docASTNodeCount="7" docActiveCodeLength="32" docExpressionCount="5" docLength="75" projectName="PL_Java" timestamp="150341504">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\server\package-info.java]]></filePath>
+    <snapshot><![CDATA[/**
+ * 
+ */
+/**
+ * @author dewan
+ *
+ */
+package pass.sockets.server;]]></snapshot>
+  </Command>
+  <Command __id="8315" _type="EclipseCommand" commandID="org.eclipse.jdt.ui.edit.text.java.rename.element" date="Tue Sep 03 10:27:42 EDT 2019" timestamp="150449747" />
+  <Command __id="8316" _type="EclipseCommand" commandID="" date="Tue Sep 03 10:27:42 EDT 2019" timestamp="150449796" />
+  <Command __id="8317" _type="PredictionCommand" date="Tue Sep 03 10:27:42 EDT 2019" prediction_type="MakingProgress" timestamp="150449799" />
+  <Command __id="8318" _type="MoveCaretCommand" caretOffset="111" date="Tue Sep 03 10:27:54 EDT 2019" docOffset="151" timestamp="150462309" />
+  <Command __id="8319" _type="InsertStringCommand" date="Tue Sep 03 10:27:56 EDT 2019" timestamp="150463811" timestamp2="150463811">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8320" _type="InsertStringCommand" date="Tue Sep 03 10:27:56 EDT 2019" repeat="7" timestamp="150464472" timestamp2="150465843">
+    <data><![CDATA[public ]]></data>
+  </Command>
+  <Command __id="8327" _type="MoveCaretCommand" caretOffset="78" date="Tue Sep 03 10:28:00 EDT 2019" docOffset="118" timestamp="150468231" />
+  <Command __id="8328" _type="SelectTextCommand" caretOffset="82" date="Tue Sep 03 10:28:00 EDT 2019" end="82" start="66" timestamp="150468509" />
+  <Command __id="8329" _type="CopyCommand" date="Tue Sep 03 10:28:01 EDT 2019" timestamp="150469447" />
+  <Command __id="8330" _type="MoveCaretCommand" caretOffset="121" date="Tue Sep 03 10:28:03 EDT 2019" docOffset="161" timestamp="150470835" />
+  <Command __id="8331" _type="PasteCommand" date="Tue Sep 03 10:28:05 EDT 2019" timestamp="150473082" />
+  <Command __id="8332" _type="InsertStringCommand" date="Tue Sep 03 10:28:06 EDT 2019" timestamp="150474438" timestamp2="150474438">
+    <data><![CDATA[(]]></data>
+  </Command>
+  <Command __id="8334" _type="MoveCaretCommand" caretOffset="698" date="Tue Sep 03 10:28:10 EDT 2019" docOffset="830" timestamp="150478598" />
+  <Command __id="8336" _type="MoveCaretCommand" caretOffset="138" date="Tue Sep 03 10:28:35 EDT 2019" docOffset="178" timestamp="150503100" />
+  <Command __id="8338" _type="InsertStringCommand" date="Tue Sep 03 10:28:38 EDT 2019" repeat="21" timestamp="150506303" timestamp2="150511179">
+    <data><![CDATA[Strng aServerHostName]]></data>
+  </Command>
+  <Command __id="8379" _type="MoveCaretCommand" caretOffset="141" date="Tue Sep 03 10:28:45 EDT 2019" docOffset="181" timestamp="150513079" />
+  <Command __id="8381" _type="InsertStringCommand" date="Tue Sep 03 10:28:46 EDT 2019" timestamp="150513945" timestamp2="150513945">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="8382" _type="MoveCaretCommand" caretOffset="161" date="Tue Sep 03 10:28:48 EDT 2019" docOffset="201" timestamp="150516055" />
+  <Command __id="8384" _type="InsertStringCommand" date="Tue Sep 03 10:28:49 EDT 2019" repeat="2" timestamp="150517056" timestamp2="150517739">
+    <data><![CDATA[ {]]></data>
+  </Command>
+  <Command __id="8388" _type="InsertStringCommand" date="Tue Sep 03 10:28:50 EDT 2019" timestamp="150518036" timestamp2="150518036">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8389" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Tue Sep 03 10:28:51 EDT 2019" timestamp="150519231" />
+  <Command __id="8390" _type="EclipseCommand" commandID="" date="Tue Sep 03 10:28:51 EDT 2019" repeat="2" timestamp="150519283" timestamp2="150519360" />
+  <Command __id="8392" _type="MoveCaretCommand" caretOffset="111" date="Tue Sep 03 10:29:01 EDT 2019" docOffset="151" timestamp="150529471" />
+  <Command __id="8394" _type="InsertStringCommand" date="Tue Sep 03 10:29:02 EDT 2019" timestamp="150529979" timestamp2="150529979">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8396" _type="InsertStringCommand" date="Tue Sep 03 10:29:03 EDT 2019" repeat="5" timestamp="150530652" timestamp2="150531308">
+    <data><![CDATA[strin]]></data>
+  </Command>
+  <Command __id="8406" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:29:04 EDT 2019" repeat="5" timestamp="150531708" timestamp2="150532354" />
+  <Command __id="8416" _type="InsertStringCommand" date="Tue Sep 03 10:29:05 EDT 2019" repeat="5" timestamp="150532778" timestamp2="150533812">
+    <data><![CDATA[Strig]]></data>
+  </Command>
+  <Command __id="8426" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:29:06 EDT 2019" timestamp="150534221" />
+  <Command __id="8427" _type="EclipseCommand" commandID="" date="Tue Sep 03 10:29:06 EDT 2019" repeat="2" timestamp="150534250" timestamp2="150534303" />
+  <Command __id="8430" _type="InsertStringCommand" date="Tue Sep 03 10:29:06 EDT 2019" repeat="2" timestamp="150534606" timestamp2="150534891">
+    <data><![CDATA[ng]]></data>
+  </Command>
+  <Command __id="8434" _type="InsertStringCommand" date="Tue Sep 03 10:29:11 EDT 2019" repeat="16" timestamp="150538827" timestamp2="150543764">
+    <data><![CDATA[ aServerHostname]]></data>
+  </Command>
+  <Command __id="8466" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:29:16 EDT 2019" repeat="4" timestamp="150544290" timestamp2="150544765" />
+  <Command __id="8474" _type="InsertStringCommand" date="Tue Sep 03 10:29:17 EDT 2019" repeat="5" timestamp="150545445" timestamp2="150546609">
+    <data><![CDATA[Name;]]></data>
+  </Command>
+  <Command __id="8484" _type="MoveCaretCommand" caretOffset="698" date="Tue Sep 03 10:29:22 EDT 2019" docOffset="830" timestamp="150550084" />
+  <Command __id="8485" _type="MoveCaretCommand" caretOffset="286" date="Tue Sep 03 10:29:29 EDT 2019" docOffset="418" timestamp="150557637" />
+  <Command __id="8486" _type="SelectTextCommand" caretOffset="291" date="Tue Sep 03 10:29:30 EDT 2019" end="291" start="285" timestamp="150557865" />
+  <Command __id="8487" _type="SelectTextCommand" caretOffset="329" date="Tue Sep 03 10:29:30 EDT 2019" end="329" start="258" timestamp="150558113" />
+  <Command __id="8488" _type="MoveCaretCommand" caretOffset="261" date="Tue Sep 03 10:29:39 EDT 2019" docOffset="393" timestamp="150566895" />
+  <Command __id="8489" _type="SelectTextCommand" caretOffset="487" date="Tue Sep 03 10:29:48 EDT 2019" end="487" start="261" timestamp="150575814" />
+  <Command __id="8490" _type="MoveCaretCommand" caretOffset="493" date="Tue Sep 03 10:29:48 EDT 2019" docOffset="625" timestamp="150575894" />
+  <Command __id="8491" _type="SelectTextCommand" caretOffset="503" date="Tue Sep 03 10:29:48 EDT 2019" end="503" start="494" timestamp="150576040" />
+  <Command __id="8492" _type="SelectTextCommand" caretOffset="512" date="Tue Sep 03 10:29:48 EDT 2019" end="512" start="509" timestamp="150576495" />
+  <Command __id="8493" _type="SelectTextCommand" caretOffset="260" date="Tue Sep 03 10:29:52 EDT 2019" end="512" start="260" timestamp="150580029" />
+  <Command __id="8494" _type="CopyCommand" date="Tue Sep 03 10:29:53 EDT 2019" timestamp="150580679" />
+  <Command __id="8496" _type="MoveCaretCommand" caretOffset="137" date="Tue Sep 03 10:29:57 EDT 2019" docOffset="177" timestamp="150584769" />
+  <Command __id="8497" _type="MoveCaretCommand" caretOffset="189" date="Tue Sep 03 10:29:59 EDT 2019" docOffset="229" timestamp="150587087" />
+  <Command __id="8499" _type="InsertStringCommand" date="Tue Sep 03 10:29:59 EDT 2019" timestamp="150587592" timestamp2="150587592">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8511" _type="PasteCommand" date="Tue Sep 03 10:30:00 EDT 2019" timestamp="150588486" />
+  <Command __id="8296" _type="FileOpenCommand" date="Tue Sep 03 10:26:33 EDT 2019" docASTNodeCount="7" docActiveCodeLength="32" docExpressionCount="5" docLength="75" projectName="PL_Java" timestamp="150380691">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\package-info.java]]></filePath>
+    <snapshot><![CDATA[/**
+ * 
+ */
+/**
+ * @author dewan
+ *
+ */
+package pass.sockets.client;]]></snapshot>
+  </Command>
+  <Command __id="8302" _type="FileOpenCommand" date="Tue Sep 03 10:26:55 EDT 2019" docASTNodeCount="71" docActiveCodeLength="451" docExpressionCount="32" docLength="451" projectName="PL_Java" timestamp="150403258">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\model\PassModel.java]]></filePath>
+    <snapshot><![CDATA[package pass.model;
+import java.beans.PropertyChangeListener;
+public interface PassModel {
+	public static final String FINAL_SCORE = "finalScore";
+	public static final String TOTAL_SCORE = "totalScore";
+	public static final String PASS = "pass";
+	Double getTotalScore();
+	Double getFinalScore();
+	Boolean isPass();
+	void setScores(Double aTotalScore, Double aFinalScore);
+	void addPropertyChangeListener(PropertyChangeListener aListener);
+}]]></snapshot>
+  </Command>
+  <Command __id="8308" _type="FileOpenCommand" date="Tue Sep 03 10:27:30 EDT 2019" docASTNodeCount="38" docActiveCodeLength="253" docExpressionCount="26" docLength="253" projectName="PL_Java" timestamp="150438336">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassModel.java]]></filePath>
+    <snapshot><![CDATA[package pass.sockets.client;
+import pass.PassUtil;
+import pass.model.AnAbstractPassModel;
+public class APassModel extends AnAbstractPassModel{
+	@Override
+	public Boolean isPass() {
+		return PassUtil.pass(getTotalScore(), getFinalScore());
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="8333" _type="FileOpenCommand" date="Tue Sep 03 10:28:10 EDT 2019" docASTNodeCount="145" docActiveCodeLength="817" docExpressionCount="99" docLength="945" projectName="PL_Java" timestamp="150478456">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClient.java]]></filePath>
+    <snapshot><![CDATA[package pass.sockets.client;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+import pass.sockets.server.APassServer;
+
+public class APassClient {
+
+	public static void main(String[] args) {
+		String hostName = args.length > 0? args[0]:"localhost";
+//		int portNumber = Integer.parseInt(args[1]);
+
+		try {
+			Socket aClientEnd = new Socket(hostName, APassServer.PORT_NUMBER);
+			PrintWriter aClientOut = new PrintWriter(aClientEnd.getOutputStream(), true);
+			BufferedReader aClientIn = new BufferedReader(new InputStreamReader(aClientEnd.getInputStream()));
+//			BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));
+			aClientOut.println("40");
+			aClientOut.println("60");
+			String aResult = aClientIn.readLine();
+			System.out.println("result:" + aResult);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="8335" _type="FileOpenCommand" date="Tue Sep 03 10:28:35 EDT 2019" docASTNodeCount="42" docActiveCodeLength="287" docExpressionCount="27" docLength="287" projectName="PL_Java" timestamp="150502969">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClientModel.java]]></filePath>
+    <snapshot><![CDATA[package pass.sockets.client;
+import pass.PassUtil;
+import pass.model.AnAbstractPassModel;
+public class APassClientModel extends AnAbstractPassModel{
+	public APassClientModel()
+	@Override
+	public Boolean isPass() {
+		return PassUtil.pass(getTotalScore(), getFinalScore());
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="8337" _type="Insert" date="Tue Sep 03 10:28:38 EDT 2019" docASTNodeCount="46" docActiveCodeLength="308" docExpressionCount="29" docLength="308" length="21" offset="178" repeat="21" timestamp="150506295" timestamp2="150511176">
+    <text><![CDATA[Strng aServerHostName]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8380" _type="Insert" date="Tue Sep 03 10:28:46 EDT 2019" docASTNodeCount="46" docActiveCodeLength="309" docExpressionCount="29" docLength="309" length="1" offset="181" timestamp="150513944">
+    <text><![CDATA[i]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8383" _type="Insert" date="Tue Sep 03 10:28:49 EDT 2019" docASTNodeCount="46" docActiveCodeLength="319" docExpressionCount="29" docLength="319" length="10" offset="201" repeat="3" timestamp="150517049" timestamp2="150518031">
+    <text><![CDATA[ {
+		
+	}]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8393" _type="Insert" date="Tue Sep 03 10:29:02 EDT 2019" docASTNodeCount="46" docActiveCodeLength="327" docExpressionCount="29" docLength="327" length="8" offset="151" repeat="6" timestamp="150529977" timestamp2="150531301">
+    <text><![CDATA[
+	strin]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8405" _type="Delete" date="Tue Sep 03 10:29:04 EDT 2019" docASTNodeCount="46" docActiveCodeLength="322" docExpressionCount="29" docLength="322" endLine="4" length="5" offset="154" repeat="5" startLine="4" timestamp="150531704" timestamp2="150532351">
+    <text><![CDATA[strin]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8415" _type="Insert" date="Tue Sep 03 10:29:05 EDT 2019" docASTNodeCount="46" docActiveCodeLength="327" docExpressionCount="29" docLength="327" length="5" offset="154" repeat="5" timestamp="150532771" timestamp2="150533808">
+    <text><![CDATA[Strig]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8425" _type="Delete" date="Tue Sep 03 10:29:06 EDT 2019" docASTNodeCount="46" docActiveCodeLength="326" docExpressionCount="29" docLength="326" endLine="4" length="1" offset="158" startLine="4" timestamp="150534215">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8429" _type="Insert" date="Tue Sep 03 10:29:06 EDT 2019" docASTNodeCount="46" docActiveCodeLength="328" docExpressionCount="29" docLength="328" length="2" offset="158" repeat="2" timestamp="150534600" timestamp2="150534887">
+    <text><![CDATA[ng]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8433" _type="Insert" date="Tue Sep 03 10:29:11 EDT 2019" docASTNodeCount="51" docActiveCodeLength="344" docExpressionCount="31" docLength="344" length="16" offset="160" repeat="16" timestamp="150538821" timestamp2="150543760">
+    <text><![CDATA[ aServerHostname]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8465" _type="Delete" date="Tue Sep 03 10:29:16 EDT 2019" docASTNodeCount="51" docActiveCodeLength="340" docExpressionCount="31" docLength="340" endLine="4" length="4" offset="172" repeat="4" startLine="4" timestamp="150544283" timestamp2="150544761">
+    <text><![CDATA[name]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8473" _type="Insert" date="Tue Sep 03 10:29:17 EDT 2019" docASTNodeCount="51" docActiveCodeLength="345" docExpressionCount="31" docLength="345" length="5" offset="172" repeat="5" timestamp="150545440" timestamp2="150546605">
+    <text><![CDATA[Name;]]></text>
+  </DocumentChange>
+  <Command __id="8483" _type="FileOpenCommand" date="Tue Sep 03 10:29:22 EDT 2019" docASTNodeCount="145" docActiveCodeLength="817" docExpressionCount="99" docLength="945" projectName="PL_Java" timestamp="150549959">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClient.java]]></filePath>
+  </Command>
+  <Command __id="8495" _type="FileOpenCommand" date="Tue Sep 03 10:29:56 EDT 2019" docASTNodeCount="51" docActiveCodeLength="345" docExpressionCount="31" docLength="345" projectName="PL_Java" timestamp="150584618">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClientModel.java]]></filePath>
+    <snapshot><![CDATA[package pass.sockets.client;
+import pass.PassUtil;
+import pass.model.AnAbstractPassModel;
+public class APassClientModel extends AnAbstractPassModel{
+	String aServerHostName;
+	public APassClientModel(String aServerHostName) {
+		
+	}
+	@Override
+	public Boolean isPass() {
+		return PassUtil.pass(getTotalScore(), getFinalScore());
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="8498" _type="Insert" date="Tue Sep 03 10:29:59 EDT 2019" docASTNodeCount="51" docActiveCodeLength="349" docExpressionCount="31" docLength="349" length="4" offset="229" timestamp="150587588">
+    <text><![CDATA[
+		]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8500" _type="Replace" date="Tue Sep 03 10:30:00 EDT 2019" docASTNodeCount="89" docActiveCodeLength="598" docExpressionCount="56" docLength="598" endLine="6" insertionLength="251" int_docASTNodeCount="51" int_docActiveCodeLength="347" int_docExpressionCount="31" int_docLength="347" length="2" offset="231" startLine="6" timestamp="150588322">
+    <deletedText><![CDATA[		]]></deletedText>
+    <insertedText><![CDATA[		Socket aClientEnd = new Socket(hostName, APassServer.PORT_NUMBER);
+		PrintWriter aClientOut = new PrintWriter(aClientEnd.getOutputStream(), true);
+		BufferedReader aClientIn = new BufferedReader(new InputStreamReader(aClientEnd.getInputStream()));]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="8501" _type="Insert" date="Tue Sep 03 10:30:00 EDT 2019" docASTNodeCount="97" docActiveCodeLength="639" docExpressionCount="63" docLength="639" length="41" offset="91" repeat="2" timestamp="150588406" timestamp2="150588406">
+    <text><![CDATA[
+import pass.sockets.server.APassServer;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8503" _type="Insert" date="Tue Sep 03 10:30:00 EDT 2019" docASTNodeCount="121" docActiveCodeLength="762" docExpressionCount="83" docLength="762" length="123" offset="30" repeat="8" timestamp="150588406" timestamp2="150588414">
+    <text><![CDATA[import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8513" _type="Insert" date="Tue Sep 03 10:30:04 EDT 2019" docASTNodeCount="121" docActiveCodeLength="772" docExpressionCount="83" docLength="772" length="10" offset="341" repeat="8" timestamp="150591724" timestamp2="150593732">
+    <text><![CDATA[
+	String ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8531" _type="Replace" date="Tue Sep 03 10:30:09 EDT 2019" docASTNodeCount="121" docActiveCodeLength="767" docExpressionCount="83" docLength="767" endLine="11" insertionLength="1" int_docASTNodeCount="121" int_docActiveCodeLength="766" int_docExpressionCount="83" int_docLength="766" length="6" offset="344" startLine="11" timestamp="150596909">
+    <deletedText><![CDATA[String]]></deletedText>
+    <insertedText><![CDATA[S]]></insertedText>
+  </DocumentChange>
+  <Command __id="8512" _type="MoveCaretCommand" caretOffset="146" date="Tue Sep 03 10:30:03 EDT 2019" docOffset="341" timestamp="150591057" />
+  <Command __id="8514" _type="InsertStringCommand" date="Tue Sep 03 10:30:04 EDT 2019" timestamp="150591728" timestamp2="150591728">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8516" _type="InsertStringCommand" date="Tue Sep 03 10:30:04 EDT 2019" repeat="7" timestamp="150592456" timestamp2="150593739">
+    <data><![CDATA[String ]]></data>
+  </Command>
+  <Command __id="8529" _type="MoveCaretCommand" caretOffset="152" date="Tue Sep 03 10:30:08 EDT 2019" docOffset="347" timestamp="150596117" />
+  <Command __id="8530" _type="SelectTextCommand" caretOffset="155" date="Tue Sep 03 10:30:08 EDT 2019" end="155" start="149" timestamp="150596367" />
+  <Command __id="8532" _type="InsertStringCommand" date="Tue Sep 03 10:30:09 EDT 2019" repeat="17" timestamp="150596915" timestamp2="150602113">
+    <data><![CDATA[Socket clientEnd;]]></data>
+  </Command>
+  <Command __id="8566" _type="InsertStringCommand" date="Tue Sep 03 10:30:17 EDT 2019" timestamp="150604696" timestamp2="150604696">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8568" _type="InsertStringCommand" date="Tue Sep 03 10:30:24 EDT 2019" repeat="11" timestamp="150612613" timestamp2="150615396">
+    <data><![CDATA[Printwriter]]></data>
+  </Command>
+  <Command __id="8589" _type="MoveCaretCommand" caretOffset="174" date="Tue Sep 03 10:30:34 EDT 2019" docOffset="369" timestamp="150622005" />
+  <Command __id="8590" _type="MoveCaretCommand" caretOffset="175" date="Tue Sep 03 10:30:35 EDT 2019" docOffset="370" timestamp="150622901" />
+  <Command __id="8592" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:30:35 EDT 2019" timestamp="150623397" />
+  <Command __id="8594" _type="InsertStringCommand" date="Tue Sep 03 10:30:36 EDT 2019" timestamp="150623880" timestamp2="150623880">
+    <data><![CDATA[W]]></data>
+  </Command>
+  <Command __id="8595" _type="MoveCaretCommand" caretOffset="180" date="Tue Sep 03 10:30:37 EDT 2019" docOffset="375" timestamp="150625229" />
+  <Command __id="8597" _type="InsertStringCommand" date="Tue Sep 03 10:30:38 EDT 2019" timestamp="150626000" timestamp2="150626000">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="8599" _type="InsertStringCommand" date="Tue Sep 03 10:30:41 EDT 2019" repeat="10" timestamp="150629247" timestamp2="150631810">
+    <data><![CDATA[clientOut;]]></data>
+  </Command>
+  <Command __id="8619" _type="InsertStringCommand" date="Tue Sep 03 10:30:44 EDT 2019" timestamp="150632310" timestamp2="150632310">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8621" _type="InsertStringCommand" date="Tue Sep 03 10:30:47 EDT 2019" repeat="24" timestamp="150634984" timestamp2="150641330">
+    <data><![CDATA[BufferedReader clientIn;]]></data>
+  </Command>
+  <Command __id="8668" _type="MoveCaretCommand" caretOffset="131" date="Tue Sep 03 10:31:00 EDT 2019" docOffset="326" timestamp="150648240" />
+  <Command __id="8669" _type="MoveCaretCommand" caretOffset="132" date="Tue Sep 03 10:31:01 EDT 2019" docOffset="327" timestamp="150649018" />
+  <Command __id="8671" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:31:01 EDT 2019" repeat="2" timestamp="150649496" timestamp2="150649785" />
+  <Command __id="8675" _type="InsertStringCommand" date="Tue Sep 03 10:31:02 EDT 2019" timestamp="150650166" timestamp2="150650166">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="8676" _type="MoveCaretCommand" caretOffset="134" date="Tue Sep 03 10:31:03 EDT 2019" docOffset="329" timestamp="150651558" />
+  <Command __id="8677" _type="SelectTextCommand" caretOffset="144" date="Tue Sep 03 10:31:04 EDT 2019" end="144" start="130" timestamp="150651827" />
+  <Command __id="8678" _type="CopyCommand" date="Tue Sep 03 10:31:05 EDT 2019" timestamp="150652684" />
+  <Command __id="8679" _type="MoveCaretCommand" caretOffset="269" date="Tue Sep 03 10:31:06 EDT 2019" docOffset="464" timestamp="150654569" />
+  <Command __id="8681" _type="InsertStringCommand" date="Tue Sep 03 10:31:07 EDT 2019" timestamp="150655001" timestamp2="150655001">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8683" _type="PasteCommand" date="Tue Sep 03 10:31:08 EDT 2019" timestamp="150655775" />
+  <Command __id="8685" _type="InsertStringCommand" date="Tue Sep 03 10:31:08 EDT 2019" repeat="3" timestamp="150656644" timestamp2="150657604">
+    <data><![CDATA[ = ]]></data>
+  </Command>
+  <Command __id="8690" _type="MoveCaretCommand" caretOffset="259" date="Tue Sep 03 10:31:11 EDT 2019" docOffset="454" timestamp="150658784" />
+  <Command __id="8691" _type="SelectTextCommand" caretOffset="266" date="Tue Sep 03 10:31:11 EDT 2019" end="266" start="251" timestamp="150659018" />
+  <Command __id="8692" _type="CopyCommand" date="Tue Sep 03 10:31:12 EDT 2019" timestamp="150659816" />
+  <Command __id="8693" _type="MoveCaretCommand" caretOffset="290" date="Tue Sep 03 10:31:13 EDT 2019" docOffset="485" timestamp="150661126" />
+  <Command __id="8695" _type="PasteCommand" date="Tue Sep 03 10:31:14 EDT 2019" timestamp="150661796" />
+  <Command __id="8697" _type="InsertStringCommand" date="Tue Sep 03 10:31:14 EDT 2019" timestamp="150662609" timestamp2="150662609">
+    <data><![CDATA[;]]></data>
+  </Command>
+  <Command __id="8698" _type="MoveCaretCommand" caretOffset="319" date="Tue Sep 03 10:31:17 EDT 2019" docOffset="514" timestamp="150665085" />
+  <Command __id="8700" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:31:18 EDT 2019" repeat="9" timestamp="150665652" timestamp2="150666962" />
+  <Command __id="8718" _type="InsertStringCommand" date="Tue Sep 03 10:31:20 EDT 2019" timestamp="150667707" timestamp2="150667707">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="8719" _type="MoveCaretCommand" caretOffset="283" date="Tue Sep 03 10:31:22 EDT 2019" docOffset="478" timestamp="150670004" />
+  <Command __id="8720" _type="SelectTextCommand" caretOffset="287" date="Tue Sep 03 10:31:22 EDT 2019" end="287" start="273" timestamp="150670281" />
+  <Command __id="8721" _type="CopyCommand" date="Tue Sep 03 10:31:23 EDT 2019" timestamp="150670859" />
+  <Command __id="8722" _type="MoveCaretCommand" caretOffset="338" date="Tue Sep 03 10:31:25 EDT 2019" docOffset="533" timestamp="150672658" />
+  <Command __id="8723" _type="SelectTextCommand" caretOffset="341" date="Tue Sep 03 10:31:25 EDT 2019" end="341" start="333" timestamp="150672892" />
+  <Command __id="8725" _type="PasteCommand" date="Tue Sep 03 10:31:25 EDT 2019" timestamp="150673432" />
+  <Command __id="8726" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Tue Sep 03 10:31:27 EDT 2019" timestamp="150675322" />
+  <Command __id="8727" _type="EclipseCommand" commandID="" date="Tue Sep 03 10:31:27 EDT 2019" repeat="2" timestamp="150675399" timestamp2="150675479" />
+  <Command __id="8729" _type="MoveCaretCommand" caretOffset="392" date="Tue Sep 03 10:31:35 EDT 2019" docOffset="587" timestamp="150683063" />
+  <Command __id="8731" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:31:36 EDT 2019" repeat="14" timestamp="150683686" timestamp2="150685996" />
+  <Command __id="8759" _type="InsertStringCommand" date="Tue Sep 03 10:31:39 EDT 2019" timestamp="150686725" timestamp2="150686725">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <DocumentChange __id="8533" _type="Insert" date="Tue Sep 03 10:30:09 EDT 2019" docASTNodeCount="126" docActiveCodeLength="783" docExpressionCount="85" docLength="783" length="16" offset="345" repeat="16" timestamp="150597160" timestamp2="150602104">
+    <text><![CDATA[ocket clientEnd;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8565" _type="Replace" date="Tue Sep 03 10:30:17 EDT 2019" docASTNodeCount="126" docActiveCodeLength="785" docExpressionCount="85" docLength="785" endLine="11" insertionLength="3" int_docASTNodeCount="126" int_docActiveCodeLength="782" int_docExpressionCount="85" int_docLength="782" length="1" offset="361" startLine="11" timestamp="150604690">
+    <deletedText><![CDATA[ ]]></deletedText>
+    <insertedText><![CDATA[
+	]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="8567" _type="Insert" date="Tue Sep 03 10:30:24 EDT 2019" docASTNodeCount="126" docActiveCodeLength="796" docExpressionCount="85" docLength="796" length="11" offset="364" repeat="11" timestamp="150612603" timestamp2="150615387">
+    <text><![CDATA[Printwriter]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8591" _type="Delete" date="Tue Sep 03 10:30:35 EDT 2019" docASTNodeCount="126" docActiveCodeLength="795" docExpressionCount="85" docLength="795" endLine="12" length="1" offset="369" startLine="12" timestamp="150623395">
+    <text><![CDATA[w]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8593" _type="Insert" date="Tue Sep 03 10:30:36 EDT 2019" docASTNodeCount="126" docActiveCodeLength="796" docExpressionCount="85" docLength="796" length="1" offset="369" timestamp="150623872">
+    <text><![CDATA[W]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8596" _type="Insert" date="Tue Sep 03 10:30:38 EDT 2019" docASTNodeCount="126" docActiveCodeLength="797" docExpressionCount="85" docLength="797" length="1" offset="375" timestamp="150625991">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8598" _type="Insert" date="Tue Sep 03 10:30:41 EDT 2019" docASTNodeCount="131" docActiveCodeLength="810" docExpressionCount="87" docLength="810" length="13" offset="376" repeat="11" timestamp="150629238" timestamp2="150632304">
+    <text><![CDATA[clientOut;
+	]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8620" _type="Insert" date="Tue Sep 03 10:30:47 EDT 2019" docASTNodeCount="136" docActiveCodeLength="834" docExpressionCount="89" docLength="834" length="24" offset="389" repeat="24" timestamp="150634967" timestamp2="150641328">
+    <text><![CDATA[BufferedReader clientIn;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8670" _type="Delete" date="Tue Sep 03 10:31:01 EDT 2019" docASTNodeCount="136" docActiveCodeLength="832" docExpressionCount="89" docLength="832" endLine="10" length="2" offset="325" repeat="2" startLine="10" timestamp="150649490" timestamp2="150649780">
+    <text><![CDATA[aS]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8674" _type="Insert" date="Tue Sep 03 10:31:02 EDT 2019" docASTNodeCount="136" docActiveCodeLength="833" docExpressionCount="89" docLength="833" length="1" offset="325" timestamp="150650158">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8680" _type="Insert" date="Tue Sep 03 10:31:07 EDT 2019" docASTNodeCount="136" docActiveCodeLength="837" docExpressionCount="89" docLength="837" length="4" offset="464" timestamp="150654993">
+    <text><![CDATA[
+		]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8682" _type="Replace" date="Tue Sep 03 10:31:08 EDT 2019" docASTNodeCount="139" docActiveCodeLength="851" docExpressionCount="91" docLength="851" endLine="15" insertionLength="16" int_docASTNodeCount="136" int_docActiveCodeLength="835" int_docExpressionCount="89" int_docLength="835" length="2" offset="466" startLine="15" timestamp="150655763">
+    <deletedText><![CDATA[		]]></deletedText>
+    <insertedText><![CDATA[		serverHostName]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="8684" _type="Insert" date="Tue Sep 03 10:31:08 EDT 2019" docASTNodeCount="138" docActiveCodeLength="854" docExpressionCount="92" docLength="854" length="3" offset="482" repeat="3" timestamp="150656634" timestamp2="150657594">
+    <text><![CDATA[ = ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8694" _type="Insert" date="Tue Sep 03 10:31:14 EDT 2019" docASTNodeCount="140" docActiveCodeLength="870" docExpressionCount="92" docLength="870" length="16" offset="485" repeat="2" timestamp="150661774" timestamp2="150662603">
+    <text><![CDATA[aServerHostName;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8699" _type="Delete" date="Tue Sep 03 10:31:17 EDT 2019" docASTNodeCount="138" docActiveCodeLength="861" docExpressionCount="92" docLength="861" endLine="16" length="9" offset="505" repeat="9" startLine="16" timestamp="150665647" timestamp2="150666958">
+    <text><![CDATA[Socket aC]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8717" _type="Insert" date="Tue Sep 03 10:31:20 EDT 2019" docASTNodeCount="138" docActiveCodeLength="862" docExpressionCount="92" docLength="862" length="1" offset="505" timestamp="150667702">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8724" _type="Replace" date="Tue Sep 03 10:31:25 EDT 2019" docASTNodeCount="138" docActiveCodeLength="868" docExpressionCount="92" docLength="868" endLine="16" insertionLength="14" int_docASTNodeCount="137" int_docActiveCodeLength="854" int_docExpressionCount="91" int_docLength="854" length="8" offset="528" startLine="16" timestamp="150673408">
+    <deletedText><![CDATA[hostName]]></deletedText>
+    <insertedText><![CDATA[serverHostName]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="8730" _type="Delete" date="Tue Sep 03 10:31:35 EDT 2019" docASTNodeCount="136" docActiveCodeLength="854" docExpressionCount="92" docLength="854" endLine="17" length="14" offset="573" repeat="14" startLine="17" timestamp="150683649" timestamp2="150685991">
+    <text><![CDATA[PrintWriter aC]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8758" _type="Insert" date="Tue Sep 03 10:31:39 EDT 2019" docASTNodeCount="136" docActiveCodeLength="855" docExpressionCount="92" docLength="855" length="1" offset="573" timestamp="150686716">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8762" _type="Delete" date="Tue Sep 03 10:31:41 EDT 2019" docASTNodeCount="134" docActiveCodeLength="838" docExpressionCount="92" docLength="838" endLine="18" length="17" offset="641" repeat="17" startLine="18" timestamp="150689295" timestamp2="150692046">
+    <text><![CDATA[BufferedReader aC]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8796" _type="Insert" date="Tue Sep 03 10:31:45 EDT 2019" docASTNodeCount="134" docActiveCodeLength="839" docExpressionCount="92" docLength="839" length="1" offset="641" timestamp="150693119">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8799" _type="Delete" date="Tue Sep 03 10:31:48 EDT 2019" docASTNodeCount="134" docActiveCodeLength="837" docExpressionCount="92" docLength="837" endLine="17" length="2" offset="601" repeat="2" startLine="17" timestamp="150695992" timestamp2="150696001">
+    <text><![CDATA[aC]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8803" _type="Insert" date="Tue Sep 03 10:31:49 EDT 2019" docASTNodeCount="134" docActiveCodeLength="838" docExpressionCount="92" docLength="838" length="1" offset="601" timestamp="150697424">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8806" _type="Delete" date="Tue Sep 03 10:31:54 EDT 2019" docASTNodeCount="134" docActiveCodeLength="836" docExpressionCount="92" docLength="836" endLine="18" length="2" offset="692" repeat="2" startLine="18" timestamp="150702103" timestamp2="150702262">
+    <text><![CDATA[aC]]></text>
+  </DocumentChange>
+  <Command __id="8760" _type="MoveCaretCommand" caretOffset="463" date="Tue Sep 03 10:31:40 EDT 2019" docOffset="658" timestamp="150688639" />
+  <Command __id="8761" _type="PredictionCommand" date="Tue Sep 03 10:31:40 EDT 2019" prediction_type="HavingDifficulty" timestamp="150688645" />
+  <Command __id="8763" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:31:41 EDT 2019" repeat="17" timestamp="150689303" timestamp2="150692050" />
+  <Command __id="8797" _type="InsertStringCommand" date="Tue Sep 03 10:31:45 EDT 2019" timestamp="150693126" timestamp2="150693126">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="8798" _type="MoveCaretCommand" caretOffset="408" date="Tue Sep 03 10:31:47 EDT 2019" docOffset="603" timestamp="150695305" />
+  <Command __id="8800" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:31:48 EDT 2019" repeat="2" timestamp="150695994" timestamp2="150696005" />
+  <Command __id="8804" _type="InsertStringCommand" date="Tue Sep 03 10:31:49 EDT 2019" timestamp="150697437" timestamp2="150697437">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="8805" _type="MoveCaretCommand" caretOffset="499" date="Tue Sep 03 10:31:53 EDT 2019" docOffset="694" timestamp="150700737" />
+  <Command __id="8807" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:31:54 EDT 2019" repeat="2" timestamp="150702105" timestamp2="150702269" />
+  <Command __id="8811" _type="InsertStringCommand" date="Tue Sep 03 10:31:55 EDT 2019" timestamp="150703326" timestamp2="150703326">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="8812" _type="AssistCommand" assist_type="QUICK_ASSIST" auto_activated="false" date="Tue Sep 03 10:32:00 EDT 2019" start_end="START" timestamp="150708264" />
+  <Command __id="8813" _type="EclipseCommand" commandID="AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction" date="Tue Sep 03 10:32:00 EDT 2019" timestamp="150708367" />
+  <Command __id="8814" _type="AssistCommand" assist_type="QUICK_ASSIST" auto_activated="false" date="Tue Sep 03 10:32:03 EDT 2019" start_end="END" timestamp="150711477" />
+  <Command __id="8816" _type="InsertStringCommand" date="Tue Sep 03 10:32:08 EDT 2019" timestamp="150716502" timestamp2="150716502">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8818" _type="InsertStringCommand" date="Tue Sep 03 10:32:09 EDT 2019" repeat="5" timestamp="150717221" timestamp2="150718386">
+    <data><![CDATA[try {]]></data>
+  </Command>
+  <Command __id="8827" _type="MoveCaretCommand" caretOffset="535" date="Tue Sep 03 10:32:12 EDT 2019" docOffset="730" timestamp="150720262" />
+  <Command __id="8829" _type="InsertStringCommand" date="Tue Sep 03 10:32:13 EDT 2019" timestamp="150720724" timestamp2="150720724">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8831" _type="InsertStringCommand" date="Tue Sep 03 10:32:14 EDT 2019" repeat="9" timestamp="150721752" timestamp2="150723643">
+    <data><![CDATA[} catch (]]></data>
+  </Command>
+  <Command __id="8848" _type="MoveCaretCommand" caretOffset="549" date="Tue Sep 03 10:32:21 EDT 2019" docOffset="744" timestamp="150729494" />
+  <Command __id="8849" _type="SelectTextCommand" caretOffset="539" date="Tue Sep 03 10:32:23 EDT 2019" end="549" start="539" timestamp="150730787" />
+  <Command __id="8851" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Tue Sep 03 10:32:23 EDT 2019" timestamp="150731294" />
+  <Command __id="8852" _type="MoveCaretCommand" caretOffset="312" date="Tue Sep 03 10:32:25 EDT 2019" docOffset="507" timestamp="150732673" />
+  <Command __id="8853" _type="SelectTextCommand" caretOffset="313" date="Tue Sep 03 10:32:25 EDT 2019" end="313" start="310" timestamp="150732852" />
+  <Command __id="8854" _type="SelectTextCommand" caretOffset="317" date="Tue Sep 03 10:32:25 EDT 2019" end="317" start="308" timestamp="150733040" />
+  <Command __id="8856" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:32:25 EDT 2019" timestamp="150733369" />
+  <Command __id="8857" _type="AssistCommand" assist_type="QUICK_ASSIST" auto_activated="false" date="Tue Sep 03 10:32:29 EDT 2019" start_end="START" timestamp="150737207" />
+  <Command __id="8858" _type="EclipseCommand" commandID="AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction" date="Tue Sep 03 10:32:29 EDT 2019" timestamp="150737258" />
+  <Command __id="8859" _type="ShellCommand" date="Tue Sep 03 10:32:31 EDT 2019" timestamp="150739449" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8860" _type="ShellCommand" date="Tue Sep 03 10:32:31 EDT 2019" timestamp="150739648" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8861" _type="AssistCommand" assist_type="QUICK_ASSIST" auto_activated="false" date="Tue Sep 03 10:32:32 EDT 2019" start_end="END" timestamp="150739672" />
+  <Command __id="8874" _type="SelectTextCommand" caretOffset="706" date="Tue Sep 03 10:32:32 EDT 2019" end="706" start="534" timestamp="150739740" />
+  <Command __id="8875" _type="MoveCaretCommand" caretOffset="656" date="Tue Sep 03 10:32:33 EDT 2019" docOffset="656" timestamp="150740873" />
+  <Command __id="8876" _type="SelectTextCommand" caretOffset="858" date="Tue Sep 03 10:32:37 EDT 2019" end="858" start="710" timestamp="150745352" />
+  <Command __id="8878" _type="CutCommand" date="Tue Sep 03 10:32:38 EDT 2019" timestamp="150746106" />
+  <Command __id="8879" _type="MoveCaretCommand" caretOffset="608" date="Tue Sep 03 10:32:40 EDT 2019" docOffset="608" timestamp="150747819" />
+  <Command __id="8881" _type="InsertStringCommand" date="Tue Sep 03 10:32:40 EDT 2019" timestamp="150748279" timestamp2="150748279">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8883" _type="PasteCommand" date="Tue Sep 03 10:32:41 EDT 2019" timestamp="150749020" />
+  <Command __id="8884" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Tue Sep 03 10:32:43 EDT 2019" timestamp="150751262" />
+  <Command __id="8885" _type="EclipseCommand" commandID="" date="Tue Sep 03 10:32:43 EDT 2019" repeat="2" timestamp="150751342" timestamp2="150751387" />
+  <Command __id="8887" _type="MoveCaretCommand" caretOffset="916" date="Tue Sep 03 10:33:02 EDT 2019" docOffset="916" timestamp="150769801" />
+  <Command __id="8889" _type="SelectTextCommand" caretOffset="260" date="Tue Sep 03 10:33:05 EDT 2019" end="512" start="260" timestamp="150773337" />
+  <Command __id="8891" _type="MoveCaretCommand" caretOffset="916" date="Tue Sep 03 10:33:22 EDT 2019" docOffset="916" timestamp="150789725" />
+  <Command __id="8892" _type="MoveCaretCommand" caretOffset="791" date="Tue Sep 03 10:33:23 EDT 2019" docOffset="791" timestamp="150791564" />
+  <Command __id="8894" _type="InsertStringCommand" date="Tue Sep 03 10:33:24 EDT 2019" timestamp="150792649" timestamp2="150792649">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8896" _type="InsertStringCommand" date="Tue Sep 03 10:33:25 EDT 2019" repeat="5" timestamp="150793459" timestamp2="150793988">
+    <data><![CDATA[Syste]]></data>
+  </Command>
+  <Command __id="8906" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:33:27 EDT 2019" repeat="5" timestamp="150794822" timestamp2="150795501" />
+  <Command __id="8915" _type="MoveCaretCommand" caretOffset="921" date="Tue Sep 03 10:33:29 EDT 2019" docOffset="921" timestamp="150797612" />
+  <Command __id="8917" _type="InsertStringCommand" date="Tue Sep 03 10:33:30 EDT 2019" timestamp="150798054" timestamp2="150798054">
+    <data><![CDATA[]]></data>
+  </Command>
+  <DocumentChange __id="8810" _type="Insert" date="Tue Sep 03 10:31:55 EDT 2019" docASTNodeCount="134" docActiveCodeLength="837" docExpressionCount="92" docLength="837" length="1" offset="692" timestamp="150703315">
+    <text><![CDATA[c]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8815" _type="Insert" date="Tue Sep 03 10:32:08 EDT 2019" docASTNodeCount="137" docActiveCodeLength="846" docExpressionCount="92" docLength="846" length="9" offset="501" repeat="6" timestamp="150716495" timestamp2="150718380">
+    <text><![CDATA[
+		try {]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8828" _type="Insert" date="Tue Sep 03 10:32:13 EDT 2019" docASTNodeCount="137" docActiveCodeLength="850" docExpressionCount="92" docLength="850" length="4" offset="730" timestamp="150720715">
+    <text><![CDATA[
+		]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8830" _type="Replace" date="Tue Sep 03 10:32:14 EDT 2019" docASTNodeCount="137" docActiveCodeLength="851" docExpressionCount="92" docLength="851" endLine="20" insertionLength="3" int_docASTNodeCount="137" int_docActiveCodeLength="848" int_docExpressionCount="92" int_docLength="848" length="2" offset="732" startLine="20" timestamp="150721748">
+    <deletedText><![CDATA[		]]></deletedText>
+    <insertedText><![CDATA[		}]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="8832" _type="Insert" date="Tue Sep 03 10:32:14 EDT 2019" docASTNodeCount="137" docActiveCodeLength="860" docExpressionCount="92" docLength="860" length="9" offset="735" repeat="8" timestamp="150722028" timestamp2="150723632">
+    <text><![CDATA[ catch ()]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8850" _type="Delete" date="Tue Sep 03 10:32:23 EDT 2019" docASTNodeCount="137" docActiveCodeLength="850" docExpressionCount="92" docLength="850" endLine="20" length="10" offset="734" startLine="20" timestamp="150731270">
+    <text><![CDATA[} catch ()]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8855" _type="Delete" date="Tue Sep 03 10:32:25 EDT 2019" docASTNodeCount="134" docActiveCodeLength="841" docExpressionCount="92" docLength="841" endLine="17" length="9" offset="503" startLine="16" timestamp="150733354">
+    <text><![CDATA[		try {
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8862" _type="Delete" date="Tue Sep 03 10:32:32 EDT 2019" docASTNodeCount="124" docActiveCodeLength="777" docExpressionCount="84" docLength="777" endLine="16" length="64" offset="505" startLine="16" timestamp="150739672">
+    <text><![CDATA[clientEnd = new Socket(serverHostName, APassServer.PORT_NUMBER);]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8863" _type="Insert" date="Tue Sep 03 10:32:32 EDT 2019" docASTNodeCount="146" docActiveCodeLength="915" docExpressionCount="97" docLength="949" length="172" offset="505" repeat="9" timestamp="150739678" timestamp2="150739687">
+    <text><![CDATA[try {
+			clientEnd = new Socket(serverHostName, APassServer.PORT_NUMBER);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8872" _type="Insert" date="Tue Sep 03 10:32:32 EDT 2019" docASTNodeCount="152" docActiveCodeLength="944" docExpressionCount="102" docLength="978" length="29" offset="60" repeat="2" timestamp="150739687" timestamp2="150739689">
+    <text><![CDATA[
+import java.io.IOException;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8877" _type="Delete" date="Tue Sep 03 10:32:38 EDT 2019" docASTNodeCount="130" docActiveCodeLength="796" docExpressionCount="85" docLength="830" endLine="24" length="148" offset="710" startLine="23" timestamp="150746009">
+    <text><![CDATA[clientOut = new PrintWriter(clientEnd.getOutputStream(), true);
+		clientIn = new BufferedReader(new InputStreamReader(clientEnd.getInputStream()));]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8880" _type="Insert" date="Tue Sep 03 10:32:40 EDT 2019" docASTNodeCount="130" docActiveCodeLength="801" docExpressionCount="85" docLength="835" length="5" offset="608" timestamp="150748271">
+    <text><![CDATA[
+			]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8882" _type="Replace" date="Tue Sep 03 10:32:41 EDT 2019" docASTNodeCount="152" docActiveCodeLength="950" docExpressionCount="102" docLength="984" endLine="19" insertionLength="152" int_docASTNodeCount="130" int_docActiveCodeLength="798" int_docExpressionCount="85" int_docLength="832" length="3" offset="610" startLine="19" timestamp="150748998">
+    <deletedText><![CDATA[			]]></deletedText>
+    <insertedText><![CDATA[			clientOut = new PrintWriter(clientEnd.getOutputStream(), true);
+			clientIn = new BufferedReader(new InputStreamReader(clientEnd.getInputStream()));]]></insertedText>
+  </DocumentChange>
+  <Command __id="8888" _type="FileOpenCommand" date="Tue Sep 03 10:33:05 EDT 2019" docASTNodeCount="145" docActiveCodeLength="817" docExpressionCount="99" docLength="945" projectName="PL_Java" timestamp="150773151">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClient.java]]></filePath>
+  </Command>
+  <Command __id="8890" _type="FileOpenCommand" date="Tue Sep 03 10:33:21 EDT 2019" docASTNodeCount="152" docActiveCodeLength="950" docExpressionCount="102" docLength="984" projectName="PL_Java" timestamp="150789572">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClientModel.java]]></filePath>
+    <snapshot><![CDATA[package pass.sockets.client;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+import pass.PassUtil;
+import pass.model.AnAbstractPassModel;
+import pass.sockets.server.APassServer;
+public class APassClientModel extends AnAbstractPassModel{
+	String serverHostName;
+	Socket clientEnd;
+	PrintWriter clientOut;
+	BufferedReader clientIn;
+	public APassClientModel(String aServerHostName) {
+		serverHostName = aServerHostName;
+		try {
+			clientEnd = new Socket(serverHostName, APassServer.PORT_NUMBER);
+			clientOut = new PrintWriter(clientEnd.getOutputStream(), true);
+			clientIn = new BufferedReader(new InputStreamReader(clientEnd.getInputStream()));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+	@Override
+	public Boolean isPass() {
+		return PassUtil.pass(getTotalScore(), getFinalScore());
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="8893" _type="Insert" date="Tue Sep 03 10:33:24 EDT 2019" docASTNodeCount="156" docActiveCodeLength="960" docExpressionCount="103" docLength="994" length="10" offset="791" repeat="6" timestamp="150792645" timestamp2="150793979">
+    <text><![CDATA[
+			Syste]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8905" _type="Delete" date="Tue Sep 03 10:33:27 EDT 2019" docASTNodeCount="152" docActiveCodeLength="955" docExpressionCount="102" docLength="989" endLine="22" length="5" offset="796" repeat="5" startLine="22" timestamp="150794818" timestamp2="150795495">
+    <text><![CDATA[Syste]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8916" _type="Insert" date="Tue Sep 03 10:33:30 EDT 2019" docASTNodeCount="159" docActiveCodeLength="1006" docExpressionCount="106" docLength="1040" length="51" offset="921" repeat="38" timestamp="150798042" timestamp2="150810972">
+    <text><![CDATA[
+		if (clientOut == null) {
+			return false;
+		}]]></text>
+  </DocumentChange>
+  <DocumentChange __id="8994" _type="Insert" date="Tue Sep 03 10:33:45 EDT 2019" docASTNodeCount="163" docActiveCodeLength="1021" docExpressionCount="109" docLength="1055" length="15" offset="949" repeat="11" timestamp="150813143" timestamp2="150815693">
+    <text><![CDATA[
+			System.err]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9015" _type="Replace" date="Tue Sep 03 10:33:48 EDT 2019" docASTNodeCount="159" docActiveCodeLength="1022" docExpressionCount="106" docLength="1056" endLine="33" insertionLength="4" int_docASTNodeCount="161" int_docActiveCodeLength="1018" int_docExpressionCount="107" int_docLength="1052" length="3" offset="961" startLine="33" timestamp="150816282">
+    <deletedText><![CDATA[err]]></deletedText>
+    <insertedText><![CDATA[err.]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="9018" _type="Insert" date="Tue Sep 03 10:33:48 EDT 2019" docASTNodeCount="165" docActiveCodeLength="1029" docExpressionCount="111" docLength="1063" length="7" offset="965" repeat="7" timestamp="150816545" timestamp2="150817680">
+    <text><![CDATA[println]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9027" _type="Delete" date="Tue Sep 03 10:33:57 EDT 2019" docASTNodeCount="152" docActiveCodeLength="959" docExpressionCount="102" docLength="993" endLine="35" length="70" offset="925" startLine="32" timestamp="150825374">
+    <text><![CDATA[if (clientOut == null) {
+			System.err.println
+			return false;
+		}]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9030" _type="Insert" date="Tue Sep 03 10:34:01 EDT 2019" docASTNodeCount="156" docActiveCodeLength="975" docExpressionCount="105" docLength="1009" length="16" offset="860" repeat="12" timestamp="150828756" timestamp2="150832483">
+    <text><![CDATA[
+			System.exit]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9052" _type="Replace" date="Tue Sep 03 10:34:05 EDT 2019" docASTNodeCount="157" docActiveCodeLength="984" docExpressionCount="106" docLength="1018" endLine="25" insertionLength="13" int_docASTNodeCount="154" int_docActiveCodeLength="971" int_docExpressionCount="103" int_docLength="1005" length="4" offset="872" startLine="25" timestamp="150833466">
+    <deletedText><![CDATA[exit]]></deletedText>
+    <insertedText><![CDATA[exit(status);]]></insertedText>
+  </DocumentChange>
+  <Command __id="8919" _type="InsertStringCommand" date="Tue Sep 03 10:33:31 EDT 2019" repeat="21" timestamp="150798771" timestamp2="150805007">
+    <data><![CDATA[if (clientOut == null]]></data>
+  </Command>
+  <Command __id="8960" _type="MoveCaretCommand" caretOffset="947" date="Tue Sep 03 10:33:38 EDT 2019" docOffset="947" timestamp="150806621" />
+  <Command __id="8962" _type="InsertStringCommand" date="Tue Sep 03 10:33:39 EDT 2019" repeat="2" timestamp="150806906" timestamp2="150807467">
+    <data><![CDATA[ {]]></data>
+  </Command>
+  <Command __id="8966" _type="InsertStringCommand" date="Tue Sep 03 10:33:40 EDT 2019" timestamp="150807781" timestamp2="150807781">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8968" _type="InsertStringCommand" date="Tue Sep 03 10:33:41 EDT 2019" repeat="13" timestamp="150808767" timestamp2="150810982">
+    <data><![CDATA[return false;]]></data>
+  </Command>
+  <Command __id="8993" _type="MoveCaretCommand" caretOffset="949" date="Tue Sep 03 10:33:45 EDT 2019" docOffset="949" timestamp="150812751" />
+  <Command __id="8995" _type="InsertStringCommand" date="Tue Sep 03 10:33:45 EDT 2019" timestamp="150813150" timestamp2="150813150">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="8997" _type="InsertStringCommand" date="Tue Sep 03 10:33:46 EDT 2019" repeat="7" timestamp="150813783" timestamp2="150814981">
+    <data><![CDATA[System.]]></data>
+  </Command>
+  <Command __id="9010" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Tue Sep 03 10:33:47 EDT 2019" start_end="START" timestamp="150814981" />
+  <Command __id="9014" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 10:33:48 EDT 2019" start_end="END" timestamp="150816278" />
+  <Command __id="9016" _type="InsertStringCommand" date="Tue Sep 03 10:33:48 EDT 2019" timestamp="150816304" timestamp2="150816304">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="9017" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Tue Sep 03 10:33:48 EDT 2019" start_end="START" timestamp="150816315" />
+  <Command __id="9025" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 10:33:54 EDT 2019" start_end="END" timestamp="150821894" />
+  <Command __id="9026" _type="SelectTextCommand" caretOffset="925" date="Tue Sep 03 10:33:57 EDT 2019" end="995" start="925" timestamp="150824911" />
+  <Command __id="9028" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Tue Sep 03 10:33:57 EDT 2019" timestamp="150825402" />
+  <Command __id="9029" _type="MoveCaretCommand" caretOffset="860" date="Tue Sep 03 10:34:00 EDT 2019" docOffset="860" timestamp="150828279" />
+  <Command __id="9031" _type="InsertStringCommand" date="Tue Sep 03 10:34:01 EDT 2019" timestamp="150828763" timestamp2="150828763">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="9033" _type="InsertStringCommand" date="Tue Sep 03 10:34:01 EDT 2019" repeat="7" timestamp="150829219" timestamp2="150830565">
+    <data><![CDATA[System.]]></data>
+  </Command>
+  <Command __id="9046" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Tue Sep 03 10:34:02 EDT 2019" start_end="START" timestamp="150830569" />
+  <Command __id="9051" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 10:34:05 EDT 2019" start_end="END" timestamp="150833465" />
+  <Command __id="9053" _type="InsertStringCommand" date="Tue Sep 03 10:34:05 EDT 2019" repeat="3" timestamp="150833534" timestamp2="150835304">
+    <data><![CDATA[(-1]]></data>
+  </Command>
+  <Command __id="9058" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 10:34:08 EDT 2019" start_end="END" timestamp="150836638" />
+  <Command __id="9059" _type="MoveCaretCommand" caretOffset="821" date="Tue Sep 03 10:34:10 EDT 2019" docOffset="821" timestamp="150838162" />
+  <Command __id="9060" _type="SelectTextCommand" caretOffset="823" date="Tue Sep 03 10:34:10 EDT 2019" end="823" start="814" timestamp="150838373" />
+  <Command __id="9061" _type="SelectTextCommand" caretOffset="837" date="Tue Sep 03 10:34:10 EDT 2019" end="837" start="798" timestamp="150838601" />
+  <Command __id="9063" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 10:34:11 EDT 2019" timestamp="150839123" />
+  <Command __id="9064" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Tue Sep 03 10:34:12 EDT 2019" timestamp="150840077" />
+  <Command __id="9065" _type="EclipseCommand" commandID="" date="Tue Sep 03 10:34:12 EDT 2019" repeat="2" timestamp="150840161" timestamp2="150840240" />
+  <Command __id="9067" _type="ShellCommand" date="Tue Sep 03 10:41:27 EDT 2019" timestamp="151275632" type="ECLIPSE_MINIMIZED" />
+  <Command __id="9068" _type="ShellCommand" date="Tue Sep 03 10:41:27 EDT 2019" timestamp="151275647" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="9069" _type="ShellCommand" date="Tue Sep 03 11:23:41 EDT 2019" timestamp="153809485" type="ECLIPSE_MINIMIZED" />
+  <Command __id="9070" _type="ShellCommand" date="Tue Sep 03 11:24:30 EDT 2019" timestamp="153858472" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="9071" _type="ShellCommand" date="Tue Sep 03 11:24:30 EDT 2019" timestamp="153858528" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9072" _type="MoveCaretCommand" caretOffset="903" date="Tue Sep 03 11:24:39 EDT 2019" docOffset="903" timestamp="153867008" />
+  <Command __id="9074" _type="InsertStringCommand" date="Tue Sep 03 11:24:40 EDT 2019" timestamp="153868125" timestamp2="153868125">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="9076" _type="InsertStringCommand" date="Tue Sep 03 11:24:41 EDT 2019" repeat="6" timestamp="153868990" timestamp2="153869861">
+    <data><![CDATA[client]]></data>
+  </Command>
+  <Command __id="9088" _type="InsertStringCommand" date="Tue Sep 03 11:41:40 EDT 2019" repeat="4" timestamp="154887734" timestamp2="154890037">
+    <data><![CDATA[Out.]]></data>
+  </Command>
+  <Command __id="9095" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Tue Sep 03 11:41:42 EDT 2019" start_end="START" timestamp="154890042" />
+  <Command __id="9097" _type="SelectTextCommand" caretOffset="260" date="Tue Sep 03 11:41:49 EDT 2019" end="512" start="260" timestamp="154896902" />
+  <Command __id="9099" _type="MoveCaretCommand" caretOffset="917" date="Tue Sep 03 11:41:52 EDT 2019" docOffset="917" timestamp="154900450" />
+  <Command __id="9102" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Tue Sep 03 11:41:56 EDT 2019" start_end="START" timestamp="154903694" />
+  <Command __id="9112" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 11:42:01 EDT 2019" start_end="END" timestamp="154909264" />
+  <Command __id="9115" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 11:42:03 EDT 2019" timestamp="154910828" />
+  <Command __id="9117" _type="InsertStringCommand" date="Tue Sep 03 11:42:10 EDT 2019" repeat="7" timestamp="154917759" timestamp2="154919289">
+    <data><![CDATA[Double.]]></data>
+  </Command>
+  <Command __id="9130" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Tue Sep 03 11:42:11 EDT 2019" start_end="START" timestamp="154919290" />
+  <Command __id="9133" _type="ShellCommand" date="Tue Sep 03 11:42:14 EDT 2019" timestamp="154921726" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="9134" _type="ShellCommand" date="Tue Sep 03 11:42:14 EDT 2019" timestamp="154921963" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9135" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 11:42:14 EDT 2019" start_end="END" timestamp="154922028" />
+  <DocumentChange __id="9054" _type="Replace" date="Tue Sep 03 10:34:07 EDT 2019" docASTNodeCount="145" docActiveCodeLength="979" docExpressionCount="100" docLength="1013" endLine="25" insertionLength="1" int_docASTNodeCount="156" int_docActiveCodeLength="978" int_docExpressionCount="105" int_docLength="1012" length="6" offset="877" startLine="25" timestamp="150835129">
+    <deletedText><![CDATA[status]]></deletedText>
+    <insertedText><![CDATA[-]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="9056" _type="Insert" date="Tue Sep 03 10:34:07 EDT 2019" docASTNodeCount="158" docActiveCodeLength="980" docExpressionCount="107" docLength="1014" length="1" offset="878" timestamp="150835297">
+    <text><![CDATA[1]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9062" _type="Delete" date="Tue Sep 03 10:34:11 EDT 2019" docASTNodeCount="158" docActiveCodeLength="975" docExpressionCount="107" docLength="975" endLine="24" length="39" offset="798" startLine="23" timestamp="150839120">
+    <text><![CDATA[			// TODO Auto-generated catch block
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9073" _type="Insert" date="Tue Sep 03 11:24:40 EDT 2019" docASTNodeCount="160" docActiveCodeLength="985" docExpressionCount="108" docLength="985" length="10" offset="903" repeat="7" timestamp="153868121" timestamp2="153869858">
+    <text><![CDATA[
+		client]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9087" _type="Insert" date="Tue Sep 03 11:41:40 EDT 2019" docASTNodeCount="160" docActiveCodeLength="989" docExpressionCount="109" docLength="989" length="4" offset="913" repeat="4" timestamp="154887727" timestamp2="154890030">
+    <text><![CDATA[Out.]]></text>
+  </DocumentChange>
+  <Command __id="9096" _type="FileOpenCommand" date="Tue Sep 03 11:41:49 EDT 2019" docASTNodeCount="145" docActiveCodeLength="817" docExpressionCount="99" docLength="945" projectName="PL_Java" timestamp="154896686">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClient.java]]></filePath>
+  </Command>
+  <Command __id="9098" _type="FileOpenCommand" date="Tue Sep 03 11:41:52 EDT 2019" docASTNodeCount="160" docActiveCodeLength="989" docExpressionCount="109" docLength="989" projectName="PL_Java" timestamp="154900338">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClientModel.java]]></filePath>
+    <snapshot><![CDATA[package pass.sockets.client;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+import pass.PassUtil;
+import pass.model.AnAbstractPassModel;
+import pass.sockets.server.APassServer;
+public class APassClientModel extends AnAbstractPassModel{
+	String serverHostName;
+	Socket clientEnd;
+	PrintWriter clientOut;
+	BufferedReader clientIn;
+	public APassClientModel(String aServerHostName) {
+		serverHostName = aServerHostName;
+		try {
+			clientEnd = new Socket(serverHostName, APassServer.PORT_NUMBER);
+			clientOut = new PrintWriter(clientEnd.getOutputStream(), true);
+			clientIn = new BufferedReader(new InputStreamReader(clientEnd.getInputStream()));
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+			System.exit(-1);
+		}
+		
+		
+		
+	}
+	@Override
+	public Boolean isPass() {
+		clientOut.
+		
+		return PassUtil.pass(getTotalScore(), getFinalScore());
+	}
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="9100" _type="Delete" date="Tue Sep 03 11:41:55 EDT 2019" docASTNodeCount="160" docActiveCodeLength="988" docExpressionCount="108" docLength="988" endLine="32" length="1" offset="916" startLine="32" timestamp="154903028">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9101" _type="Insert" date="Tue Sep 03 11:41:56 EDT 2019" docASTNodeCount="163" docActiveCodeLength="1000" docExpressionCount="111" docLength="1000" length="12" offset="916" repeat="10" timestamp="154903684" timestamp2="154909194">
+    <text><![CDATA[.println("")]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9113" _type="Delete" date="Tue Sep 03 11:42:03 EDT 2019" docASTNodeCount="162" docActiveCodeLength="998" docExpressionCount="110" docLength="998" endLine="32" length="2" offset="925" repeat="2" startLine="32" timestamp="154910775" timestamp2="154910788">
+    <text><![CDATA[""]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9116" _type="Insert" date="Tue Sep 03 11:42:10 EDT 2019" docASTNodeCount="165" docActiveCodeLength="1007" docExpressionCount="113" docLength="1007" length="9" offset="925" repeat="9" timestamp="154917753" timestamp2="154919985">
+    <text><![CDATA[Double.to]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9136" _type="Replace" date="Tue Sep 03 11:42:14 EDT 2019" docASTNodeCount="166" docActiveCodeLength="1016" docExpressionCount="114" docLength="1016" endLine="32" insertionLength="11" int_docASTNodeCount="163" int_docActiveCodeLength="1005" int_docExpressionCount="112" int_docLength="1005" length="2" offset="932" startLine="32" timestamp="154922029">
+    <deletedText><![CDATA[to]]></deletedText>
+    <insertedText><![CDATA[toString(d)]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="9142" _type="Replace" date="Tue Sep 03 11:42:21 EDT 2019" docASTNodeCount="167" docActiveCodeLength="1030" docExpressionCount="115" docLength="1030" endLine="32" insertionLength="15" int_docASTNodeCount="165" int_docActiveCodeLength="1015" int_docExpressionCount="113" int_docLength="1015" length="1" offset="941" startLine="32" timestamp="154929550">
+    <deletedText><![CDATA[d]]></deletedText>
+    <insertedText><![CDATA[getTotalScore()]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="9145" _type="Insert" date="Tue Sep 03 11:42:24 EDT 2019" docASTNodeCount="167" docActiveCodeLength="1031" docExpressionCount="115" docLength="1031" length="1" offset="958" timestamp="154932497">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9147" _type="Insert" date="Tue Sep 03 11:42:30 EDT 2019" docASTNodeCount="169" docActiveCodeLength="1045" docExpressionCount="117" docLength="1045" length="14" offset="959" repeat="11" timestamp="154937850" timestamp2="154941816">
+    <text><![CDATA[
+		clientOut.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9170" _type="Insert" date="Tue Sep 03 11:42:37 EDT 2019" docASTNodeCount="171" docActiveCodeLength="1046" docExpressionCount="118" docLength="1046" length="1" offset="973" timestamp="154944979">
+    <text><![CDATA[p]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9171" _type="Insert" date="Tue Sep 03 11:42:44 EDT 2019" docASTNodeCount="172" docActiveCodeLength="1061" docExpressionCount="120" docLength="1061" length="15" offset="974" repeat="14" timestamp="154951714" timestamp2="154956362">
+    <text><![CDATA[rintln(Double.)]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9186" _type="Delete" date="Tue Sep 03 11:42:50 EDT 2019" docASTNodeCount="172" docActiveCodeLength="1060" docExpressionCount="119" docLength="1060" endLine="33" length="1" offset="987" startLine="33" timestamp="154957860">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9188" _type="Insert" date="Tue Sep 03 11:42:51 EDT 2019" docASTNodeCount="174" docActiveCodeLength="1063" docExpressionCount="121" docLength="1063" length="3" offset="987" repeat="3" timestamp="154958975" timestamp2="154960179">
+    <text><![CDATA[.to]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9196" _type="Replace" date="Tue Sep 03 11:42:55 EDT 2019" docASTNodeCount="175" docActiveCodeLength="1072" docExpressionCount="122" docLength="1072" endLine="33" insertionLength="11" int_docASTNodeCount="172" int_docActiveCodeLength="1061" int_docExpressionCount="120" int_docLength="1061" length="2" offset="988" startLine="33" timestamp="154962953">
+    <deletedText><![CDATA[to]]></deletedText>
+    <insertedText><![CDATA[toString(d)]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="9198" _type="Replace" date="Tue Sep 03 11:42:57 EDT 2019" docASTNodeCount="175" docActiveCodeLength="1072" docExpressionCount="122" docLength="1072" endLine="33" insertionLength="1" int_docASTNodeCount="174" int_docActiveCodeLength="1071" int_docExpressionCount="121" int_docLength="1071" length="1" offset="997" startLine="33" timestamp="154964938">
+    <deletedText><![CDATA[d]]></deletedText>
+    <insertedText><![CDATA[g]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="9200" _type="Insert" date="Tue Sep 03 11:42:57 EDT 2019" docASTNodeCount="176" docActiveCodeLength="1086" docExpressionCount="123" docLength="1086" length="14" offset="998" repeat="13" timestamp="154965016" timestamp2="154969062">
+    <text><![CDATA[etFinalScore()]]></text>
+  </DocumentChange>
+  <DocumentChange __id="9229" _type="Insert" date="Tue Sep 03 11:43:03 EDT 2019" docASTNodeCount="176" docActiveCodeLength="1087" docExpressionCount="123" docLength="1087" length="1" offset="1014" timestamp="154971238">
+    <text><![CDATA[;]]></text>
+  </DocumentChange>
+  <Command __id="9233" _type="FileOpenCommand" date="Tue Sep 03 14:57:39 EDT 2019" docASTNodeCount="145" docActiveCodeLength="817" docExpressionCount="99" docLength="945" projectName="PL_Java" timestamp="166647304">
+    <filePath><![CDATA[D:\dewan_backup\Java\PLTeaching\PL_Java\src\pass\sockets\client\APassClient.java]]></filePath>
+  </Command>
+  <Command __id="9137" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 11:42:15 EDT 2019" start_end="END" timestamp="154923051" />
+  <Command __id="9138" _type="PredictionCommand" date="Tue Sep 03 11:42:15 EDT 2019" prediction_type="HavingDifficulty" timestamp="154923085" />
+  <Command __id="9139" _type="SelectTextCommand" caretOffset="988" date="Tue Sep 03 11:42:18 EDT 2019" end="988" start="973" timestamp="154926393" />
+  <Command __id="9140" _type="CopyCommand" date="Tue Sep 03 11:42:19 EDT 2019" timestamp="154927020" />
+  <Command __id="9141" _type="SelectTextCommand" caretOffset="941" date="Tue Sep 03 11:42:21 EDT 2019" end="942" start="941" timestamp="154928972" />
+  <Command __id="9143" _type="PasteCommand" date="Tue Sep 03 11:42:21 EDT 2019" timestamp="154929573" />
+  <Command __id="9144" _type="MoveCaretCommand" caretOffset="958" date="Tue Sep 03 11:42:23 EDT 2019" docOffset="958" timestamp="154931586" />
+  <Command __id="9146" _type="InsertStringCommand" date="Tue Sep 03 11:42:24 EDT 2019" timestamp="154932511" timestamp2="154932511">
+    <data><![CDATA[;]]></data>
+  </Command>
+  <Command __id="9148" _type="InsertStringCommand" date="Tue Sep 03 11:42:30 EDT 2019" timestamp="154937856" timestamp2="154937856">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="9150" _type="InsertStringCommand" date="Tue Sep 03 11:42:31 EDT 2019" repeat="10" timestamp="154939101" timestamp2="154941824">
+    <data><![CDATA[clientOut.]]></data>
+  </Command>
+  <Command __id="9169" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Tue Sep 03 11:42:34 EDT 2019" start_end="START" timestamp="154941828" />
+  <Command __id="9185" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 11:42:48 EDT 2019" start_end="END" timestamp="154956423" />
+  <Command __id="9187" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Tue Sep 03 11:42:50 EDT 2019" timestamp="154957869" />
+  <Command __id="9189" _type="InsertStringCommand" date="Tue Sep 03 11:42:51 EDT 2019" timestamp="154958981" timestamp2="154958981">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="9190" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Tue Sep 03 11:42:51 EDT 2019" start_end="START" timestamp="154958983" />
+  <Command __id="9193" _type="ShellCommand" date="Tue Sep 03 11:42:54 EDT 2019" timestamp="154962617" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="9194" _type="ShellCommand" date="Tue Sep 03 11:42:55 EDT 2019" timestamp="154962894" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9195" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Tue Sep 03 11:42:55 EDT 2019" start_end="END" timestamp="154962952" />
+  <Command __id="9197" _type="SelectTextCommand" caretOffset="998" date="Tue Sep 03 11:42:55 EDT 2019" end="998" start="997" timestamp="154963016" />
+  <Command __id="9199" _type="InsertStringCommand" date="Tue Sep 03 11:42:57 EDT 2019" repeat="18" timestamp="154964955" timestamp2="154971251">
+    <data><![CDATA[getFinalScore())	;]]></data>
+  </Command>
+  <Command __id="9231" _type="ShellCommand" date="Tue Sep 03 11:50:15 EDT 2019" timestamp="155403110" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="9232" _type="ShellCommand" date="Tue Sep 03 14:57:27 EDT 2019" timestamp="166635539" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9234" _type="SelectTextCommand" caretOffset="260" date="Tue Sep 03 14:57:39 EDT 2019" end="512" start="260" timestamp="166647524" />
+  <Command __id="9236" _type="MoveCaretCommand" caretOffset="1015" date="Tue Sep 03 14:57:43 EDT 2019" docOffset="1015" timestamp="166651123" />
