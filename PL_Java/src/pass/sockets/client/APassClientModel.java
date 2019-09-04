@@ -21,8 +21,7 @@ public class APassClientModel extends AnAbstractPassModel{
 			System.out.println("Connected to server:" + clientEnd);
 			clientOut = new PrintWriter(clientEnd.getOutputStream(), true);
 			clientIn = new BufferedReader(new InputStreamReader(clientEnd.getInputStream()));
-		} catch (IOException e) {
-			
+		} catch (IOException e) {			
 			e.printStackTrace();
 			System.exit(-1);
 		}		
@@ -30,9 +29,8 @@ public class APassClientModel extends AnAbstractPassModel{
 	@Override
 	public Boolean isPass() {
 		try {
-		clientOut.println(getTotalScore());
-		clientOut.println(getFinalScore());
-	
+		    clientOut.println(getTotalScore());
+		    clientOut.println(getFinalScore());	
 			return Boolean.parseBoolean(clientIn.readLine());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
