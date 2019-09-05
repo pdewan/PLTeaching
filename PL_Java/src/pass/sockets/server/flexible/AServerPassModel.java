@@ -8,6 +8,4 @@ public class AServerPassModel extends AnAbstractServerPassModel{
 	public Boolean isPass() {
 		return PassUtil.pass(getTotalScore(), getFinalScore());
 	}
-	
-
 }

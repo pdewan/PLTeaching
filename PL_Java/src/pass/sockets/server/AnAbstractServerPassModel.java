@@ -54,19 +54,11 @@ public abstract class AnAbstractServerPassModel extends AnAbstractPassModel impl
 			while (true) {
 				processNextEntry();
 			}
-		} catch (SocketException e) {
+		} catch (Exception e) {
 			if (e.getMessage().equals("Connection reset")) {
 				System.out.println("Client terminated");				
 			}
-		}
-		catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		catch (Exception e) {
-			e.printStackTrace();
-
-		}
+		}	
 	}
 	public void processClients() {
 		try {
