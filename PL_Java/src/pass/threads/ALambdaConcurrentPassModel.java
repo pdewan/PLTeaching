@@ -19,9 +19,9 @@ public class ALambdaConcurrentPassModel extends AnAbstractPassModel {
 		}
 	}
 	public synchronized void waitForNewScores() {
+		System.out.println(Thread.currentThread() + ": waiting for new scores");
 		if (getTotalScore() == null || getFinalScore() == null) {
 			try {
-				System.out.println(Thread.currentThread() + ": waiting for new scores");
 				wait();
 				System.out.println(Thread.currentThread() + ":unblocked");
 			} catch (InterruptedException e) {
@@ -30,9 +30,9 @@ public class ALambdaConcurrentPassModel extends AnAbstractPassModel {
 		}
 	}
 	protected synchronized void waitForNullScores() {
+		System.out.println(Thread.currentThread() + ": waiting for null scores");
 		if (getTotalScore() != null || getFinalScore() != null) {
 			try {
-				System.out.println(Thread.currentThread() + ": waiting for null scores");
 				wait();
 				System.out.println(Thread.currentThread() + ":unblocked");
 			} catch (InterruptedException e) {
@@ -49,7 +49,7 @@ public class ALambdaConcurrentPassModel extends AnAbstractPassModel {
 		unblockPeer(); // notify high pass thread
 		Boolean aRegularPass = PassUtil.regularPass(getTotalScore());
 		System.out.println(Thread.currentThread() + ": regularPass = " + aRegularPass);
-		return aRegularPass || waitForHighFinalPass();
+		return aRegularPass | waitForHighFinalPass();
 	}
 
 	
@@ -68,9 +68,9 @@ public class ALambdaConcurrentPassModel extends AnAbstractPassModel {
 	}
 
 	protected synchronized boolean waitForHighFinalPass() {
+		System.out.println(Thread.currentThread() + ": waiting for high final grade");
 		if (highFinalPass == null) {
 			try {
-				System.out.println(Thread.currentThread() + ": waiting for high final grade");
 				wait();
 			} catch (InterruptedException e) {
 				e.printStackTrace();

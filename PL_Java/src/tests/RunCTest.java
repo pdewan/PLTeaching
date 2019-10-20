@@ -9,7 +9,6 @@ public class RunCTest {
 	public static void main (String[] args) {
 		Tracer.showInfo(true);
 		GraderBasicsTraceUtility.setBufferTracedMessages(false);
-
 		BasicExecutionSpecificationSelector.getBasicExecutionSpecification().
 		setStudentGradableProjectLocation("D:\\dewan_backup\\Java\\eclipse\\test-c");
 		Assignment1Suite.main(args);
