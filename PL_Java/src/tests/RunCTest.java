@@ -1,7 +1,8 @@
 package tests;
 
 import grader.basics.config.BasicExecutionSpecificationSelector;
-import gradingTools.comp524f19.assignment1.Assignment1Suite;
+import gradingTools.addMultiply.AddMultiplySuite;
+import gradingTools.comp110.assignment1.Assignment1Suite;
 import trace.grader.basics.GraderBasicsTraceUtility;
 import util.trace.Tracer;
 
@@ -12,6 +13,7 @@ public class RunCTest {
 		BasicExecutionSpecificationSelector.getBasicExecutionSpecification().
 		setStudentGradableProjectLocation("D:\\dewan_backup\\Java\\eclipse\\test-c");
 		Assignment1Suite.main(args);
+//		AddMultiplySuite.main(args);
 	}
 
 }
