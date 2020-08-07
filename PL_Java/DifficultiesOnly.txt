@@ -1,0 +1,41 @@
+Mon Aug 05 11:46:50 EDT 2019(Surmountable)
+Mon Aug 05 11:46:55 EDT 2019(Insurmountable)
+Mon Aug 05 11:46:57 EDT 2019(Making_Progress)
+Mon Aug 05 11:50:29 EDT 2019(Making_Progress)
+Mon Aug 05 11:50:34 EDT 2019(Surmountable)
+Mon Aug 05 11:55:27 EDT 2019(Making_Progress)
+Mon Aug 05 11:55:30 EDT 2019(Surmountable)
+Tue Aug 06 01:56:04 EDT 2019(Making_Progress)
+Tue Aug 06 01:56:29 EDT 2019(Surmountable)
+Tue Aug 06 01:57:48 EDT 2019(Insurmountable)
+Tue Aug 06 02:11:06 EDT 2019(Surmountable)
+Tue Aug 06 02:11:06 EDT 2019(Surmountable)
+Tue Aug 06 02:11:06 EDT 2019(Surmountable)
+Tue Aug 06 02:11:06 EDT 2019(Surmountable)
+Tue Aug 06 02:12:08 EDT 2019(Insurmountable)
+Tue Aug 06 02:12:08 EDT 2019(Insurmountable)
+Tue Aug 06 02:12:08 EDT 2019(Insurmountable)
+Tue Aug 06 02:12:08 EDT 2019(Insurmountable)
+Sat Oct 26 12:56:23 EDT 2019(Making_Progress)
+Sat Nov 16 09:16:08 EST 2019(Surmountable)
+	The code does not seem to create multiple threads
+	Eager Evaluation
+	15
+Sat Nov 16 09:16:08 EST 2019(Surmountable)
+	The code does not seem to create multiple threads
+	Eager Evaluation
+	15
+Sat Nov 16 09:20:52 EST 2019(Making_Progress)
+Sat Nov 16 10:49:02 EST 2019(Making_Progress)
+Sat Nov 16 10:49:16 EST 2019(Making_Progress)
+Sat Nov 16 18:30:48 EST 2019(Surmountable)
+	Threads did not seem to be working
+	The TA helped identify the solution
+	Resolved
+	30
+Sat Nov 16 22:00:37 EST 2019(Surmountable)
+	The code does  not seem to create multiple threads
+	Eager Evaluation
+	API
+	Looked up solution online
+	15

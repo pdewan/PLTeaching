@@ -1,10 +1,17 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <omp.h>
 int main() {
+
 	setvbuf(stdout, NULL, _IONBF, 0);
 	double totalScore = 0;
 	double finalScore = 0;
 	_Bool pass = false;
+    #pragma omp parallel
+	{
+	printf("thread number %d\n", omp_get_thread_num());
+	printf("hello\n");
+    }
 	for (;;) {
 		printf("Please input the total score\n");
 		if (scanf("%lf", &totalScore) != 1) {

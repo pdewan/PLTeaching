@@ -11,16 +11,16 @@ double inputDouble(char *aPrompt) {
 	return retVal;
 }
 
-const double PASS_CUT_OFF = 60;
+const double TOTAL_CUT_OFF = 60;
 _Bool regularPass(double totalScore) {
-	return totalScore >= PASS_CUT_OFF;
+	return totalScore >= TOTAL_CUT_OFF;
 }
 
-const int HIGH_FINAL_CUTOFF = 40;
-const int HIGH_FINAL_THRESHOLD = 80;
+const int HIGH_FINAL_TOTAL_CUTOFF = 40;
+const int HIGH_FINAL_CUTOFF = 80;
 
 _Bool highFinalPass(double totalScore, double finalScore) {
-	return (finalScore >= HIGH_FINAL_THRESHOLD) && (totalScore >= HIGH_FINAL_CUTOFF);
+	return (finalScore >= HIGH_FINAL_CUTOFF) && (totalScore >= HIGH_FINAL_TOTAL_CUTOFF);
 }
 
 _Bool pass(double totalScore, double finalScore) {
@@ -30,8 +30,9 @@ _Bool pass(double totalScore, double finalScore) {
 void enableOutputFlush() {
 	setvbuf(stdout, NULL, _IONBF, 0);
 }
-
 int passMain() {
+
+//int passMain() {
 	enableOutputFlush();
 	for (;;) {
 		double totalScore = inputDouble("Please input the total score\n");
