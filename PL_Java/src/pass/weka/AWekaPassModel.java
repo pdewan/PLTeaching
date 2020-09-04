@@ -1,4 +1,5 @@
 package pass.weka;
+import gradingTools.comp524f20.assignment1.WekaUtil;
 import pass.model.AnAbstractPassModel;
 import weka.classifiers.Classifier;
 public class AWekaPassModel extends AnAbstractPassModel{

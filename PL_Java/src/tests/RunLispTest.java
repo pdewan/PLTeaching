@@ -2,7 +2,7 @@ package tests;
 
 import grader.basics.config.BasicExecutionSpecificationSelector;
 import gradingTools.addMultiply.AddMultiplySuite;
-import gradingTools.comp524f20.assignment1.Assignment1Suite;
+import gradingTools.comp524f20.assignment4.Assignment4Suite;
 import trace.grader.basics.GraderBasicsTraceUtility;
 import util.trace.Tracer;
 
@@ -12,7 +12,7 @@ public class RunLispTest {
 		GraderBasicsTraceUtility.setBufferTracedMessages(false);
 		BasicExecutionSpecificationSelector.getBasicExecutionSpecification().
 		setStudentGradableProjectLocation("D:\\dewan_backup\\Java\\eclipse\\test-lisp");
-		Assignment1Suite.main(args);
+		Assignment4Suite.main(args);
 //		AddMultiplySuite.main(args);
 	}
 
