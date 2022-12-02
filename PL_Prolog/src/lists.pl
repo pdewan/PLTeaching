@@ -30,8 +30,9 @@ reverseWrong([], []).
 reverseWrong([H|T], [ReversedTail, H]) :- reverseWrong(T, ReversedTail).
 
 
-reverse2([],Z,Z).
-reverse2([H|T],Acc, Z) :- reverse2(T, [H|Acc], Z).
+reverse2([],ReversedList,ReversedList).
+reverse2([Head|Tail],ReversedSoFar, ReversedList) :- reverse2(Tail, [Head|ReversedSoFar], ReversedList).
+reverse2(List, ReversedList) :- reverse2(List, [], ReversedList).
 
 printTotalFinalCutoffs([[Total, Final] |Tail]) :- 
 	printTotalFinalCutoff(Total, Final),

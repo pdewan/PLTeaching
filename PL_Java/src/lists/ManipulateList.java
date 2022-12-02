@@ -28,8 +28,7 @@ public class ManipulateList {
 	
 
 	 enum Color {RED, GREEN, BLUE};
-	 static int[][] 
-	    totalFinalCutoffs = 
+	 static int[][] totalFinalCutoffs = 
 			{
 			  {20, 100},
 			  {30, 90},
@@ -39,10 +38,25 @@ public class ManipulateList {
 	static void printTotalFinalCutoffs (int[][] aTotalFinalCutoffs) {
 		int anIndex = 0;
 		while (anIndex < aTotalFinalCutoffs.length) {
-			int[] aPair = aTotalFinalCutoffs[anIndex];
-			System.out.println("Total = " + aPair[0] + " Final = " + aPair[1]);
+			printTotalFinalCutoffs(aTotalFinalCutoffs[anIndex]);
 			anIndex = anIndex + 1;
 		}
+	}
+	
+	static void printTotalFinalCutoffs (int[] aPair) {
+		System.out.println("Total = " + aPair[0] + " Final = " + aPair[1]);
+	}
+
+	
+	static void printTotalFinalCutoffsHelper (int[][] aTotalFinalCutoffs, int currentIndex) {
+		if (currentIndex == aTotalFinalCutoffs.length ) {
+			return;
+		}
+		printTotalFinalCutoffs(aTotalFinalCutoffs[currentIndex]);		
+		printTotalFinalCutoffsHelper(aTotalFinalCutoffs, currentIndex + 1  );		
+	}
+	static void printTotalFinalCutoffsRecursive (int[][] aTotalFinalCutoffs) {		
+		printTotalFinalCutoffsHelper(aTotalFinalCutoffs, 0 );		
 	}
 	
 	public static Object[] reverse (Object[] listToBeReversed) {
@@ -124,6 +138,23 @@ public class ManipulateList {
 
 	
 	public static void main (String[] args) {
+		testSubclassArrays();
+		
+		Integer[] integers1 = {1, 2};
+		Integer[] integers2 = {2, 3};
+		List<Integer> result1 = append(integers1, integers2);
+		int[] ints1 = {1, 2};
+		int[] ints2 = {2, 3};
+		
+//		ArrayList<Integer> firstArrayList = new ArrayList();
+//		firstArrayList.add(1);
+//		List<Integer> secondList = new ArrayList();
+//		secondList.add(2);
+//		List<Integer> result = append(firstList, secondList);
+//		List<Integer> result2 = append(ints1, ints2);
+
+		printTotalFinalCutoffsRecursive(totalFinalCutoffs);
+
 		printSelectedCutoffs(new FirstArgumentGreaterThanSecond(), totalFinalCutoffs);
 		printSelectedCutoffs(new FirstArgumentLessThanSecond(), totalFinalCutoffs);
 		printSelectedCutoffs((Integer argument1, Integer argument2) -> argument1 == argument2, totalFinalCutoffs); 
@@ -153,8 +184,70 @@ public class ManipulateList {
 		System.out.println("Color?");
 		String aColor = aScanner.nextLine();
 		System.out.println("RED" == aColor);
-		System.out.println("RED".equals(aColor));		
+		System.out.println("RED".equals(aColor));
 		
-		printTotalFinalCutoffs(totalFinalCutoffs);
+
+		
+//		printTotalFinalCutoffs(totalFinalCutoffs);
 	} 
+	int square (int x) {
+		return x*x;
+	}
+//	
+	String PI = "3.14";	
+//	int doublePI = PI*2; 
+	static <T> List<T> append(T[] original, T[] toBeAppended) {		
+		List<T> result = new ArrayList<T>();
+		result.addAll(Arrays.asList(original));
+		result.addAll(Arrays.asList(toBeAppended));
+		return result;
+	}
+	static List append(List original, List toBeAppended) {		
+		List result = new ArrayList(original);		
+		original.addAll(toBeAppended);
+		return original;
+	}
+	static List append(ArrayList original, ArrayList toBeAppended) {		
+		ArrayList result = new ArrayList(original);		
+		original.addAll(toBeAppended);
+		return original;
+	}
+	static List append(LinkedList original, LinkedList toBeAppended) {		
+		LinkedList result = new LinkedList(original);		
+		original.addAll(toBeAppended);
+		return original;
+	}
+	static void testSubclassGenerics1() {	
+		List<Integer> anIntegers = new ArrayList();		
+//		List<Number> aNumbers = anIntegers;
+//		aNumbers.add(5.0);
+//		aNumbers.add(5);
+//		Number aNumber = aNumbers.get(0);
+	}
+	
+	static void testSubclassGenerics2() {	
+		List<Integer> anIntegers = new ArrayList();		
+		List<? extends Number> aNumbers = anIntegers;
+//		aNumbers.add(5.0);
+//		aNumbers.add(5);
+		Number aNumber = aNumbers.get(0);
+	}
+	
+	static void testSubclassArrays() {		
+		Integer[] anIntegers = new Integer[2];
+		Number[] aNumbers = anIntegers;
+		aNumbers[0] = aNumbers[0];
+		aNumbers[1] = 5.0;		
+	}
+	
+	
+	
+//	public static void main (String[] args) {
+//		List<Integer> firstList = new ArrayList();
+//		firstList.add(1);
+//		List<Integer> secondList = new ArrayList();
+//		secondList.add(2);
+//		List<Integer> result = append(firstList, secondList);
+//
+//	}
 }

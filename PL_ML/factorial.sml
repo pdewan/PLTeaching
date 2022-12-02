@@ -34,6 +34,19 @@ fun tracingFactorial number =
 	      	 )
 	      end
       );
+      
+fun tracingFactorialWrong number =
+    (
+	    print ("Number:"^(Int.toString number)^"\n");
+	    if number <= 1 then
+	      (
+	      	1;
+	      	print "Factorial:1\n" 
+	      	
+	      )
+	    else  	
+	      print ("Factorial:" ^ Int.toString (tracingFactorialWrong (number-1) * number^"\n"))	      
+     );
 (*
  father("John", "Joe").
 father("Joe", "Jack").
@@ -53,7 +66,6 @@ fun  father ("John", JOE)  = true |
 *)
 
 fun squareAndCube number = (number*number, number*number*number);
-
 fun squareAndCube number = 
 		let 
 			val aSquare = number*number
@@ -61,10 +73,47 @@ fun squareAndCube number =
 		in 
 			(aSquare, aCube)
 		end
-     
+val PI = ("PI", 3.14);
 fun father ("John", "Joe")  = true |
      father("Joe", "Jack") = true |
      father("Mary", "Jack") = true |
      father("Alice", "Bob") = true |
      father (child, father) = false;
       		 
+fun grandfather ("John", "Joe")  = true;
+val i = 5;
+val j = i + 5;
+val s = "5";
+(*
+val t = s + 5;
+*)
+
+val PI = "3.14";
+(*
+val doublePI = PI*2;
+*)
+
+val structure_1 = [3.14, 2.54];
+val structure_2 = (3.14, 2.54);
+val structure_3 = ("PI", 3.14);
+val structure_4 = ["PI", 3.14];
+
+val square1 = fn x => x*x;
+val square2 = square1;
+
+fun sum (x, y) = x + y;
+val sum = fn (x, y) => x + y;
+val x = 4;
+val addToX = fn y => x + y;
+val x = 5;
+val subtractFromX = fn y => x - y;
+subtractFromX 2;
+val addToX = fn (y, z) => x + y + z;
+fun  father2 (child, father) = false |
+		 father2 ("John", "Joe")  = true |
+     father2("Joe", "Jack") = true |
+     father2("Mary", "Jack") = true |
+     father2("Alice", "Bob") = true;
+     
+
+val realSquare = fn x => x*1.0*x;

@@ -1,8 +1,6 @@
 package pass.weka;
-import pass.controller.PassControllerFactory;
 import pass.model.MVCPassUtil;
 import pass.model.PassModelFactory;
-import pass.view.PassViewFactory;
 import weka.classifiers.trees.J48;
 public class WekaPassMain {
 	public static void main (String[] args) {
