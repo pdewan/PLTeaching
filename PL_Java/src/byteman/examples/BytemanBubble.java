@@ -1,5 +1,9 @@
 package byteman.examples;
 
+import util.annotations.Tags;
+
+@Tags({BytemanTags.SORT, BytemanTags.BUBBLE})
+
 public class BytemanBubble {
 
 

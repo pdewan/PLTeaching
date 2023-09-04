@@ -9,7 +9,7 @@ import pass.view.PassViewFactory;
 
 public class ConcurrentPassMain {
 	public static void main (String[] args) {
-		PassModelFactory.setPassModel(new ALambdaConcurrentPassModel()); // used by view and controller
+		PassModelFactory.setPassModel(new ALambdaConcurrentPassModel()); // used by byteman.examples.view and byteman.examples.controller
 		MVCPassUtil.startPassMVC();
 	}
 }

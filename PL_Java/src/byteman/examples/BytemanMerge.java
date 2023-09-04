@@ -1,7 +1,11 @@
 package byteman.examples;
 
+import util.annotations.Tags;
+
+//@Tags({BytemanTags.SORT, BytemanTags.MERGE})
+@Tags({"MergeSort"})
 public class BytemanMerge {
-	 public static Integer [] sort(Integer [] arr) {
+	 public static int [] sort(int [] arr) {
 		//Base case
 
 		if(arr.length==1) {
@@ -9,9 +13,9 @@ public class BytemanMerge {
 		}
 		int mid = arr.length/2;
 
-		Integer [] left = sort(divide(arr,0,mid));
-		Integer [] right = sort(divide(arr,mid,arr.length));
-		Integer [] retval = new Integer[arr.length];
+		int [] left = sort(divide(arr,0,mid));
+		int [] right = sort(divide(arr,mid,arr.length));
+		int [] retval = new int[arr.length];
 
 		int iL=0,iR=0,iRet=0;
 		while(iL<left.length&&iR<right.length) {
@@ -38,12 +42,12 @@ public class BytemanMerge {
 		return retval;
 		}
 
-		private static Integer [] divide(Integer [] arr, int i0, int i1) {
+		private static int [] divide(int [] arr, int i0, int i1) {
 		if(i1==i0) {
-		return new Integer[] {arr[i0]};
+		return new int[] {arr[i0]};
 		}
 		int len = i1-i0;
-		Integer [] retval = new Integer[len];
+		int [] retval = new int[len];
 		for(int i=0;i<len;i++) {
 		retval[i]=arr[i0+i];
 		}

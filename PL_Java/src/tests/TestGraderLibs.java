@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
+import byteman.tools.AbstractBytemanIOTest;
 import grader.basics.config.BasicExecutionSpecificationSelector;
 import grader.basics.config.BasicStaticConfigurationUtils;
 import grader.basics.execution.RunningProject;
@@ -18,7 +19,7 @@ import grader.basics.project.BasicProject;
 import grader.basics.project.BasicProjectIntrospection;
 import grader.basics.project.CurrentProjectHolder;
 import grader.basics.project.Project;
-
+import gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase;
 import gradingTools.utils.RunningProjectUtils;
 import unc.checks.ComprehensiveVisitCheck;
 import unc.symbolTable.STMethod;
@@ -68,6 +69,12 @@ public class TestGraderLibs {
 		STMethod anSTMethod = ComprehensiveVisitCheck.createMethodFromSignature(aSignature);
 		System.out.println(anSTMethod);	
 	}
+	public static void testSignatures2() {		
+		String aSignature = "sort:int\\[\\];int\\[\\]->int\\[\\]";
+		String aNormalizedSignature = AbstractBytemanIOTest.removeEscapes(aSignature);
+		STMethod anSTMethod = ComprehensiveVisitCheck.createMethodFromSignature(aNormalizedSignature);
+		System.out.println(anSTMethod);	
+	}
 	public static void testClassRegistry() {
 		String aConfigurationFileName = "D:\\dewan_backup\\Java\\Comp533\\Andrew533Assignment2\\ClassRegistry.csv";
 		Map<String, List<String>> aMap = processConfigurationFileName(aConfigurationFileName);
@@ -111,10 +118,10 @@ public class TestGraderLibs {
 	    return aClassToConfiguredTags;
 	  }
 	public static void main (String[] args) {
-		testClassSearch();
-		testSignatures();
-		testClassRegistry();
-		testProcessBuilder();
+//		testClassSearch();
+		testSignatures2();
+//		testClassRegistry();
+//		testProcessBuilder();
 	}
 
 }
