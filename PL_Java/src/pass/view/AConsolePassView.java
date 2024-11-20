@@ -1,6 +1,6 @@
 package pass.view;
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+
 import pass.model.PassModel;
 public class AConsolePassView implements PassView {
 	@Override

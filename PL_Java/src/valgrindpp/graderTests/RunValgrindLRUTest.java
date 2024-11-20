@@ -18,9 +18,10 @@ public class RunValgrindLRUTest {
 //		setStudentGradableProjectLocation("D:\\dewan_backup\\C\\ValgrindExamples\\TestSourceLogging");
 //		setStudentGradableProjectLocation("D:\\dewan_backup\\C\\ValgrindExamples\\CorrectMutexLRU-src");
 //		setStudentGradableProjectLocation("D:\\dewan_backup\\C\\ValgrindExamples\\ExtraErroneousMutexLRU");
-//		setStudentGradableProjectLocation("D:\\dewan_backup\\C\\ValgrindExamples\\ErroneousMutexLRU");
-		setStudentGradableProjectLocation("D:\\dewan_backup\\C\\ValgrindExamples\\CorrectMutexLRU");
-
+		setStudentGradableProjectLocation("D:\\dewan_backup\\C\\ValgrindExamples\\ErroneousMutexLRU");
+//		setStudentGradableProjectLocation("D:\\dewan_backup\\C\\ValgrindExamples\\CorrectMutexLRU");
+//		setStudentGradableProjectLocation("D:\\dewan_backup\\C\\ValgrindExamples\\MutexLRU\\CorrectMutexLRU");
+//		GraderBasicsTraceUtility.setMaxTraces(600);
 		Assignment5Suite.main(args);
 //		AddMultiplySuite.main(args);
 	}

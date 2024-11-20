@@ -1,18 +1,11 @@
 package byteman.examples;
 
-import java.awt.List;
-import java.util.ArrayList;
-import java.util.HashSet;
-
-import org.eclipse.jface.text.templates.GlobalTemplateVariables.Date;
-
 import byteman.examples.concurrent.AdderRunnable;
 import byteman.examples.concurrent.AddingJoiner;
 import byteman.examples.controller.ControllerImpl;
 import byteman.examples.mains.AdderMain;
 //import byteman.examples.mains.AdderMain;
 import byteman.examples.mains.ParallelAdderMain;
-import byteman.examples.model.AbstractModel;
 import byteman.examples.model.ParallelModel;
 import byteman.examples.model.SequentialModel;
 import byteman.examples.sorting.MergeSort;
@@ -23,7 +16,6 @@ import byteman.examples.view.TextView;
 //import java.util.LinkedList;
 
 import byteman.tools.exampleTestCases.BytemanRegistry;
-import scala.collection.mutable.LinkedList;
 
 public class MyBytemanRegistry implements BytemanRegistry {
 	
